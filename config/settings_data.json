@@ -156,11 +156,6 @@
       "static-footer": {
         "type": "static-footer",
         "blocks": {
-          "1493171899575": {
-            "type": "social_accounts",
-            "settings": {
-            }
-          },
           "static-footer-0": {
             "type": "menu",
             "settings": {
@@ -170,25 +165,24 @@
           "1498182586280": {
             "type": "menu",
             "settings": {
-              "menu": "main-menu"
+              "menu": "help"
             }
           },
           "1498182572847": {
             "type": "menu",
             "settings": {
-              "menu": "main-menu"
+              "menu": "about-us"
             }
           },
           "static-footer-1": {
             "type": "newsletter",
             "settings": {
-              "title": "Subscribe",
-              "text": "<p>Invite customers to join your mailing list.<\/p>"
+              "title": "",
+              "text": "<p>Get it first. Sign up for up-to-the-minute offerrs, sales and news.<\/p>"
             }
           }
         },
         "block_order": [
-          "1493171899575",
           "static-footer-0",
           "1498182586280",
           "1498182572847",
@@ -264,6 +258,17 @@
           "utility-right-text-1": "End of Year Sale",
           "utility-right-img-1": "shopify:\/\/shop_images\/present-6995411_960_720.webp",
           "utility-right-href": ""
+        }
+      },
+      "jgl-announcement": {
+        "type": "jgl-announcement",
+        "settings": {
+          "announcement-text-1": "Fast & Free Shipping",
+          "announcement-text-2": "Christmas Sale Ending in 48 Hours",
+          "announcement-text-3": "Top Rated Reviews",
+          "announcement-url-1": "",
+          "announcement-url-2": "",
+          "announcement-url-3": ""
         }
       }
     },
