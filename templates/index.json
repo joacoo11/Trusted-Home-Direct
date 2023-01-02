@@ -1,1 +1,799 @@
-{"sections":{"dynamic_slideshow":{"type":"dynamic-slideshow","blocks":{"slide-1":{"type":"slide","settings":{"background_image":"shopify:\/\/shop_images\/Sale_Fashion_Brand_Website_Homepage_Banner_2240_x_900_px.png","title":"PREMIUM INDOOR & OUTDOOR HOME APPLIANCES","text":"","color":"#072c50","link":"","text_alignment":"center","button_one_label":"SHOP INDOOR APPLIANCES","button_one_link":"","button_one_style":"primary","button_two_label":"SHOP OUTDOOR KITCHEN","button_two_link":"","button_two_style":"secondary","show_overlay":true,"overlay_color":"#e9e9e9","overlay_opacity":28}},"slide-2":{"type":"slide","disabled":true,"settings":{"title":"Slide","text":"Introduce customers to your shop with lifestyle and product imagery","color":"#1d1d1d","link":"","text_alignment":"left","button_one_label":"Button","button_one_link":"","button_one_style":"primary","button_two_label":"","button_two_link":"","button_two_style":"primary","show_overlay":true,"overlay_color":"#000000","overlay_opacity":4}},"slide-3":{"type":"slide","disabled":true,"settings":{"title":"Slide","text":"Introduce customers to your shop with lifestyle and product imagery","color":"#ffffff","link":"","text_alignment":"center","button_one_label":"Button","button_one_link":"","button_one_style":"primary","button_two_label":"","button_two_link":"","button_two_style":"secondary","show_overlay":true,"overlay_color":"#000000","overlay_opacity":20}},"slide-4":{"type":"slide","disabled":true,"settings":{"title":"Slide","text":"Introduce customers to your shop with lifestyle and product imagery","color":"#1d1d1d","link":"","text_alignment":"left","button_one_label":"Button","button_one_link":"","button_one_style":"primary","button_two_label":"","button_two_link":"","button_two_style":"secondary","show_overlay":true,"overlay_color":"#000000","overlay_opacity":5}}},"block_order":["slide-1","slide-2","slide-3","slide-4"],"settings":{"enable_autoplay":true,"autoplay_duration":9,"slideshow_width":"full","slideshow_height":"medium","slideshow_height_mobile":"x-large","slideshow_text_below_image":false}},"dynamic_highlights_banner":{"type":"dynamic-highlights-banner","blocks":{"highlight-1":{"type":"highlight","settings":{"icon":"icon-delivery","title":"Free Shipping","text":"<p>Free Shipping on all orders. We pay it for you<\/p>","link":""}},"highlight-2":{"type":"highlight","settings":{"icon":"icon-cell-phone","title":"Talk To Support","text":"<p>Call us at +1 (973) 319-8188 or chat online to one of our product specialists<\/p>","link":""}},"highlight-3":{"type":"highlight","settings":{"icon":"icon-discount","title":"No Sales Tax","text":"<p>There is 0% sales tax on all orders<\/p>","link":""}},"highlight-4":{"type":"highlight","settings":{"icon":"icon-rating-star","title":"Authorized Dealer","text":"<p>Partnering with the most trusted and highest quality global appliance brands<\/p>","link":""}}},"block_order":["highlight-1","highlight-2","highlight-3","highlight-4"],"settings":{"section_spacing":false,"section_width":"full-width","icon_layout":"center","color":"#ffffff","icon_color":"#ffffff","background_color":"#072c50","mobile_layout":"grid"}},"dynamic_promo_mosaic":{"type":"dynamic-promo-mosaic","blocks":{"promotion-1":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/bbq-825711_960_720.jpg","title":"","text":"","color":"#ffffff","block_link":"","button_text":"SHOP NOW","button_style":"primary","show_overlay":false,"background":"rgba(0,0,0,0)","opacity":50}},"promotion-2":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/2560x1440-light-gray-solid-color-background.jpg","title":"Luxury Home Superstore","text":"For All Your Household Appliance Needs. At Trusted Home Direct our goal is to make household shopping as efficient and easy as possible.","color":"#072c50","block_link":"","button_text":"SHOP NOW","button_style":"primary","show_overlay":false,"background":"#000000","opacity":5}},"promotion-3":{"type":"promotion","disabled":true,"settings":{"title":"Mosaic","text":"Use this section to welcome customers to your store, say a bit about your brand, or share news.","color":"#ffffff","block_link":"","button_text":"","button_style":"primary","show_overlay":true,"background":"#000000","opacity":3}},"promotion-4":{"type":"promotion","disabled":true,"settings":{"title":"Mosaic","text":"Use this section to welcome customers to your store, say a bit about your brand, or share news.","color":"#ffffff","block_link":"","button_text":"","button_style":"primary","show_overlay":false,"background":"","opacity":50}}},"block_order":["promotion-1","promotion-2","promotion-3","promotion-4"],"settings":{"title":"","section_height":"small","text_alignment":"top-left","maintain_aspect_ratio":true,"compress_blocks":false}},"dynamic_featured_collection":{"type":"dynamic-featured-collection","disabled":true,"blocks":{"view-all-card":{"type":"view_all_card","settings":{"text_alignment":"center-center","pre_heading":"View all","heading":"Collection","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":50}}},"block_order":["view-all-card"],"settings":{"title":"","layout":"slideshow","collection":"","product_count":9,"cta_label":"","cta_button_style":"primary"}},"dynamic_collection_list":{"type":"dynamic-collection-list","blocks":{"collection-2":{"type":"collection","settings":{"collection":"ranges","image":"shopify:\/\/shop_images\/Range_design_408x408_2aa32f80-2b98-4e0a-a01d-82bc90662f22.webp","title":"Ranges"}},"collection-3":{"type":"collection","settings":{"collection":"microwaves","image":"shopify:\/\/shop_images\/range_hood_840_x_840_px_7_408x408_51105a0f-84d8-4b4a-b9fb-c9e5f47d5ed4.webp","title":"Range Hoods"}},"collection-4":{"type":"collection","settings":{"collection":"rangetops","image":"shopify:\/\/shop_images\/rangetop_408x408_9865d3ea-1510-4d6f-b790-5c760047c226.webp","title":"Rangetops"}},"collection-5":{"type":"collection","settings":{"collection":"cooktops","image":"shopify:\/\/shop_images\/Cooktop_840_x_840_px_3_408x408_92fb4c1f-60ed-4851-9481-93d3e4df88dd.webp","title":"Cooktops"}},"collection-6":{"type":"collection","settings":{"collection":"wall-ovens","image":"shopify:\/\/shop_images\/wall_ovens_408x408_ee57a7d0-c07a-4b7c-b76f-d0eb05027424.webp","title":"Wall Ovens"}},"8daf4134-1320-4b39-88e1-9d846b356ff7":{"type":"collection","settings":{"collection":"microwaves-1","image":"shopify:\/\/shop_images\/microwaves_408x408_f2654194-b76c-4e57-93eb-8a4031f34620.webp","title":"Microwaves"}},"7ba6eb5c-2cc8-44b3-b656-740659956aee":{"type":"collection","settings":{"collection":"dishwashers","image":"shopify:\/\/shop_images\/Dishwasher_840_x_840_px_6_408x408_cf1b3377-0cfe-424a-b200-3a2f6c33ef8d.webp","title":"Dishwashers"}},"55b77f5a-32da-4e7d-bd33-400465febf27":{"type":"collection","settings":{"collection":"kitchen-sinks","image":"shopify:\/\/shop_images\/Kitchen_Sinks_408x408_e9ba9b28-2fd4-4e06-b750-a02e4bf78ea5.webp","title":"Kitchen Sink"}},"3bcf16cf-9902-4e77-b625-8404bd661b3f":{"type":"collection","settings":{"collection":"kitchen-faucets","image":"shopify:\/\/shop_images\/Kitchen_Faucets_408x408_e2bb9915-992e-4bbf-a3bd-bd85f99da8d2.webp","title":"Kitchen Faucets"}},"29eaeb68-4afa-4736-85e3-575f416c414c":{"type":"collection","settings":{"collection":"bathroom-faucets","image":"shopify:\/\/shop_images\/bathroom_faucets_408x408_dde53929-6ebe-49c3-a126-ceca865f071d.webp","title":"Bathroom Faucets"}},"4f8bef1f-ad18-4ed6-aa1e-cfd9cf063e27":{"type":"collection","settings":{"collection":"bathroom-sinks","image":"shopify:\/\/shop_images\/bathroom_sink_408x408_bdf453ae-4cd8-48e4-bba7-65caf7a6cdab.webp","title":"Toilets"}},"a87e3093-dbca-4ddc-9452-df49cd3e1a9c":{"type":"collection","settings":{"collection":"toilets","image":"shopify:\/\/shop_images\/Toilet.webp","title":"Toilets"}}},"block_order":["collection-2","collection-3","collection-4","collection-5","collection-6","8daf4134-1320-4b39-88e1-9d846b356ff7","7ba6eb5c-2cc8-44b3-b656-740659956aee","55b77f5a-32da-4e7d-bd33-400465febf27","3bcf16cf-9902-4e77-b625-8404bd661b3f","29eaeb68-4afa-4736-85e3-575f416c414c","4f8bef1f-ad18-4ed6-aa1e-cfd9cf063e27","a87e3093-dbca-4ddc-9452-df49cd3e1a9c"],"settings":{"title":"SHOP OUR CATALOG","thumbnail_columns_desktop":6,"thumbnail_columns_mobile":3,"image-crop":"circle","cta_label":"View All","cta_link":"","cta_button_style":"secondary"}},"dynamic_featured_product":{"type":"dynamic-featured-product","blocks":{"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{}},"view-product-link":{"type":"view-product-link","settings":{"text":"View full details"}}},"block_order":["title","price","view-product-link"],"settings":{"product":"","gallery_aspect_ratio":"natural","gallery_image_crop":false,"gallery_thumbnail_position":"left","gallery_video_autoplay":false,"gallery_video_looping":true,"gallery_hover_zoom":"replace"}},"dynamic_promo_grid":{"type":"dynamic-promo-grid","disabled":true,"blocks":{"promotion-1":{"type":"promotion","settings":{"background_position":"center-center","title":"Grid","text":"Use this section to welcome customers to your store, say a bit about your brand, or share news.","color":"#ffffff","block_link":"","button_text":"","button_style":"primary","show_overlay":false,"background":"","opacity":50}},"promotion-2":{"type":"promotion","settings":{"background_position":"center-center","title":"Grid","text":"Use this section to welcome customers to your store, say a bit about your brand, or share news.","color":"#ffffff","block_link":"","button_text":"","button_style":"primary","show_overlay":false,"background":"","opacity":50}},"promotion-3":{"type":"promotion","settings":{"background_position":"center-left","title":"Grid","text":"Use this section to welcome customers to your store, say a bit about your brand, or share news.","color":"#ffffff","block_link":"","button_text":"","button_style":"primary","show_overlay":false,"background":"","opacity":50}},"promotion-4":{"type":"promotion","settings":{"background_position":"center-left","title":"Grid","text":"Use this section to welcome customers to your store, say a bit about your brand, or share news.","color":"#ffffff","block_link":"","button_text":"","button_style":"primary","show_overlay":false,"background":"","opacity":50}}},"block_order":["promotion-1","promotion-2","promotion-3","promotion-4"],"settings":{"title":"Grid","section_height":"medium","section_columns":4,"text_alignment":"top-left"}},"dynamic_shoppable_image":{"type":"dynamic-shoppable-image","disabled":true,"blocks":{"hotspot-1":{"type":"hotspot","settings":{"product":"","x_axis":24,"y_axis":79}},"hotspot-2":{"type":"hotspot","settings":{"product":"","x_axis":64,"y_axis":67}},"hotspot-3":{"type":"hotspot","settings":{"product":"","x_axis":61,"y_axis":5}},"hotspot-4":{"type":"hotspot","settings":{"product":"","x_axis":15,"y_axis":19}},"hotspot-5":{"type":"hotspot","settings":{"product":"","x_axis":87,"y_axis":48}}},"block_order":["hotspot-1","hotspot-2","hotspot-3","hotspot-4","hotspot-5"],"settings":{"title":"Shoppable image","image_width":"two-thirds","link_text":"View product","textbox_title":"Shop the look","textbox_subheading":"<p>Make an image shoppable by adding hotspots that link to various products.<\/p>","textbox_button_label":"Button","textbox_button_link":"","textbox_button_style":"primary","textbox_text_alignment":"center","textbox_text_position":"left"}},"dynamic_featured_collection-2":{"type":"dynamic-featured-collection","disabled":true,"blocks":{"title-card":{"type":"title_card","settings":{"horizontal_size":"3","vertical_size":"2","text_alignment":"center-center","pre_heading":"Featured","heading":"Collection","text_color":"#ffffff","cta_label":"See more","overlay_color":"#000000","overlay_opacity":10}}},"block_order":["title-card"],"settings":{"title":"Featured collection","layout":"grid","collection":"","product_count":4,"cta_label":"","cta_button_style":"primary"}},"dynamic_promo_grid-2":{"type":"dynamic-promo-grid","disabled":true,"blocks":{"promotion-1":{"type":"promotion","settings":{"background_position":"center-center","title":"Grid","text":"Use this section to welcome customers to your store, say a bit about your brand, or share news.","color":"#ffffff","block_link":"","button_text":"","button_style":"secondary","show_overlay":false,"background":"rgba(0,0,0,0)","opacity":50}},"promotion-2":{"type":"promotion","settings":{"background_position":"center-center","title":"Grid","text":"Use this section to welcome customers to your store, say a bit about your brand, or share news.","color":"#ffffff","block_link":"","button_text":"","button_style":"primary","show_overlay":false,"background":"rgba(0,0,0,0)","opacity":50}}},"block_order":["promotion-1","promotion-2"],"settings":{"title":"","section_height":"small","section_columns":2,"text_alignment":"center-left"}},"dynamic_promo_grid-3":{"type":"dynamic-promo-grid","disabled":true,"blocks":{"promotion-1":{"type":"promotion","settings":{"background_position":"center-center","title":"Grid","text":"Use this section to welcome customers to your store, say a bit about your brand, or share news.","color":"#1e1e1e","block_link":"","button_text":"","button_style":"primary","show_overlay":false,"background":"","opacity":50}}},"block_order":["promotion-1"],"settings":{"title":"Grid","section_height":"medium","section_columns":1,"text_alignment":"center-left"}},"dynamic_testimonials":{"type":"dynamic-testimonials","blocks":{"testimonial-1":{"type":"testimonial","settings":{"star_rating":"4.5","text":"<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>","author":"<p>Author's name<\/p>"}},"testimonial-2":{"type":"testimonial","settings":{"star_rating":"4.5","text":"<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>","author":"<p>Author's name<\/p>"}},"testimonial-3":{"type":"testimonial","settings":{"star_rating":"4.5","text":"<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>","author":"<p>Author's name<\/p>"}},"testimonial-4":{"type":"testimonial","settings":{"star_rating":"4.5","text":"<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>","author":"<p>Author's name<\/p>"}},"testimonial-5":{"type":"testimonial","settings":{"star_rating":"4.5","text":"<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>","author":"<p>Author's name<\/p>"}},"testimonial-6":{"type":"testimonial","settings":{"star_rating":"4.5","text":"<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>","author":"<p>Author's name<\/p>"}}},"block_order":["testimonial-1","testimonial-2","testimonial-3","testimonial-4","testimonial-5","testimonial-6"],"settings":{"title":"Testimonials","image_crop":"circle","text_size":"large"}},"dynamic_blog_posts":{"type":"dynamic-blog-posts","settings":{"title":"Blog posts","blog":"","show_date":true,"show_author":false,"show_excerpt":true}},"dynamic_search":{"type":"dynamic-search","disabled":true,"settings":{"title":"Search","text":"Use this section to help customers find the products they're looking for.","placeholder":"What are you looking for?","filter_search_by":"disabled","enable_live_search":true,"enable_live_search_images":false,"enable_live_search_articles_pages":false,"position":"center-center","show-overlay":false,"color":"#ffffff","background":"#000000","opacity":50}}},"order":["dynamic_slideshow","dynamic_highlights_banner","dynamic_promo_mosaic","dynamic_featured_collection","dynamic_collection_list","dynamic_featured_product","dynamic_promo_grid","dynamic_shoppable_image","dynamic_featured_collection-2","dynamic_promo_grid-2","dynamic_promo_grid-3","dynamic_testimonials","dynamic_blog_posts","dynamic_search"]}
+{
+  "sections": {
+    "dynamic_slideshow": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Sale_Fashion_Brand_Website_Homepage_Banner_2240_x_900_px.png",
+            "title": "PREMIUM INDOOR & OUTDOOR HOME APPLIANCES",
+            "text": "",
+            "color": "#072c50",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "SHOP INDOOR APPLIANCES",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "SHOP OUTDOOR KITCHEN",
+            "button_two_link": "",
+            "button_two_style": "secondary",
+            "show_overlay": true,
+            "overlay_color": "#e9e9e9",
+            "overlay_opacity": 28
+          }
+        },
+        "slide-2": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "title": "Slide",
+            "text": "Introduce customers to your shop with lifestyle and product imagery",
+            "color": "#1d1d1d",
+            "link": "",
+            "text_alignment": "left",
+            "button_one_label": "Button",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 4
+          }
+        },
+        "slide-3": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "title": "Slide",
+            "text": "Introduce customers to your shop with lifestyle and product imagery",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "Button",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "secondary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "slide-4": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "title": "Slide",
+            "text": "Introduce customers to your shop with lifestyle and product imagery",
+            "color": "#1d1d1d",
+            "link": "",
+            "text_alignment": "left",
+            "button_one_label": "Button",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "secondary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "slide-2",
+        "slide-3",
+        "slide-4"
+      ],
+      "settings": {
+        "enable_autoplay": true,
+        "autoplay_duration": 9,
+        "slideshow_width": "full",
+        "slideshow_height": "medium",
+        "slideshow_height_mobile": "x-large",
+        "slideshow_text_below_image": false
+      }
+    },
+    "600e896e-f8e3-4b3a-b819-09b469f943b2": {
+      "type": "jgl-highlight-banner",
+      "settings": {
+        "highlight-title-1": "Free Shipping",
+        "highlight-subtitle-1": "On all orders!",
+        "highlight-title-2": "Easy Returns",
+        "highlight-subtitle-2": "On all orders!",
+        "highlight-title-3": "Free Shipping",
+        "highlight-subtitle-3": "On all orders!",
+        "highlight-title-4": "Free Shipping",
+        "highlight-subtitle-4": "On all orders!"
+      }
+    },
+    "dynamic_highlights_banner": {
+      "type": "dynamic-highlights-banner",
+      "disabled": true,
+      "blocks": {
+        "highlight-1": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery",
+            "title": "Free Shipping",
+            "text": "<p>Free Shipping on all orders. We pay it for you<\/p>",
+            "link": ""
+          }
+        },
+        "highlight-2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-cell-phone",
+            "title": "Talk To Support",
+            "text": "<p>Call us at +1 (973) 319-8188 or chat online to one of our product specialists<\/p>",
+            "link": ""
+          }
+        },
+        "highlight-3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-discount",
+            "title": "No Sales Tax",
+            "text": "<p>There is 0% sales tax on all orders<\/p>",
+            "link": ""
+          }
+        },
+        "highlight-4": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-rating-star",
+            "title": "Authorized Dealer",
+            "text": "<p>Partnering with the most trusted and highest quality global appliance brands<\/p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight-1",
+        "highlight-2",
+        "highlight-3",
+        "highlight-4"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "center",
+        "color": "#ffffff",
+        "icon_color": "#ffffff",
+        "background_color": "#072c50",
+        "mobile_layout": "grid"
+      }
+    },
+    "dynamic_promo_mosaic": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion-1": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bbq-825711_960_720.jpg",
+            "title": "",
+            "text": "",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "SHOP NOW",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "rgba(0,0,0,0)",
+            "opacity": 50
+          }
+        },
+        "promotion-2": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2560x1440-light-gray-solid-color-background.jpg",
+            "title": "Luxury Home Superstore",
+            "text": "For All Your Household Appliance Needs. At Trusted Home Direct our goal is to make household shopping as efficient and easy as possible.",
+            "color": "#072c50",
+            "block_link": "",
+            "button_text": "SHOP NOW",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "#000000",
+            "opacity": 5
+          }
+        },
+        "promotion-3": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 3
+          }
+        },
+        "promotion-4": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion-1",
+        "promotion-2",
+        "promotion-3",
+        "promotion-4"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": true,
+        "compress_blocks": false
+      }
+    },
+    "dynamic_featured_collection": {
+      "type": "dynamic-featured-collection",
+      "disabled": true,
+      "blocks": {
+        "view-all-card": {
+          "type": "view_all_card",
+          "settings": {
+            "text_alignment": "center-center",
+            "pre_heading": "View all",
+            "heading": "Collection",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "view-all-card"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "slideshow",
+        "collection": "",
+        "product_count": 9,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_collection_list": {
+      "type": "dynamic-collection-list",
+      "blocks": {
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "ranges",
+            "image": "shopify:\/\/shop_images\/Range_design_408x408_2aa32f80-2b98-4e0a-a01d-82bc90662f22.webp",
+            "title": "Ranges"
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "microwaves",
+            "image": "shopify:\/\/shop_images\/range_hood_840_x_840_px_7_408x408_51105a0f-84d8-4b4a-b9fb-c9e5f47d5ed4.webp",
+            "title": "Range Hoods"
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "rangetops",
+            "image": "shopify:\/\/shop_images\/rangetop_408x408_9865d3ea-1510-4d6f-b790-5c760047c226.webp",
+            "title": "Rangetops"
+          }
+        },
+        "collection-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "cooktops",
+            "image": "shopify:\/\/shop_images\/Cooktop_840_x_840_px_3_408x408_92fb4c1f-60ed-4851-9481-93d3e4df88dd.webp",
+            "title": "Cooktops"
+          }
+        },
+        "collection-6": {
+          "type": "collection",
+          "settings": {
+            "collection": "wall-ovens",
+            "image": "shopify:\/\/shop_images\/wall_ovens_408x408_ee57a7d0-c07a-4b7c-b76f-d0eb05027424.webp",
+            "title": "Wall Ovens"
+          }
+        },
+        "8daf4134-1320-4b39-88e1-9d846b356ff7": {
+          "type": "collection",
+          "settings": {
+            "collection": "microwaves-1",
+            "image": "shopify:\/\/shop_images\/microwaves_408x408_f2654194-b76c-4e57-93eb-8a4031f34620.webp",
+            "title": "Microwaves"
+          }
+        },
+        "7ba6eb5c-2cc8-44b3-b656-740659956aee": {
+          "type": "collection",
+          "settings": {
+            "collection": "dishwashers",
+            "image": "shopify:\/\/shop_images\/Dishwasher_840_x_840_px_6_408x408_cf1b3377-0cfe-424a-b200-3a2f6c33ef8d.webp",
+            "title": "Dishwashers"
+          }
+        },
+        "55b77f5a-32da-4e7d-bd33-400465febf27": {
+          "type": "collection",
+          "settings": {
+            "collection": "kitchen-sinks",
+            "image": "shopify:\/\/shop_images\/Kitchen_Sinks_408x408_e9ba9b28-2fd4-4e06-b750-a02e4bf78ea5.webp",
+            "title": "Kitchen Sink"
+          }
+        },
+        "3bcf16cf-9902-4e77-b625-8404bd661b3f": {
+          "type": "collection",
+          "settings": {
+            "collection": "kitchen-faucets",
+            "image": "shopify:\/\/shop_images\/Kitchen_Faucets_408x408_e2bb9915-992e-4bbf-a3bd-bd85f99da8d2.webp",
+            "title": "Kitchen Faucets"
+          }
+        },
+        "29eaeb68-4afa-4736-85e3-575f416c414c": {
+          "type": "collection",
+          "settings": {
+            "collection": "bathroom-faucets",
+            "image": "shopify:\/\/shop_images\/bathroom_faucets_408x408_dde53929-6ebe-49c3-a126-ceca865f071d.webp",
+            "title": "Bathroom Faucets"
+          }
+        },
+        "4f8bef1f-ad18-4ed6-aa1e-cfd9cf063e27": {
+          "type": "collection",
+          "settings": {
+            "collection": "bathroom-sinks",
+            "image": "shopify:\/\/shop_images\/bathroom_sink_408x408_bdf453ae-4cd8-48e4-bba7-65caf7a6cdab.webp",
+            "title": "Toilets"
+          }
+        },
+        "a87e3093-dbca-4ddc-9452-df49cd3e1a9c": {
+          "type": "collection",
+          "settings": {
+            "collection": "toilets",
+            "image": "shopify:\/\/shop_images\/Toilet.webp",
+            "title": "Toilets"
+          }
+        }
+      },
+      "block_order": [
+        "collection-2",
+        "collection-3",
+        "collection-4",
+        "collection-5",
+        "collection-6",
+        "8daf4134-1320-4b39-88e1-9d846b356ff7",
+        "7ba6eb5c-2cc8-44b3-b656-740659956aee",
+        "55b77f5a-32da-4e7d-bd33-400465febf27",
+        "3bcf16cf-9902-4e77-b625-8404bd661b3f",
+        "29eaeb68-4afa-4736-85e3-575f416c414c",
+        "4f8bef1f-ad18-4ed6-aa1e-cfd9cf063e27",
+        "a87e3093-dbca-4ddc-9452-df49cd3e1a9c"
+      ],
+      "settings": {
+        "title": "SHOP OUR CATALOG",
+        "thumbnail_columns_desktop": 6,
+        "thumbnail_columns_mobile": 3,
+        "image-crop": "circle",
+        "cta_label": "View All",
+        "cta_link": "",
+        "cta_button_style": "secondary"
+      }
+    },
+    "dynamic_featured_product": {
+      "type": "dynamic-featured-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "view-product-link": {
+          "type": "view-product-link",
+          "settings": {
+            "text": "View full details"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "view-product-link"
+      ],
+      "settings": {
+        "product": "",
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": false,
+        "gallery_thumbnail_position": "left",
+        "gallery_video_autoplay": false,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "replace"
+      }
+    },
+    "dynamic_promo_grid": {
+      "type": "dynamic-promo-grid",
+      "disabled": true,
+      "blocks": {
+        "promotion-1": {
+          "type": "promotion",
+          "settings": {
+            "background_position": "center-center",
+            "title": "Grid",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion-2": {
+          "type": "promotion",
+          "settings": {
+            "background_position": "center-center",
+            "title": "Grid",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion-3": {
+          "type": "promotion",
+          "settings": {
+            "background_position": "center-left",
+            "title": "Grid",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion-4": {
+          "type": "promotion",
+          "settings": {
+            "background_position": "center-left",
+            "title": "Grid",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion-1",
+        "promotion-2",
+        "promotion-3",
+        "promotion-4"
+      ],
+      "settings": {
+        "title": "Grid",
+        "section_height": "medium",
+        "section_columns": 4,
+        "text_alignment": "top-left"
+      }
+    },
+    "dynamic_shoppable_image": {
+      "type": "dynamic-shoppable-image",
+      "disabled": true,
+      "blocks": {
+        "hotspot-1": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "x_axis": 24,
+            "y_axis": 79
+          }
+        },
+        "hotspot-2": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "x_axis": 64,
+            "y_axis": 67
+          }
+        },
+        "hotspot-3": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "x_axis": 61,
+            "y_axis": 5
+          }
+        },
+        "hotspot-4": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "x_axis": 15,
+            "y_axis": 19
+          }
+        },
+        "hotspot-5": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "x_axis": 87,
+            "y_axis": 48
+          }
+        }
+      },
+      "block_order": [
+        "hotspot-1",
+        "hotspot-2",
+        "hotspot-3",
+        "hotspot-4",
+        "hotspot-5"
+      ],
+      "settings": {
+        "title": "Shoppable image",
+        "image_width": "two-thirds",
+        "link_text": "View product",
+        "textbox_title": "Shop the look",
+        "textbox_subheading": "<p>Make an image shoppable by adding hotspots that link to various products.<\/p>",
+        "textbox_button_label": "Button",
+        "textbox_button_link": "",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "center",
+        "textbox_text_position": "left"
+      }
+    },
+    "dynamic_featured_collection-2": {
+      "type": "dynamic-featured-collection",
+      "disabled": true,
+      "blocks": {
+        "title-card": {
+          "type": "title_card",
+          "settings": {
+            "horizontal_size": "3",
+            "vertical_size": "2",
+            "text_alignment": "center-center",
+            "pre_heading": "Featured",
+            "heading": "Collection",
+            "text_color": "#ffffff",
+            "cta_label": "See more",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "title-card"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "layout": "grid",
+        "collection": "",
+        "product_count": 4,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_promo_grid-2": {
+      "type": "dynamic-promo-grid",
+      "disabled": true,
+      "blocks": {
+        "promotion-1": {
+          "type": "promotion",
+          "settings": {
+            "background_position": "center-center",
+            "title": "Grid",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "secondary",
+            "show_overlay": false,
+            "background": "rgba(0,0,0,0)",
+            "opacity": 50
+          }
+        },
+        "promotion-2": {
+          "type": "promotion",
+          "settings": {
+            "background_position": "center-center",
+            "title": "Grid",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "rgba(0,0,0,0)",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion-1",
+        "promotion-2"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "section_columns": 2,
+        "text_alignment": "center-left"
+      }
+    },
+    "dynamic_promo_grid-3": {
+      "type": "dynamic-promo-grid",
+      "disabled": true,
+      "blocks": {
+        "promotion-1": {
+          "type": "promotion",
+          "settings": {
+            "background_position": "center-center",
+            "title": "Grid",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#1e1e1e",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion-1"
+      ],
+      "settings": {
+        "title": "Grid",
+        "section_height": "medium",
+        "section_columns": 1,
+        "text_alignment": "center-left"
+      }
+    },
+    "dynamic_testimonials": {
+      "type": "dynamic-testimonials",
+      "blocks": {
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "<p>Author's name<\/p>"
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "<p>Author's name<\/p>"
+          }
+        },
+        "testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "<p>Author's name<\/p>"
+          }
+        },
+        "testimonial-4": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "<p>Author's name<\/p>"
+          }
+        },
+        "testimonial-5": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "<p>Author's name<\/p>"
+          }
+        },
+        "testimonial-6": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "<p>Author's name<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-1",
+        "testimonial-2",
+        "testimonial-3",
+        "testimonial-4",
+        "testimonial-5",
+        "testimonial-6"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "image_crop": "circle",
+        "text_size": "large"
+      }
+    },
+    "dynamic_blog_posts": {
+      "type": "dynamic-blog-posts",
+      "settings": {
+        "title": "Blog posts",
+        "blog": "",
+        "show_date": true,
+        "show_author": false,
+        "show_excerpt": true
+      }
+    },
+    "dynamic_search": {
+      "type": "dynamic-search",
+      "disabled": true,
+      "settings": {
+        "title": "Search",
+        "text": "Use this section to help customers find the products they're looking for.",
+        "placeholder": "What are you looking for?",
+        "filter_search_by": "disabled",
+        "enable_live_search": true,
+        "enable_live_search_images": false,
+        "enable_live_search_articles_pages": false,
+        "position": "center-center",
+        "show-overlay": false,
+        "color": "#ffffff",
+        "background": "#000000",
+        "opacity": 50
+      }
+    }
+  },
+  "order": [
+    "dynamic_slideshow",
+    "600e896e-f8e3-4b3a-b819-09b469f943b2",
+    "dynamic_highlights_banner",
+    "dynamic_promo_mosaic",
+    "dynamic_featured_collection",
+    "dynamic_collection_list",
+    "dynamic_featured_product",
+    "dynamic_promo_grid",
+    "dynamic_shoppable_image",
+    "dynamic_featured_collection-2",
+    "dynamic_promo_grid-2",
+    "dynamic_promo_grid-3",
+    "dynamic_testimonials",
+    "dynamic_blog_posts",
+    "dynamic_search"
+  ]
+}
