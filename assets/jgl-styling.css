@@ -10,4 +10,15 @@ html .site-header-main-content{
     justify-content: space-around;
 }
 
+
+}
+
+@media (max-width:1125px) {    
+    html .site-header-logo {
+        margin-top: -22px;
+        display: flex;
+        justify-content: center;
+        max-height: 64px;
+    }
+    
 }
