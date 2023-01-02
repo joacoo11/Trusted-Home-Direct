@@ -1,0 +1,149 @@
+<div class="jgl-highlight">
+    <div class="step-high">
+        <div>
+            <img src="{{ section.settings.highlight-img-1 | img_url }}" width="25" height="25" alt="">
+        </div>
+        <div class="span-div-high">
+            <span class="highlight-title">{{ section.settings.highlight-title-1 }}</span>
+            <span class="highlight-subtitle">{{ section.settings.highlight-subtitle-1 }}</span>
+        </div>
+    </div>
+    <div class="step-high">
+        <div>
+            <img src="{{ section.settings.highlight-img-2 | img_url }}" width="25" height="25" alt="">
+        </div>
+        <div class="span-div-high">
+            <span class="highlight-title">{{ section.settings.highlight-title-1 }}</span>
+            <span class="highlight-subtitle">{{ section.settings.highlight-subtitle-1 }}</span>
+        </div>
+    </div>
+    <div class="step-high">
+        <div>
+            <img src="{{ section.settings.highlight-img-3 | img_url }}" width="25" height="25" alt="">
+        </div>
+        <div class="span-div-high">
+            <span class="highlight-title">{{ section.settings.highlight-title-1 }}</span>
+            <span class="highlight-subtitle">{{ section.settings.highlight-subtitle-1 }}</span>
+        </div>
+    </div>
+    <div class="step-high">
+        <div>
+            <img src="{{ section.settings.highlight-img-4 | img_url }}" width="25" height="25" alt="">
+        </div>
+        <div class="span-div-high">
+            <span class="highlight-title">{{ section.settings.highlight-title-1 }}</span>
+            <span class="highlight-subtitle">{{ section.settings.highlight-subtitle-1 }}</span>
+        </div>
+    </div>
+</div>
+
+<style>
+    .jgl-highlight{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        justify-content: center;
+        align-items: center;
+        background-color: #E8E8E8;
+        height: 105px;
+    }
+
+    .step-high{
+        display: flex;
+        justify-self: center;
+    }
+
+    .highlight-title{
+        color: black;
+    }
+
+    .highlight-subtitle{
+        color: black;
+    }
+
+    .span-div-high{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+</style>
+
+{% schema %}
+    {
+        "name": "JGL Highlight Banner",
+        "settings": [
+            {
+                "type":"image_picker",
+                "id":"highlight-img-1",
+                "label": "First Highlight img"
+            },
+            {
+                "type":"text",
+                "id":"highlight-title-1",
+                "label": "First Highlight Title",
+                "default": "Free Shipping"
+            },
+            {
+                "type":"text",
+                "id":"highlight-subtitle-1",
+                "label": "First Highlight Subitle",
+                "default": "On all orders!"
+            },
+            {
+                "type":"image_picker",
+                "id":"highlight-img-2",
+                "label": "Second Highlight img"
+            },
+            {
+                "type":"text",
+                "id":"highlight-title-2",
+                "label": "Second Highlight Title",
+                "default": "Free Shipping"
+            },
+            {
+                "type":"text",
+                "id":"highlight-subtitle-2",
+                "label": "Second Highlight Subitle",
+                "default": "On all orders!"
+            },         
+            {
+                "type":"image_picker",
+                "id":"highlight-img-3",
+                "label": "Third Highlight img"
+            },   
+            {
+                "type":"text",
+                "id":"highlight-title-3",
+                "label": "Third Highlight Title",
+                "default": "Free Shipping"
+            },
+            {
+                "type":"text",
+                "id":"highlight-subtitle-3",
+                "label": "Third Highlight Subitle",
+                "default": "On all orders!"
+            },
+            {
+                "type":"image_picker",
+                "id":"highlight-img-4",
+                "label": "Fourth Highlight img"
+            },           
+             {
+                "type":"text",
+                "id":"highlight-title-4",
+                "label": "Fourth Highlight Title",
+                "default": "Free Shipping"
+            },
+            {
+                "type":"text",
+                "id":"highlight-subtitle-4",
+                "label": "Fourth Highlight Subitle",
+                "default": "On all orders!"
+            }
+        ],
+        "presets": [
+    {
+      "name": "JGL Highlights banner"
+    }]
+}
+{% endschema %}
+
