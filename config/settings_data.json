@@ -195,7 +195,7 @@
           "static-footer-1"
         ],
         "settings": {
-          "payment_icons": true,
+          "payment_icons": false,
           "show_locale_selector": true,
           "show_currency_selector": true,
           "additional_menu": "footer"
