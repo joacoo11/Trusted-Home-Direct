@@ -10,6 +10,9 @@ html .site-header-main-content{
     justify-content: space-around;
 }
 
+html .site-header-main.site-header--full-width{
+    max-height: 80px;
+}
 
 }
 
