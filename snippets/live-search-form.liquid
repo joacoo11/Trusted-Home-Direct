@@ -98,7 +98,7 @@
             {%- endcapture -%}
         {%- endcase -%}
 
-        <span class="form-field-select-wrapper live-search-filter-wrapper">
+        {% comment %} <span class="form-field-select-wrapper live-search-filter-wrapper">
           <select class="live-search-filter" data-live-search-filter data-filter-all="{{ 'search.form.filter_all' | t }}">
             {{ search_filter_content_first }}
             <option value="" {% if search_filter_selected == blank %}selected{% endif %}>{{ 'search.form.filter_all' | t }}</option>
@@ -113,7 +113,7 @@
             {%- endif -%}
           </label>
           {% render 'icon-chevron-down-small' %}
-        </span>
+        </span> {% endcomment %}
       {%- endunless -%}
       <input
         class="form-field-input live-search-form-field"

@@ -66,20 +66,14 @@
         {% endfor %}
 
         <div class="utility-bar__content-left">
-          {% if section.settings.menu != blank %}
-            {% for link in linklists[section.settings.menu].links %}
-              <a href="{{ link.url }}" class="utility-bar__menu-link">{{ link.title }}</a>
-            {% endfor %}
-          {% endif %}
-
-          {% if section.settings.menu == blank and section.settings.show_social_icons and has_social_icons %}
-            <div class="utility-bar__social-container  utility-bar__social-list">
-              {% render 'social-list' %}
-            </div>
-          {% endif %}
-        </div>
+          <span>{{ section.settings.utility-left-text-1 }}</span>
+          <div>
+            <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/present-6995411_960_720.webp?v=1672628068" alt="" width="16" height="14">
+            <span>{{ section.settings.utility-right-text-1}}</span>
+          </div>
 
         <div class="utility-bar__content-right" data-disclosure-items>
+          <span></span>
           {% if section.settings.menu != blank and section.settings.show_social_icons and has_social_icons %}
             <div class="utility-bar__social-container  utility-bar__social-list">
               {% render 'social-list' %}
@@ -420,6 +414,13 @@
   {% endif %}
 {% endif %}
 
+<style>
+   html .utility-bar__content-left{
+    display: flex;
+    justify-content: ;
+  }
+</style>
+
 {% schema %}
 {
     "name": "Utility bar",
@@ -429,6 +430,18 @@
         "type": "checkbox",
         "label": "Enable",
         "default": false
+      },
+      {
+        "id": "utility-left-text-1",
+        "type": "text",
+        "label": "Utility Bar Text Left",
+        "default": "Authorized Dealer - Free Shipping - 30 Day Returns"
+      },
+      {
+        "id": "utility-right-text-1",
+        "type": "text",
+        "label": "Utility Bar Text Right",
+        "default": "End of Year Sale"
       },
       {
         "id": "use_full_width",

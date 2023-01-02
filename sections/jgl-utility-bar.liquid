@@ -1,0 +1,90 @@
+<div class="jgl-utility-bar">
+    <div class="utility-left">
+        <span>{{ section.settings.utility-left-text-1}}</span>
+    </div>
+    <div class="utility-right">
+        <img src="{{ section.settings.utility-right-img-1 | img_url }}" alt="" width="16" height="14">
+        <a href="{{ section.settings.utility-right-href }}"><span>{{ section.settings.utility-right-text-1}}</span></a>
+    </div>
+</div>
+
+<div class="mobile-utility">
+    <span>{{ section.settings.utility-left-text-1}}</span>
+</div>
+
+<style>
+    
+    .jgl-utility-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #dee2e6 !important;
+        padding-left: 3em;
+        padding-right: 3em;
+        height: 41px;
+    }
+
+    .mobile-utility{
+        display: none;
+    }
+
+    .utility-right > a{
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .utility-right > a:hover{
+        color: #F04F36;
+        cursor: pointer;
+    }
+
+    @media (max-width:784px) {
+        .mobile-utility{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid #dee2e6 !important;
+            padding-left: 3em;
+            padding-right: 3em;
+            height: 41px;
+            font-size: 13px;
+            
+        }
+
+        .jgl-utility-bar{
+            display: none;
+        }
+    
+    }
+</style>
+
+{% schema %}
+    {
+    "name": " JGL Utility bar",
+    "settings": [
+        {
+        "id": "utility-left-text-1",
+        "type": "text",
+        "label": "Utility Bar Text Left",
+        "default": "Authorized Dealer - Free Shipping - 30 Day Returns"
+      },
+      {
+        "id": "utility-right-text-1",
+        "type": "text",
+        "label": "Utility Bar Text Right",
+        "default": "End of Year Sale"
+      },
+        {
+        "id": "utility-right-img-1",
+        "type": "image_picker",
+        "label": "Utility Bar Right Img"
+        },
+        {
+        "id": "utility-right-href",
+        "type": "url",
+        "label": "Utility Bar Right Text Link"
+        }
+    ]
+    }
+
+{% endschema %}
