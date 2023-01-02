@@ -38,6 +38,10 @@
         cursor: pointer;
     }
 
+    .utility-div-mobile{
+        display: none;
+    }
+
     @media (max-width:784px) {
         .mobile-utility{
             display: flex;
@@ -47,8 +51,15 @@
             padding-left: 3em;
             padding-right: 3em;
             height: 41px;
-            font-size: 12px;
+            font-size: 13px;
             
+        }
+
+        .utility-div-mobile{
+            display: block;
+        }
+        .utility-div-main{
+            display: none;
         }
 
         .jgl-utility-bar{
