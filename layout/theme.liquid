@@ -111,7 +111,8 @@
       if(('ontouchstart' in window)||window.DocumentTouch&&document instanceof DocumentTouch)document.documentElement.className=document.documentElement.className.replace(/\bno-touch\b/,'has-touch');
     </script>
     <a class="skip-to-main" href="#site-main">{{ 'general.accessibility.skip_to_content' | t }}</a>
-    {% section 'static-announcement' %}
+    {% comment %} {% section 'static-announcement' %} {% endcomment %}
+    {% section 'jgl-announcement' %}
     {% comment %} {% section 'static-utility-bar' %} {% endcomment %}
     {% section 'jgl-utility-bar' %}
     <header

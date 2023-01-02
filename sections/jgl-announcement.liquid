@@ -1,0 +1,89 @@
+<div class="jgl-announcement">
+    <div class="jgl-ann-div">
+        <a href="{{ section.settings.announcement-url-1 }}"><span>{{ section.settings.announcement-text-1 }}</span></a>
+        <span> | </span>
+        <a href="{{ section.settings.announcement-url-2 }}"><span>{{ section.settings.announcement-text-2 }}</span></a>
+        <span> | </span>
+        <a href="{{ section.settings.announcement-url-3 }}"><span>{{ section.settings.announcement-text-3 }}</span></a>
+    </div>
+</div>
+
+<style> 
+    .jgl-announcement{
+        position: sticky;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #072C50;
+        padding: 15px 0;
+        padding-left: 25px;
+        padding-right: 25px;
+
+    }
+
+    .jgl-ann-div > a{
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    .jgl-ann-div > span{
+        color: white;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    @media (max-width:550px) {
+        .jgl-ann-div > a{
+            font-size: 9px;
+        }
+    
+        .jgl-ann-div > span{
+            font-size: 9px;
+        }
+    }
+</style>
+
+{% schema %}
+    {
+        "name": "JGL Announcement",
+        "settings":[
+            {
+                "type":"text",
+                "id": "announcement-text-1",
+                "label": "Left Announcement Text",
+                "default": "Fast & Free Shipping"
+            },
+            {
+                "type":"text",
+                "id": "announcement-text-2",
+                "label": "Center Announcement Text",
+                "default": "Christmas Sale Ending in 48 Hours"
+            },
+            {
+                "type":"text",
+                "id": "announcement-text-3",
+                "label": "Right Announcement Text",
+                "default": "Top Rated Reviews"
+            },
+            {
+                "type":"url",
+                "id": "announcement-url-1",
+                "label": "Left Announcement Link"
+            },
+            {
+                "type":"url",
+                "id": "announcement-url-2",
+                "label": "Center Announcement Link"
+            },
+            {
+                "type":"url",
+                "id": "announcement-url-3",
+                "label": "Right Announcement Link"
+            }
+        ]
+    }
+{% endschema %}
