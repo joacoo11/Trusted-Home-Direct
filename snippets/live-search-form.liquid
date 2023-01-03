@@ -46,6 +46,7 @@
       {%- endif -%}
     {%- endif -%}
   {%- endunless -%}
+
   <form
     class="
       live-search-form
@@ -58,7 +59,6 @@
     aria-label="Product"
     data-live-search-form
   >
-  
     <input type="hidden" name="type" value="{{ search_type | replace: '  ', '' | strip_newlines }}">
     <div class="form-field no-label">
       {%- unless section.settings.filter_search_by == 'disabled' -%}

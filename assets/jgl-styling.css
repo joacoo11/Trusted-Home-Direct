@@ -18,20 +18,10 @@ html .site-header-main.site-header--full-width{
 
 @media (max-width:1125px) {    
     html .site-header-logo {
-        margin-top: -84px;
+        margin-top: -22px;
         display: flex;
         justify-content: center;
-        max-height: 139px;
+        max-height: 64px;
     }
     
-}
-
-
-html .site-logo-image {
-    width: 300px;
-    max-height: 300px;
-}
-
-html .site-logo {
-    max-width: 220px;
 }
