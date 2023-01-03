@@ -1,0 +1,28 @@
+<div class="expert-section">
+    <div>
+        <h1>{{ section.settings.section-title }}</h1>
+    </div>
+</div>
+
+
+
+<style></style>
+
+
+{% schema %}
+    {
+        "name": "JGL Expert Section",
+        "settings": [
+            {
+                "type":"text",
+                "id": "section-title",
+                "label": "Expert Section Title",
+                "default": "OUR EXPERT TEAM IS HERE TO HELP"
+            }
+        ],
+        "presets": [
+    {
+      "name": "JGL Experts Section"
+    }]
+    }
+{% endschema %}
