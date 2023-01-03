@@ -279,6 +279,12 @@
         "cta_button_style": "primary"
       }
     },
+    "48c4d2da-a0ce-4c09-af0e-f67b6f77d628": {
+      "type": "jgl-expert-section",
+      "settings": {
+        "section-title": "OUR EXPERT TEAM IS HERE TO HELP"
+      }
+    },
     "dynamic_collection_list": {
       "type": "dynamic-collection-list",
       "blocks": {
@@ -789,6 +795,7 @@
     "dynamic_highlights_banner",
     "dynamic_promo_mosaic",
     "dynamic_featured_collection",
+    "48c4d2da-a0ce-4c09-af0e-f67b6f77d628",
     "dynamic_collection_list",
     "dynamic_featured_product",
     "dynamic_promo_grid",
