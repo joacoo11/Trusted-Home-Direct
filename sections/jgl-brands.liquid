@@ -1,15 +1,109 @@
 <div class="brand-section">
-    <div>
+    <div class="title-div-brands">
         <h1>{{ section.settings.brands-title }}</h1>
         <span>{{ section.settings.brands-sub }}</span>
+    </div>
+    <div class="brand-boxes">
+            <a href="{{ section.settings.brand-link-1 }}"> <img src="" {{ section.settings.brand-img-1 | img_url }} alt=""></a>
+            <a href="{{ section.settings.brand-link-2 }}"> <img src="" {{ section.settings.brand-img-2 | img_url }} alt=""></a>
+            <a href="{{ section.settings.brand-link-3 }}"> <img src="" {{ section.settings.brand-img-3 | img_url }} alt=""></a>
+            <a href="{{ section.settings.brand-link-4 }}"> <img src="" {{ section.settings.brand-img-4 | img_url }} alt=""></a>
+            <a href="{{ section.settings.brand-link-5 }}"> <img src="" {{ section.settings.brand-img-5 | img_url }} alt=""></a>
+            <a href="{{ section.settings.brand-link-6 }}"> <img src="" {{ section.settings.brand-img-6 | img_url }} alt=""></a>
+            <a href="{{ section.settings.brand-link-7 }}"> <img src="" {{ section.settings.brand-img-7 | img_url }} alt=""></a>
+            <a href="{{ section.settings.brand-link-8 }}"> <img src="" {{ section.settings.brand-img-8 | img_url }} alt=""></a>
+            <a href="{{ section.settings.brand-link-9 }}"> <img src="" {{ section.settings.brand-img-9 | img_url }} alt=""></a>
+            <a href="{{ section.settings.brand-link-10 }}"> <img src=""{{ section.settings.brand-img-10 | img_url }} alt=""></a>
+            <a href="{{ section.settings.brand-link-11 }}"> <img src=""{{ section.settings.brand-img-11 | img_url }} alt=""></a>
+            <a href="{{ section.settings.brand-link-12 }}"> <img src=""{{ section.settings.brand-img-12 | img_url }} alt=""></a>
+            <a href="{{ section.settings.brand-link-13 }}"> <img src=""{{ section.settings.brand-img-13 | img_url }} alt=""></a>
+            <a href="{{ section.settings.brand-link-14 }}"> <img src=""{{ section.settings.brand-img-14 | img_url }} alt=""></a>
+            <a href="{{ section.settings.brand-link-15 }}"> <img src=""{{ section.settings.brand-img-15 | img_url }} alt=""></a>
+    </div>
+    <div class="bottom-two">
+            <a href="{{ section.settings.brand-link-16 }}"> <img src=""{{ section.settings.brand-img-16 | img_url }} alt=""></a>
+            <a href="{{ section.settings.brand-link-17 }}"> <img src=""{{ section.settings.brand-img-17 | img_url }} alt=""></a>
     </div>
 </div>
 
 
 <style>
     .brand-section{
-        background-image: url('https://cdn.shopify.com/s/files/1/0694/3499/9087/files/1_759f0bfe-101c-4728-90c8-1a128082d08e.webp?v=1672799270');
+        background-image: radial-gradient(circle,#000 0,rgba(0,0,0,.3) 100%) ,url('https://cdn.shopify.com/s/files/1/0694/3499/9087/files/1_759f0bfe-101c-4728-90c8-1a128082d08e.webp?v=1672799270');
+        width: 100vw;
+        padding: 40px;
+        height: 620px;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
+
+    .title-div-brands{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title-div-brands > h1{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 1.5;
+        display: block;
+        letter-spacing: 4.5px;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        color: #FFFFFF;
+    }
+    
+    .title-div-brands > span{
+        color: #FFFFFF;
+        max-width: 650px;
+        font-size: 16px;
+    }
+
+    .brand-boxes{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 40px;
+        padding-left: 22%;
+        padding-right: 25%;
+    }
+
+    .brand-boxes > a{
+        width: 151px;
+        height: 87px;
+        background: #f6f4f3a8;
+        backdrop-filter: blur(2px);
+    }
+
+    .brand-boxes > a:hover{
+        background: #fff;
+    }
+
+    .bottom-two{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 15px;
+    }
+
+
+    .bottom-two > a{
+        width: 151px;
+        height: 87px;
+        background: #f6f4f3a8;
+        backdrop-filter: blur(2px);
+    }
+
+    .bottom-two > a:hover{
+        background: #fff;
+    }
+
 </style>
 
 {% schema %}
@@ -27,8 +121,177 @@
                 "id":"brands-sub",
                 "label":"Brand Section Sub-Title",
                 "default": "As an authorized dealer, our team can help you find the perfect home appliance & goods, for the best price, from the top brands."
+            },
+            {
+                "type": "image_picker",
+                "id": "brand-img-1",
+                "label": "Brand Image"
+            },
+            {
+                "type": "url",
+                "id": "brand-link-1",
+                "label": "Brand Link 1"
+            },
+            {
+                "type": "image_picker",
+                "id": "brand-img-2",
+                "label": "Brand Image"
+            },
+            {
+                "type": "url",
+                "id": "brand-link-2",
+                "label": "Brand Link 2"
+            },
+            {
+                "type": "image_picker",
+                "id": "brand-img-3",
+                "label": "Brand Image"
+            },
+            {
+                "type": "url",
+                "id": "brand-link-3",
+                "label": "Brand Link 3"
+            },
+            {
+                "type": "image_picker",
+                "id": "brand-img-4",
+                "label": "Brand Image"
+            },
+            {
+                "type": "url",
+                "id": "brand-link-4",
+                "label": "Brand Link 4"
+            },
+            {
+                "type": "image_picker",
+                "id": "brand-img-5",
+                "label": "Brand Image"
+            },
+            {
+                "type": "url",
+                "id": "brand-link-5",
+                "label": "Brand Link 5"
+            },
+            {
+                "type": "image_picker",
+                "id": "brand-img-6",
+                "label": "Brand Image"
+            },
+            {
+                "type": "url",
+                "id": "brand-link-6",
+                "label": "Brand Link 6"
+            },
+            {
+                "type": "image_picker",
+                "id": "brand-img-7",
+                "label": "Brand Image"
+            },
+            {
+                "type": "url",
+                "id": "brand-link-7",
+                "label": "Brand Link 7"
+            },
+            {
+                "type": "image_picker",
+                "id": "brand-img-8",
+                "label": "Brand Image"
+            },
+            {
+                "type": "url",
+                "id": "brand-link-8",
+                "label": "Brand Link 8"
+            },
+            {
+                "type": "image_picker",
+                "id": "brand-img-9",
+                "label": "Brand Image"
+            },
+            {
+                "type": "url",
+                "id": "brand-link-9",
+                "label": "Brand Link 9"
+            },
+            {
+                "type": "image_picker",
+                "id": "brand-img-10",
+                "label": "Brand Image"
+            },
+            {
+                "type": "url",
+                "id": "brand-link-10",
+                "label": "Brand Link 10"
+            },
+            {
+                "type": "image_picker",
+                "id": "brand-img-11",
+                "label": "Brand Image"
+            },
+            {
+                "type": "url",
+                "id": "brand-link-11",
+                "label": "Brand Link 11"
+            },
+            {
+                "type": "image_picker",
+                "id": "brand-img-12",
+                "label": "Brand Image 12"
+            },
+            {
+                "type": "url",
+                "id": "brand-link-12",
+                "label": "Brand Link 12"
+            },
+            {
+                "type": "image_picker",
+                "id": "brand-img-13",
+                "label": "Brand Image"
+            },
+            {
+                "type": "url",
+                "id": "brand-link-13",
+                "label": "Brand Link 13"
+            },
+            {
+                "type": "image_picker",
+                "id": "brand-img-14",
+                "label": "Brand Image"
+            },
+            {
+                "type": "url",
+                "id": "brand-link-14",
+                "label": "Brand Link 14"
+            },
+            {
+                "type": "image_picker",
+                "id": "brand-img-15",
+                "label": "Brand Image"
+            },
+            {
+                "type": "url",
+                "id": "brand-link-15",
+                "label": "Brand Link 15"
+            },
+            {
+                "type": "image_picker",
+                "id": "brand-img-16",
+                "label": "Brand Image"
+            },
+            {
+                "type": "url",
+                "id": "brand-link-16",
+                "label": "Brand Link 16"
+            },
+            {
+                "type": "image_picker",
+                "id": "brand-img-17",
+                "label": "Brand Image"
+            },
+            {
+                "type": "url",
+                "id": "brand-link-17",
+                "label": "Brand Link 17"
             }
-
         ],
         "presets": [
     {
