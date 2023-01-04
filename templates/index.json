@@ -282,7 +282,11 @@
     "48c4d2da-a0ce-4c09-af0e-f67b6f77d628": {
       "type": "jgl-expert-section",
       "settings": {
-        "section-title": "OUR EXPERT TEAM IS HERE TO HELP"
+        "section-title": "OUR EXPERT TEAM IS HERE TO HELP",
+        "btn-span": "Ask a Question",
+        "btn-span-2": "Chat With Us",
+        "btn-link": "",
+        "btn-link-2": ""
       }
     },
     "dynamic_collection_list": {
@@ -787,6 +791,19 @@
         "background": "#000000",
         "opacity": 50
       }
+    },
+    "1ea9cb36-98d5-4e42-ad29-c5aa0140ef93": {
+      "type": "jgl-4-way",
+      "settings": {
+        "highlight-title-1": "Free Shipping",
+        "highlight-subtitle-1": "On all orders!",
+        "highlight-title-2": "Free Shipping",
+        "highlight-subtitle-2": "On all orders!",
+        "highlight-title-3": "Free Shipping",
+        "highlight-subtitle-3": "On all orders!",
+        "highlight-title-4": "Free Shipping",
+        "highlight-subtitle-4": "On all orders!"
+      }
     }
   },
   "order": [
@@ -805,6 +822,7 @@
     "dynamic_promo_grid-3",
     "dynamic_testimonials",
     "dynamic_blog_posts",
-    "dynamic_search"
+    "dynamic_search",
+    "1ea9cb36-98d5-4e42-ad29-c5aa0140ef93"
   ]
 }
