@@ -20,21 +20,45 @@
             <a href="{{ section.settings.brand-link-14 }}"> <img src=""{{ section.settings.brand-img-14 | img_url }} alt=""></a>
             <a href="{{ section.settings.brand-link-15 }}"> <img src=""{{ section.settings.brand-img-15 | img_url }} alt=""></a>
     </div>
-    <div class="bottom-two">
-            <a href="{{ section.settings.brand-link-16 }}"> <img src=""{{ section.settings.brand-img-16 | img_url }} alt=""></a>
-            <a href="{{ section.settings.brand-link-17 }}"> <img src=""{{ section.settings.brand-img-17 | img_url }} alt=""></a>
+</div>
+
+
+<div class="brand-mobile">
+    <div class="brand-title-mob"><h1>{{ section.settings.brands-title }}</h1></div>
+    <div class="brand-subtitle-mob"><span>{{ section.settings.brands-sub }}</span></div>
+
+    <div class="brands-boxes-mob">
+        <a href="{{ section.settings.brand-link-1 }}"> <img src="" {{ section.settings.brand-img-1 | img_url }} alt=""></a>
+        <a href="{{ section.settings.brand-link-2 }}"> <img src="" {{ section.settings.brand-img-2 | img_url }} alt=""></a>
+        <a href="{{ section.settings.brand-link-3 }}"> <img src="" {{ section.settings.brand-img-3 | img_url }} alt=""></a>
+        <a href="{{ section.settings.brand-link-4 }}"> <img src="" {{ section.settings.brand-img-4 | img_url }} alt=""></a>
+        <a href="{{ section.settings.brand-link-5 }}"> <img src="" {{ section.settings.brand-img-5 | img_url }} alt=""></a>
+        <a href="{{ section.settings.brand-link-6 }}"> <img src="" {{ section.settings.brand-img-6 | img_url }} alt=""></a>
+        <a href="{{ section.settings.brand-link-7 }}"> <img src="" {{ section.settings.brand-img-7 | img_url }} alt=""></a>
+        <a href="{{ section.settings.brand-link-8 }}"> <img src="" {{ section.settings.brand-img-8 | img_url }} alt=""></a>
+        <a href="{{ section.settings.brand-link-9 }}"> <img src="" {{ section.settings.brand-img-9 | img_url }} alt=""></a>
+        <a href="{{ section.settings.brand-link-10 }}"> <img src=""{{ section.settings.brand-img-10 | img_url }} alt=""></a>
+        <a href="{{ section.settings.brand-link-11 }}"> <img src=""{{ section.settings.brand-img-11 | img_url }} alt=""></a>
+        <a href="{{ section.settings.brand-link-12 }}"> <img src=""{{ section.settings.brand-img-12 | img_url }} alt=""></a>
+        <a href="{{ section.settings.brand-link-13 }}"> <img src=""{{ section.settings.brand-img-13 | img_url }} alt=""></a>
+        <a href="{{ section.settings.brand-link-14 }}"> <img src=""{{ section.settings.brand-img-14 | img_url }} alt=""></a>
+        <a href="{{ section.settings.brand-link-15 }}"> <img src=""{{ section.settings.brand-img-15 | img_url }} alt=""></a>
     </div>
 </div>
 
 
 <style>
     .brand-section{
-        background-image: radial-gradient(circle,#000 0,rgba(0,0,0,.3) 100%) ,url('https://cdn.shopify.com/s/files/1/0694/3499/9087/files/1_759f0bfe-101c-4728-90c8-1a128082d08e.webp?v=1672799270');
+        background-image: radial-gradient(circle,#000 0,rgba(0,0,0,.1) 100%) ,url('https://cdn.shopify.com/s/files/1/0694/3499/9087/files/1_759f0bfe-101c-4728-90c8-1a128082d08e.webp?v=1672799270');
         width: 100vw;
         padding: 40px;
-        height: 620px;
+        height: 520px;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    .brand-mobile{
+        display: none;
     }
 
     .title-div-brands{
@@ -74,8 +98,7 @@
     }
 
     .brand-boxes > a{
-        width: 151px;
-        height: 87px;
+        min-height: 81px;
         background: #f6f4f3a8;
         backdrop-filter: blur(2px);
     }
@@ -84,24 +107,76 @@
         background: #fff;
     }
 
-    .bottom-two{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-        gap: 15px;
-    }
-
-
-    .bottom-two > a{
-        width: 151px;
-        height: 87px;
-        background: #f6f4f3a8;
-        backdrop-filter: blur(2px);
-    }
-
     .bottom-two > a:hover{
         background: #fff;
+    }
+
+    @media (max-width:992px){
+        .brand-section{
+            display: none;
+        }
+    
+        .brand-mobile{
+            display: block;
+        }
+
+        .brand-title-mob{
+            background-image: radial-gradient(circle,#000 0,rgba(0,0,0,0.0001) 100%) ,url('https://cdn.shopify.com/s/files/1/0694/3499/9087/files/mobilw.webp?v=1672859830');
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 257px;
+        }
+
+        .brand-title-mob > h1{
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 1.5;
+            display: block;
+            letter-spacing: 4.5px;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            color: #FFFFFF;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+        }
+
+        .brand-subtitle-mob{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 40px;
+            padding-left: 2.5em;
+            padding-right: 2.5em;
+
+        }
+
+        .brand-subtitle-mob > span{
+            font-size: 14px;
+            max-width: 400px;
+            color: #212529;
+
+        }
+
+        .brands-boxes-mob{
+            display: grid;
+            grid-template-columns: 33.3% 33.3% 33.3%;
+            gap: 10px;
+            padding-left: 2.5em;
+            padding-right: 2.5em;
+            margin-top: 30px;
+        }
+
+        .brands-boxes-mob > a{
+            min-height: 81px;
+            background: #f6f4f3a8;
+            backdrop-filter: blur(2px);
+        }
+    
     }
 
 </style>
