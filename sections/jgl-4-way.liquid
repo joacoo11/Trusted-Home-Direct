@@ -1,26 +1,26 @@
-<div class="jgl-highlight">
-    <div class="step-high">
-        <div class="span-div-high">
+<div class="jgl-4-way">
+    <div class="step-4">
+        <div class="span-div-4">
             <img src="{{ section.settings.highlight-img-1 | img_url }}" width="25" height="25" alt="">
-            <span class="highlight-title">{{ section.settings.highlight-title-1 }}</span>
+            <span class="strip-4-title">{{ section.settings.highlight-title-1 }}</span>
         </div>
     </div>
-    <div class="step-high">
-        <div class="span-div-high">
+    <div class="step-4">
+        <div class="span-div-4">
             <img src="{{ section.settings.highlight-img-2 | img_url }}" width="25" height="25" alt="">
-            <span class="highlight-title">{{ section.settings.highlight-title-2 }}</span>
+            <span class="strip-4-title">{{ section.settings.highlight-title-2 }}</span>
         </div>
     </div>
-    <div class="step-high">
-        <div class="span-div-high">
+    <div class="step-4">
+        <div class="span-div-4">
             <img src="{{ section.settings.highlight-img-3 | img_url }}" width="25" height="25" alt="">
-            <span class="highlight-title">{{ section.settings.highlight-title-3 }}</span>
+            <span class="strip-4-title">{{ section.settings.highlight-title-3 }}</span>
         </div>
     </div>
-    <div class="step-high">
-        <div class="span-div-high">
+    <div class="step-4">
+        <div class="span-div-4">
             <img src="{{ section.settings.highlight-img-4 | img_url }}" width="25" height="25" alt="">
-            <span class="highlight-title">{{ section.settings.highlight-title-4 }}</span>
+            <span class="strip-4-title">{{ section.settings.highlight-title-4 }}</span>
         </div>
     </div>
 </div>
@@ -28,62 +28,57 @@
 
 
 <style>
-    .jgl-highlight{
+    .jgl-4-way{
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
         justify-content: center;
         align-items: center;
-        background-color: #000;
-        height: 105px;
+        background-color: #0d0d0d;
+        height: 177px;
+        margin-top: 30px;
     }
 
     .jgl-mobile-highlight{
         display: none;
     }
 
-    .step-high{
+    .step-4{
         display: flex;
         justify-self: center;
     }
 
-    .highlight-title{
+    .strip-4-title{
         color: white;
-        font-weight: bolder;
+        font-weight: 400;
+        line-height: 1.5;
+        font-size: 16px;
+        max-width: 150px;
+        margin-top: 0.5rem;
+        text-align: center;
     }
 
-    .highlight-subtitle{
-        color: white;
-    }
-
-    .span-div-high{
+    .span-div-4{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-left: 10px;
         gap: 5px;
     }
 
     @media (max-width:900px){
-        .jgl-mobile-highlight{
-            display: flex;
+        .jgl-4-way{
+            display: grid;
+            grid-template-columns: 50% 50%;
             justify-content: center;
             align-items: center;
-            background-color: #E8E8E8;
-            height: 120px;
-            gap: 30px;
-            padding: 15px;
-        }
-        .step-high-2{
-            display: flex;
-            justify-self: center;
-            margin-top: 25px;
+            background-color: #000;
+            height: 300px;
         }
 
-        .highlight-title{
-            font-size: 12px;
-        }
-    
-        .highlight-subtitle{
-            font-size: 12px;
+        .strip-4-title{
+            line-height: 20px;
+            font-size: 15px;
         }
     
     }
@@ -105,12 +100,6 @@
                 "default": "Free Shipping"
             },
             {
-                "type":"text",
-                "id":"highlight-subtitle-1",
-                "label": "First Highlight Subitle",
-                "default": "On all orders!"
-            },
-            {
                 "type":"image_picker",
                 "id":"highlight-img-2",
                 "label": "Second Highlight img"
@@ -120,13 +109,7 @@
                 "id":"highlight-title-2",
                 "label": "Second Highlight Title",
                 "default": "Free Shipping"
-            },
-            {
-                "type":"text",
-                "id":"highlight-subtitle-2",
-                "label": "Second Highlight Subitle",
-                "default": "On all orders!"
-            },         
+            },       
             {
                 "type":"image_picker",
                 "id":"highlight-img-3",
@@ -139,12 +122,6 @@
                 "default": "Free Shipping"
             },
             {
-                "type":"text",
-                "id":"highlight-subtitle-3",
-                "label": "Third Highlight Subitle",
-                "default": "On all orders!"
-            },
-            {
                 "type":"image_picker",
                 "id":"highlight-img-4",
                 "label": "Fourth Highlight img"
@@ -154,12 +131,6 @@
                 "id":"highlight-title-4",
                 "label": "Fourth Highlight Title",
                 "default": "Free Shipping"
-            },
-            {
-                "type":"text",
-                "id":"highlight-subtitle-4",
-                "label": "Fourth Highlight Subitle",
-                "default": "On all orders!"
             }
         ],
         "presets": [
