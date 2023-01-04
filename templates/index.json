@@ -792,6 +792,13 @@
         "opacity": 50
       }
     },
+    "3adbe16b-1746-4a30-b753-8f6f27572640": {
+      "type": "jgl-brands",
+      "settings": {
+        "brands-title": "WE ARE AN AUTHORIZED DEALER OF TODAY'S BEST BRANDS",
+        "brands-sub": "As an authorized dealer, our team can help you find the perfect home appliance & goods, for the best price, from the top brands."
+      }
+    },
     "1ea9cb36-98d5-4e42-ad29-c5aa0140ef93": {
       "type": "jgl-4-way",
       "settings": {
@@ -823,6 +830,7 @@
     "dynamic_testimonials",
     "dynamic_blog_posts",
     "dynamic_search",
+    "3adbe16b-1746-4a30-b753-8f6f27572640",
     "1ea9cb36-98d5-4e42-ad29-c5aa0140ef93"
   ]
 }
