@@ -1,0 +1,171 @@
+<div class="jgl-highlight">
+    <div class="step-high">
+        <div class="span-div-high">
+            <img src="{{ section.settings.highlight-img-1 | img_url }}" width="25" height="25" alt="">
+            <span class="highlight-title">{{ section.settings.highlight-title-1 }}</span>
+        </div>
+    </div>
+    <div class="step-high">
+        <div class="span-div-high">
+            <img src="{{ section.settings.highlight-img-2 | img_url }}" width="25" height="25" alt="">
+            <span class="highlight-title">{{ section.settings.highlight-title-2 }}</span>
+        </div>
+    </div>
+    <div class="step-high">
+        <div class="span-div-high">
+            <img src="{{ section.settings.highlight-img-3 | img_url }}" width="25" height="25" alt="">
+            <span class="highlight-title">{{ section.settings.highlight-title-3 }}</span>
+        </div>
+    </div>
+    <div class="step-high">
+        <div class="span-div-high">
+            <img src="{{ section.settings.highlight-img-4 | img_url }}" width="25" height="25" alt="">
+            <span class="highlight-title">{{ section.settings.highlight-title-4 }}</span>
+        </div>
+    </div>
+</div>
+
+
+
+<style>
+    .jgl-highlight{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+        height: 105px;
+    }
+
+    .jgl-mobile-highlight{
+        display: none;
+    }
+
+    .step-high{
+        display: flex;
+        justify-self: center;
+    }
+
+    .highlight-title{
+        color: white;
+        font-weight: bolder;
+    }
+
+    .highlight-subtitle{
+        color: white;
+    }
+
+    .span-div-high{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        gap: 5px;
+    }
+
+    @media (max-width:900px){
+        .jgl-mobile-highlight{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #E8E8E8;
+            height: 120px;
+            gap: 30px;
+            padding: 15px;
+        }
+        .step-high-2{
+            display: flex;
+            justify-self: center;
+            margin-top: 25px;
+        }
+
+        .highlight-title{
+            font-size: 12px;
+        }
+    
+        .highlight-subtitle{
+            font-size: 12px;
+        }
+    
+    }
+</style>
+
+{% schema %}
+    {
+        "name": "JGL 4 Way Strip",
+        "settings": [
+            {
+                "type":"image_picker",
+                "id":"highlight-img-1",
+                "label": "First Highlight img"
+            },
+            {
+                "type":"text",
+                "id":"highlight-title-1",
+                "label": "First Highlight Title",
+                "default": "Free Shipping"
+            },
+            {
+                "type":"text",
+                "id":"highlight-subtitle-1",
+                "label": "First Highlight Subitle",
+                "default": "On all orders!"
+            },
+            {
+                "type":"image_picker",
+                "id":"highlight-img-2",
+                "label": "Second Highlight img"
+            },
+            {
+                "type":"text",
+                "id":"highlight-title-2",
+                "label": "Second Highlight Title",
+                "default": "Free Shipping"
+            },
+            {
+                "type":"text",
+                "id":"highlight-subtitle-2",
+                "label": "Second Highlight Subitle",
+                "default": "On all orders!"
+            },         
+            {
+                "type":"image_picker",
+                "id":"highlight-img-3",
+                "label": "Third Highlight img"
+            },   
+            {
+                "type":"text",
+                "id":"highlight-title-3",
+                "label": "Third Highlight Title",
+                "default": "Free Shipping"
+            },
+            {
+                "type":"text",
+                "id":"highlight-subtitle-3",
+                "label": "Third Highlight Subitle",
+                "default": "On all orders!"
+            },
+            {
+                "type":"image_picker",
+                "id":"highlight-img-4",
+                "label": "Fourth Highlight img"
+            },           
+             {
+                "type":"text",
+                "id":"highlight-title-4",
+                "label": "Fourth Highlight Title",
+                "default": "Free Shipping"
+            },
+            {
+                "type":"text",
+                "id":"highlight-subtitle-4",
+                "label": "Fourth Highlight Subitle",
+                "default": "On all orders!"
+            }
+        ],
+        "presets": [
+    {
+      "name": "JGL 4 Way Strip"
+    }]
+}
+{% endschema %}
+
