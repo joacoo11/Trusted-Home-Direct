@@ -6,23 +6,14 @@
       "settings": {
       }
     },
-    "96078f6c-924b-48a7-90c8-2abbc99d68a8": {
-      "type": "jgl-highlight-banner",
-      "disabled": true,
+    "4ae1eb95-028f-470a-8336-b78ba674367a": {
+      "type": "jgl-faq",
       "settings": {
-        "highlight-title-1": "Free Shipping",
-        "highlight-subtitle-1": "On all orders!",
-        "highlight-title-2": "Free Shipping",
-        "highlight-subtitle-2": "On all orders!",
-        "highlight-title-3": "Free Shipping",
-        "highlight-subtitle-3": "On all orders!",
-        "highlight-title-4": "Free Shipping",
-        "highlight-subtitle-4": "On all orders!"
       }
     }
   },
   "order": [
     "main",
-    "96078f6c-924b-48a7-90c8-2abbc99d68a8"
+    "4ae1eb95-028f-470a-8336-b78ba674367a"
   ]
 }
