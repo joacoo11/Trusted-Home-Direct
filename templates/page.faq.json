@@ -26,10 +26,24 @@
         "faq-question-8": "More questions? Ask us here.",
         "faq-answer-8": "Contact us via chat, email or phone! Email: sales@trustedhomedirect.com Phone: 973-319-8188"
       }
+    },
+    "1ba205c2-caa9-4216-a79b-b70508cfcdf9": {
+      "type": "jgl-4-way",
+      "settings": {
+        "highlight-img-1": "shopify:\/\/shop_images\/1.webp",
+        "highlight-title-1": "Free Shipping",
+        "highlight-img-2": "shopify:\/\/shop_images\/2.webp",
+        "highlight-title-2": "Free Shipping",
+        "highlight-img-3": "shopify:\/\/shop_images\/3.webp",
+        "highlight-title-3": "Free Shipping",
+        "highlight-img-4": "shopify:\/\/shop_images\/4.webp",
+        "highlight-title-4": "Free Shipping"
+      }
     }
   },
   "order": [
     "main",
-    "4ae1eb95-028f-470a-8336-b78ba674367a"
+    "4ae1eb95-028f-470a-8336-b78ba674367a",
+    "1ba205c2-caa9-4216-a79b-b70508cfcdf9"
   ]
 }
