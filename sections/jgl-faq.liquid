@@ -63,10 +63,10 @@
     }
     .so-tab {
         position: relative;
-        width: 50%;
+        width: 60%;
         overflow: hidden;
         margin: 25px 0;
-        }
+    }
         .so-tab label {
         position: relative;
         display: block;
@@ -114,6 +114,13 @@
         }
         .so-tab input[type=radio]:checked + label::after {
         transform: rotateX(180deg);
+        
+        }
+
+        @media (max-width:769px) {
+            .so-tab {
+                width: 90%;
+            }
         }
         </style>
 
