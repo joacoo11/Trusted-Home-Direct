@@ -1,46 +1,69 @@
+<di class="title-faq">
+    <h1>FAQ'S</h1>
+</div>
+
 <div class="so-accordion-wrapper">
-    <div class="so-tab"><input id="so-tab-1" type="checkbox" name="tabs" /> <label for="so-tab-1">Question Number 1 is here?</label>
+    <div class="so-tab"><input id="so-tab-1" type="checkbox" name="tabs" /> <label for="so-tab-1">{{ section.settings.faq-question-1 }}</label>
     <div class="so-tab-content">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p>{{ section.settings.faq-answer-1 }}</p>
     </div>
     </div>
-    <div class="so-tab"><input id="so-tab-2" type="checkbox" name="tabs" /> <label for="so-tab-2">Question Number 2 is here?</label>
+    <div class="so-tab"><input id="so-tab-2" type="checkbox" name="tabs" /> <label for="so-tab-2">{{ section.settings.faq-question-2 }}</label>
     <div class="so-tab-content">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p>{{ section.settings.faq-answer-2 }}</p>
     </div>
     </div>
-    <div class="so-tab"><input id="so-tab-3" type="checkbox" name="tabs" /> <label for="so-tab-3">Question Number 3 is here?</label>
+    <div class="so-tab"><input id="so-tab-3" type="checkbox" name="tabs" /> <label for="so-tab-3">{{ section.settings.faq-question-3 }}</label>
     <div class="so-tab-content">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p>{{ section.settings.faq-answer-3 }}</p>
     </div>
     </div>
-    <div class="so-tab"><input id="so-tab-4" type="checkbox" name="tabs" /> <label for="so-tab-4">Question Number 4 is here?</label>
+    <div class="so-tab"><input id="so-tab-4" type="checkbox" name="tabs" /> <label for="so-tab-4">{{ section.settings.faq-question-4 }}</label>
     <div class="so-tab-content">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p>{{ section.settings.faq-answer-4 }}</p>
     </div>
     </div>
-    <div class="so-tab"><input id="so-tab-5" type="checkbox" name="tabs" /> <label for="so-tab-5">Question Number 5 is here?</label>
+    <div class="so-tab"><input id="so-tab-5" type="checkbox" name="tabs" /> <label for="so-tab-5">{{ section.settings.faq-question-5 }}</label>
     <div class="so-tab-content">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p>{{ section.settings.faq-answer-5 }}</p>
     </div>
     </div>
-    <div class="so-tab"><input id="so-tab-6" type="checkbox" name="tabs" /> <label for="so-tab-6">Question Number 6 is here?</label>
+    <div class="so-tab"><input id="so-tab-6" type="checkbox" name="tabs" /> <label for="so-tab-6">{{ section.settings.faq-question-6 }}</label>
     <div class="so-tab-content">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p>{{ section.settings.faq-answer-6 }}</p>
     </div>
     </div>
+    <div class="so-tab"><input id="so-tab-7" type="checkbox" name="tabs" /> <label for="so-tab-6">{{ section.settings.faq-question-6 }}</label>
+    <div class="so-tab-content">
+    <p>{{ section.settings.faq-answer-6 }}</p>
+    </div>
+    </div>
+    <div class="so-tab"><input id="so-tab-6" type="checkbox" name="tabs" /> <label for="so-tab-6">{{ section.settings.faq-question-6 }}</label>
+    <div class="so-tab-content">
+    <p>{{ section.settings.faq-answer-6 }}</p>
+    </div>
+    </div>
+    
     </div>
  
  <!-- Begin Accordion Snippet --><style>
+    .title-faq{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .so-accordion-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
     .so-tab {
         position: relative;
-        width: 100%;
+        width: 50%;
         overflow: hidden;
         margin: 25px 0;
         }
@@ -100,6 +123,87 @@
             {
                 "name": "JGL FAQ",
                 "settings": [
+                    {
+                        "type":"text",
+                        "id": "faq-question-1",
+                        "label": "Question 1",
+                        "default": "About Trusted Home Direct"
+                    },
+                    {
+                        "type":"text",
+                        "id": "faq-answer-1",
+                        "label": "Answer 1 ",
+                        "default": "Trusted Home Direct is a family-owned company with a simple, defined goal of helping homeowners source affordable and luxurious home appliances from the world’s most trusted brands. At the core of our team are our knowledgeable customer service agents that will help you find appliances with ease and comfort."
+                    },
+                    {
+                        "type":"text",
+                        "id": "faq-question-2",
+                        "label": "Question 2",
+                        "default": "Are you an authorized dealer?"
+                    },
+                    {
+                        "type":"text",
+                        "id": "faq-answer-2",
+                        "label": "Answer 2",
+                        "default": "We are an authorized dealer for all the brands we sell. We partner with the highest quality brands only."
+                    },
+                    {
+                        "type":"text",
+                        "id": "faq-question-3",
+                        "label": "Question 3",
+                        "default": "About Trusted Home Direct"
+                    },
+                    {
+                        "type":"text",
+                        "id": "faq-answer-3",
+                        "label": "Answer 3",
+                        "default": "Trusted Home Direct is a family-owned company with a simple, defined goal of helping homeowners source affordable and luxurious home appliances from the world’s most trusted brands. At the core of our team are our knowledgeable customer service agents that will help you find appliances with ease and comfort."
+                    },
+                    {
+                        "type":"text",
+                        "id": "faq-question-4",
+                        "label": "Question 4",
+                        "default": "About Trusted Home Direct"
+                    },
+                    {
+                        "type":"text",
+                        "id": "faq-answer-4",
+                        "label": "Answer 4",
+                        "default": "Trusted Home Direct is a family-owned company with a simple, defined goal of helping homeowners source affordable and luxurious home appliances from the world’s most trusted brands. At the core of our team are our knowledgeable customer service agents that will help you find appliances with ease and comfort."
+                    },                    {
+                        "type":"text",
+                        "id": "faq-question-5",
+                        "label": "Question 5",
+                        "default": "About Trusted Home Direct"
+                    },
+                    {
+                        "type":"text",
+                        "id": "faq-answer-5",
+                        "label": "Answer 5",
+                        "default": "Trusted Home Direct is a family-owned company with a simple, defined goal of helping homeowners source affordable and luxurious home appliances from the world’s most trusted brands. At the core of our team are our knowledgeable customer service agents that will help you find appliances with ease and comfort."
+                    },                    {
+                        "type":"text",
+                        "id": "faq-question-6",
+                        "label": "Question 6",
+                        "default": "About Trusted Home Direct"
+                    },
+                    {
+                        "type":"text",
+                        "id": "faq-answer-7",
+                        "label": "Answer 7",
+                        "default": "Trusted Home Direct is a family-owned company with a simple, defined goal of helping homeowners source affordable and luxurious home appliances from the world’s most trusted brands. At the core of our team are our knowledgeable customer service agents that will help you find appliances with ease and comfort."
+                    },                    {
+                        "type":"text",
+                        "id": "faq-question-8",
+                        "label": "Question 8",
+                        "default": "About Trusted Home Direct"
+                    },
+                    {
+                        "type":"text",
+                        "id": "faq-answer-8",
+                        "label": "Answer 8 ",
+                        "default": "Trusted Home Direct is a family-owned company with a simple, defined goal of helping homeowners source affordable and luxurious home appliances from the world’s most trusted brands. At the core of our team are our knowledgeable customer service agents that will help you find appliances with ease and comfort."
+                    }
                 ],
                 "presets": [
             {
