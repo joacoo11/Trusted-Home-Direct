@@ -1,0 +1,376 @@
+<div class="dropdowncontainer">
+  <div class="dropdown1">
+      <div class="title-div">
+    <h2>HAVE QUESTIONS? WE HAVE ANSWERS</h2>
+  </div>
+            <dl class="accordionicon">
+
+                <dt class="h3stylee">
+                    {{ section.settings.faq-question-1 }}               
+                     </dt>
+                <dd style="display: none;">
+                   <p>{{ section.settings.faq-answer-1 }}</p>
+                    </li>
+</ul>
+
+
+                </dd>
+            
+                <dt class="h3stylee">
+                    {{ section.settings.faq-question-2 }}               
+                     </dt>
+                <dd style="display: none;">
+                   <p>{{ section.settings.faq-answer-2 }}</p>
+                </dd>
+
+
+                <dt class="h3stylee">
+                    {{ section.settings.faq-question-3 }}               
+                     </dt>
+                <dd style="display: none;">
+                   <p>{{ section.settings.faq-answer-3 }}</p>
+                </dd>
+
+                <dt class="h3stylee">
+                    {{ section.settings.faq-question-4 }}               
+                     </dt>
+                <dd style="display: none;">
+                   <p>{{ section.settings.faq-answer-4 }}</p>
+                </dd>
+
+
+                <dt class="h3stylee">
+                    {{ section.settings.faq-question-5 }}               
+                     </dt>
+                <dd style="display: none;">
+                   <p>{{ section.settings.faq-answer-5 }}</p>
+                </dd>
+
+                <dt class="h3stylee">
+                    {{ section.settings.faq-question-6 }}               
+                     </dt>
+                <dd style="display: none;">
+                   <p>{{ section.settings.faq-answer-6 }}</p>
+                </dd>
+
+
+                <dt class="h3stylee">
+                    {{ section.settings.faq-question-7 }}               
+                     </dt>
+                <dd style="display: none;">
+                   <p>{{ section.settings.faq-answer-7 }}</p>
+                </dd>
+
+
+                <dt class="h3stylee">
+                    {{ section.settings.faq-question-8 }}               
+                     </dt>
+                <dd style="display: none;">
+                   <p>{{ section.settings.faq-answer-8 }}</p>
+                </dd>
+
+            </dl>
+        </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    $(".accordionicon dd").hide(), $("dt.open + dd").show(), $(".accordionicon dt").click(function () {
+        $(this).next("dd").slideToggle(200), $(this).toggleClass("open")
+    });
+});
+</script>
+
+
+<style>
+    /* Beginning of FAQ dropdown */
+
+    .title-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom:30px ;
+    }
+
+    .title-div > h1 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 1.5;
+        display: block;
+        letter-spacing: 4.5px;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+    }
+
+@media screen and (min-width: 575px) {
+    .dropDown .one_third {
+        width: 33.333333%
+    }
+    .dropDown .two_thirds {
+        width: 66.6666666%
+    }
+}
+
+.dropdowncontainer {
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1400px;
+    position: relative;
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+@media screen and (min-width: 836px) {
+    .one_third:nth-of-type(3n+1) {
+        clear: both;
+    }
+}
+
+@media screen and (min-width: 575px) {
+    .dropdown1 {
+        padding: 5% 2.5%;
+    }
+}
+
+.dropdown1 {
+  margin:0 auto;
+    width: 65%;
+    position: in-line-block;
+    padding: 2.5rem 2.5%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    .dropdown1 {
+        width: 95%;
+    }
+}
+
+dl.accordionicon {
+    margin-top: 0;
+}
+
+dl.accordionicon dt:hover {
+    cursor: pointer;
+    color:#7263bf;
+}
+
+dl.accordionicon dt:first-of-type {
+    padding-top: 0;
+}
+dl.accordionicon dt:last-of-type {
+    padding-bottom: 0;
+}
+
+dl.accordionicon dt:not(:first-of-type) {
+    border-top: 1px solid #dbe0eb;
+}
+
+dl.accordionicon dt {
+    width: 100%;
+    position: relative;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+dl.accordionicon dt, dl.accordionicon dd {
+    margin: 0;
+    padding-left: 1.2em;
+}
+
+dl dd+dt {
+    margin-top: 2rem;
+}
+
+dl dd, dl dt {
+    float: left;
+    width: 100%;
+}
+
+dl.accordionicon dd:not(:last-of-type) {
+    padding-bottom: 35px;
+}
+
+dl.accordionicon dd {
+    display: block;
+    padding-top: 1.5rem;
+    overflow: hidden;
+}
+
+dl.accordionicon dt, dl.accordionicon dd {
+    margin: 0;
+    padding-left: 1.2em;
+}
+
+dl.accordionicon dt:before {
+    content: '';
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    font-family: 'Arial', sans-serif;
+    margin-right: 0.55em;
+    margin-left: -1.3em;
+    width: 0.5em;
+    height: 0.5em;
+    display: inline-block;
+    -webkit-box-shadow: 0.15em 0.15em 0 #1fae96;;
+    box-shadow: 0.15em 0.15em 0 #1fae96;;
+    -webkit-transform: translateY(-0.35em) rotate(-45deg);
+    -ms-transform: translateY(-0.35em) rotate(-45deg);
+    transform: translateY(-0.35em) rotate(-45deg);
+    -webkit-transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+    transform-origin: bottom right;
+}
+
+
+
+@media screen and (min-width: 575px) {
+    dl.accordionicon dt:not(:first-of-type).open {
+        padding-top: 35px;
+    }
+}
+
+dl.accordionicon dt.open {
+    padding-bottom: 0;
+}
+
+dl.accordionicon dt.open:before {
+    -webkit-transform: translateY(-0.35em) rotate(45deg);
+    -ms-transform: translateY(-0.35em) rotate(45deg);
+    transform: translateY(-0.35em) rotate(45deg);
+}
+
+dl.accordionicon dd p {
+	margin-bottom: 20px;
+}
+
+.dropDown {
+    color: #202124;
+}
+
+.benefits {
+    list-style-type: none;
+	padding-left: 30px;
+}
+
+.benefits li {
+	padding-top: 20px;
+}
+
+.section7 {
+	background-color:#f6f9fc !important;
+}
+
+/* End of FAQ dropdown */
+</style>
+
+
+{% schema %}
+    {
+        "name": "JGL FAQ 2",
+        "settings": [
+            {
+                "type":"text",
+                "id": "faq-question-1",
+                "label": "Question 1",
+                "default": "About Trusted Home Direct"
+            },
+            {
+                "type":"text",
+                "id": "faq-answer-1",
+                "label": "Answer 1 ",
+                "default": "Trusted Home Direct is a family-owned company with a simple, defined goal of helping homeowners source affordable and luxurious home appliances from the world’s most trusted brands. At the core of our team are our knowledgeable customer service agents that will help you find appliances with ease and comfort."
+            },
+            {
+                "type":"text",
+                "id": "faq-question-2",
+                "label": "Question 2",
+                "default": "Are you an authorized dealer?"
+            },
+            {
+                "type":"text",
+                "id": "faq-answer-2",
+                "label": "Answer 2",
+                "default": "We are an authorized dealer for all the brands we sell. We partner with the highest quality brands only."
+            },
+            {
+                "type":"text",
+                "id": "faq-question-3",
+                "label": "Question 3",
+                "default": "About Trusted Home Direct"
+            },
+            {
+                "type":"text",
+                "id": "faq-answer-3",
+                "label": "Answer 3",
+                "default": "Trusted Home Direct is a family-owned company with a simple, defined goal of helping homeowners source affordable and luxurious home appliances from the world’s most trusted brands. At the core of our team are our knowledgeable customer service agents that will help you find appliances with ease and comfort."
+            },
+            {
+                "type":"text",
+                "id": "faq-question-4",
+                "label": "Question 4",
+                "default": "About Trusted Home Direct"
+            },
+            {
+                "type":"text",
+                "id": "faq-answer-4",
+                "label": "Answer 4",
+                "default": "Trusted Home Direct is a family-owned company with a simple, defined goal of helping homeowners source affordable and luxurious home appliances from the world’s most trusted brands. At the core of our team are our knowledgeable customer service agents that will help you find appliances with ease and comfort."
+            },                    {
+                "type":"text",
+                "id": "faq-question-5",
+                "label": "Question 5",
+                "default": "About Trusted Home Direct"
+            },
+            {
+                "type":"text",
+                "id": "faq-answer-5",
+                "label": "Answer 5",
+                "default": "Trusted Home Direct is a family-owned company with a simple, defined goal of helping homeowners source affordable and luxurious home appliances from the world’s most trusted brands. At the core of our team are our knowledgeable customer service agents that will help you find appliances with ease and comfort."
+            },                    {
+                "type":"text",
+                "id": "faq-question-6",
+                "label": "Question 6",
+                "default": "About Trusted Home Direct"
+            },
+            {
+                "type":"text",
+                "id": "faq-answer-6",
+                "label": "Answer 6",
+                "default": "Trusted Home Direct is a family-owned company with a simple, defined goal of helping homeowners source affordable and luxurious home appliances from the world’s most trusted brands. At the core of our team are our knowledgeable customer service agents that will help you find appliances with ease and comfort."
+            },                    {
+                "type":"text",
+                "id": "faq-question-7",
+                "label": "Question 7",
+                "default": "About Trusted Home Direct"
+            },
+            {
+                "type":"text",
+                "id": "faq-answer-7",
+                "label": "Answer 7 ",
+                "default": "Trusted Home Direct is a family-owned company with a simple, defined goal of helping homeowners source affordable and luxurious home appliances from the world’s most trusted brands. At the core of our team are our knowledgeable customer service agents that will help you find appliances with ease and comfort."
+            },
+            {
+                "type":"text",
+                "id": "faq-question-8",
+                "label": "Question 8",
+                "default": "About Trusted Home Direct"
+            },
+            {
+                "type":"text",
+                "id": "faq-answer-8",
+                "label": "Answer 8 ",
+                "default": "Trusted Home Direct is a family-owned company with a simple, defined goal of helping homeowners source affordable and luxurious home appliances from the world’s most trusted brands. At the core of our team are our knowledgeable customer service agents that will help you find appliances with ease and comfort."
+            }
+        ],
+        "presets": [
+    {
+      "name": "JGL FAQ 2"
+    }]
+}
+{% endschema %}
