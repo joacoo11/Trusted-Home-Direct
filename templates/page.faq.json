@@ -8,6 +8,7 @@
     },
     "4ae1eb95-028f-470a-8336-b78ba674367a": {
       "type": "jgl-faq",
+      "disabled": true,
       "settings": {
         "faq-question-1": "About Trusted Home Direct",
         "faq-answer-1": "Trusted Home Direct is a family-owned company with a simple, defined goal of helping homeowners source affordable and luxurious home appliances from the world’s most trusted brands. At the core of our team are our knowledgeable customer service agents that will help you find appliances with ease and comfort.",
@@ -27,6 +28,27 @@
         "faq-answer-8": "Contact us via chat, email or phone! Email: sales@trustedhomedirect.com Phone: 973-319-8188"
       }
     },
+    "afe83313-187d-4dab-9bc2-80e89b8c8f4b": {
+      "type": "phs-faq",
+      "settings": {
+        "faq-question-1": "About Trusted Home Direct",
+        "faq-answer-1": "Trusted Home Direct is a family-owned company with a simple, defined goal of helping homeowners source affordable and luxurious home appliances from the world’s most trusted brands. At the core of our team are our knowledgeable customer service agents that will help you find appliances with ease and comfort.",
+        "faq-question-2": "Are you an authorized dealer?",
+        "faq-answer-2": "We are an authorized dealer for all the brands we sell. We partner with the highest quality brands only.",
+        "faq-question-3": "What is the standard delivery time?",
+        "faq-answer-3": "It depends on which brand you are purchasing. Depending on the items, deliveryitems vary from 5-15 days, speak to one of our experts and we will be able to giveyou an accurate delivery timeline for each product.",
+        "faq-question-4": "How much does shipping cost?",
+        "faq-answer-4": "Shipping is free on all orders, this is a charge that we at Trusted Home Direct willincur on your behalf.",
+        "faq-question-5": "What is curbside delivery?",
+        "faq-answer-5": "Curbside shipping is a method of delivering large appliances, like stoves,refrigerators, and dishwashers whereby the courier will deliver the appliance to yourproperty curb. (Please Note: the item(s) will not be brought into your home, kitchen,or garage).",
+        "faq-question-6": "What if my item(s) arrived damaged?",
+        "faq-answer-6": "If the packaging is visibly damaged upon delivery, take clear photographs of thedamaged box, and note the damages with the courier driver on the bill of lading.Email support at sales@trustedhomedirect.com to please make us aware.For the full policy, please see Return Policy (link)",
+        "faq-question-7": "What is your return policy?",
+        "faq-answer-7": "We offer a 30-day return policy - please see the Return Policy (link)",
+        "faq-question-8": "More questions? Ask us here.",
+        "faq-answer-8": "Contact us via chat, email or phone!Email: sales@trustedhomedirect.comPhone: 973-319-8188"
+      }
+    },
     "1ba205c2-caa9-4216-a79b-b70508cfcdf9": {
       "type": "jgl-4-way",
       "settings": {
@@ -44,6 +66,7 @@
   "order": [
     "main",
     "4ae1eb95-028f-470a-8336-b78ba674367a",
+    "afe83313-187d-4dab-9bc2-80e89b8c8f4b",
     "1ba205c2-caa9-4216-a79b-b70508cfcdf9"
   ]
 }
