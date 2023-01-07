@@ -1,1 +1,21 @@
-{"sections":{"main":{"type":"page","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "84c2da76-b5bf-4a7e-80e2-cd2f77dd8a30": {
+      "type": "jgl-about-us",
+      "settings": {
+        "about-title": "PRICE EFFICIENT WAY TO SOURCE TOP QUALITY HOME GOODS",
+        "about-sub": "We are a family owned company that prides ourselves to serve our cients with utmost honesty and transparency"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "84c2da76-b5bf-4a7e-80e2-cd2f77dd8a30"
+  ]
+}
