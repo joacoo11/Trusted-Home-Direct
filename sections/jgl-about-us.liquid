@@ -1,0 +1,121 @@
+<div class="about-section">
+    <div class="title-div-ab">
+        <div class="about-title"><h1>{{ section.settings.about-title }}</h1></div>
+        <div class="about-subtitle"><span>{{ section.settings.about-sub }}</span></div>
+    </div>
+    <div class="p-div">
+        <p>
+            Trusted Home Direct is a family-owned business that specializes in designing and building dream kitchens for Americans. With over 50 years of experience in the home and kitchen industry, we have carefully selected the best and most reliable home appliance manufacturers in the world.
+        </p>
+        <p>We founded Trusted Home Direct after experiencing firsthand the challenges of finding high-quality and affordable home goods and appliances when we built our first home. We wanted to make the process of finding quality home products easier, more transparent, and more affordable for homeowners, contractors, landlords, and property managers.</p>
+    </div>
+    <div class="about-dis-div">
+    <div class="about-displays">
+        <div class="inner-about">
+            <div>sdfdf</div>
+            <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/about-image-1_600x_5ac92678-18a0-42e2-a958-a2f22a716ab4.webp?v=1673113997" width="332" height="332" alt="">
+        </div>
+    </div>
+    <div class="about-displays-2">
+        <div class="inner-about">
+            <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/about-image-2_600x_e3560902-1d4a-4792-8d3a-c2a2aa568351.webp?v=1673113997" width="332" height="332" alt="">
+            <div>sdfdf</div>
+        </div>
+    </div>
+    <div class="about-displays">
+        <div class="inner-about">
+            <div>sdfdf</div>
+            <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/about-image-3_600x_12cd1ba7-6a7a-4d80-a228-6c6d06c29f97.webp?v=1673113997" width="332" height="332" alt="">
+        </div>
+    </div>
+    </div>
+
+</div>
+
+<style>
+    .title-div-ab{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        background-image:linear-gradient(180deg,transparent,#000 139.98%,#000),url('https://cdn.shopify.com/s/files/1/0694/3499/9087/files/testimonial_banner_1594x_f82d5506-cbc9-4901-90f1-795e61a3a09b.webp?v=1672715220');
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        color: #FFF;
+    }
+
+    .about-subtitle{
+        font-size: 18px;
+        max-width: 800px;
+        text-align: center;
+    }
+
+    .p-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .p-div > p{
+        width: 50%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        --bs-gutter-x: 1,5rem;
+    }
+
+    .about-dis-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-displays{
+        display: flex;
+        background-color: #f6f4f3;
+        width: 60%;
+    }
+    .about-displays-2{
+        display: flex;
+        background-color: #f6f4f3;
+        width: 60%;
+    }
+
+    .inner-about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+{% schema %}
+    {
+        "name": "JGL About Us Section",
+        "settings": [
+            {
+                "type":"text",
+                "id":"about-title",
+                "label":"About us Section Title",
+                "default": "PRICE EFFICIENT WAY TO SOURCE TOP QUALITY HOME GOODS"
+            },
+            {
+                "type":"text",
+                "id":"about-sub",
+                "label":"About us Section Sub-Title",
+                "default": "We are a family owned company that prides ourselves to serve our cients with utmost honesty and transparency"
+            }
+        ],
+        
+        "presets": [
+    {
+      "name": "JGL About Us Section"
+    }]
+}
+{% endschema %}
+
