@@ -1,5 +1,7 @@
+<div class="faq-section">
+
 <div class="title-faq">
-    <h1>FAQ'S</h1>
+    <h1>HAVE QUESTIONS? WE HAVE ANSWERS</h1>
 </div>
 
 <div class="so-accordion-wrapper">
@@ -46,7 +48,7 @@
     
     </div>
 
-    <div class="still-need-div">
+    {% comment %} <div class="still-need-div">
         <div class="inner-div">
             <div>
                 <h1>STILL NEED HELP?</h1>
@@ -55,15 +57,22 @@
             <div><img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/support1_400x_edbca14e-aa0d-4d09-98ee-8e2c071bac8c.webp?v=1673013165" alt=""></div>
             <div><img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/contact_2_400x_e90cdcca-e726-452c-bf5a-0c84d8cb1cdc.webp?v=1673013164" alt=""></div>
         </div>
-    </div>
+    </div> {% endcomment %}
+
+</div>
+
 
  
  <!-- Begin Accordion Snippet --><style>
+
+ .faq-section{
+    background: #f4f4f7;
+ }
     .title-faq{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 30px;
+        padding-top: 30px;
     }
 
     .so-accordion-wrapper{
@@ -144,6 +153,11 @@
         @media (max-width:769px) {
             .so-tab {
                 width: 90%;
+            }
+
+            .title-faq > h1{
+                font-size: 18px;
+                text-align: center;
             }
         }
         </style>
@@ -254,3 +268,5 @@
             }]
         }
         {% endschema %}
+
+
