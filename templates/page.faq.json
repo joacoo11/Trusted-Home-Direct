@@ -49,6 +49,11 @@
         "faq-answer-8": "Contact us via chat, email or phone! Email: sales@trustedhomedirect.com Phone: 973-319-8188"
       }
     },
+    "58fa2780-8aeb-4e99-a0ee-ad6a2ec7b3ed": {
+      "type": "still-need",
+      "settings": {
+      }
+    },
     "1ba205c2-caa9-4216-a79b-b70508cfcdf9": {
       "type": "jgl-4-way",
       "settings": {
@@ -67,6 +72,7 @@
     "main",
     "4ae1eb95-028f-470a-8336-b78ba674367a",
     "afe83313-187d-4dab-9bc2-80e89b8c8f4b",
+    "58fa2780-8aeb-4e99-a0ee-ad6a2ec7b3ed",
     "1ba205c2-caa9-4216-a79b-b70508cfcdf9"
   ]
 }
