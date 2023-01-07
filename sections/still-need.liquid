@@ -1,0 +1,105 @@
+<div class="still-need-div">
+        <div class="inner-div">
+            <div class="span-div">
+                <h1>STILL NEED HELP?</h1>
+                <span>Have a chat with our representative, we’ll be glad to help.</span>
+            </div>
+            <div class="img-div" >
+                <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/support1_400x_edbca14e-aa0d-4d09-98ee-8e2c071bac8c.webp?v=1673013165" width="150" height="180" alt="">
+                <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/contact_2_400x_e90cdcca-e726-452c-bf5a-0c84d8cb1cdc.webp?v=1673013164" width="150" height="180" alt="">
+            </div>
+        </div>
+        <div class="talk-to">
+            <svg width="16px" height="17px" viewBox="0 0 16 17" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+            <g id="Group-17" transform="translate(0.5 0.5)">
+            <path d="M12 0L0 0L0 14.1936L2.58127 12L7 12L7 6L12 6L12 0Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none"></path>
+            <path d="M0 0L7 0L7 8.75302L4.43221 7L0 7L0 0Z" transform="translate(8 7)" id="Rectangle-Copy-23" fill="#FFFFFF" fill-rule="evenodd" stroke="none"></path>
+            </g>
+            </svg>            <span>Talk to us</span> 
+        </div>
+</div> 
+
+<style>
+    .still-need-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F4F4F7;
+        padding-bottom: 40px;
+    }
+
+    .span-div{
+        padding: 25px;
+        padding-left: 50px;
+    }
+
+    .inner-div{
+        display: flex;
+        justify-content: space-between;
+        border: 2px black solid;
+        width: 65%;
+        height: auto;
+        padding: 0;
+    }
+
+    .img-div{
+        display: flex;
+        max-width: 100%;
+    }
+
+    .img-div > img{
+        max-width: 50%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .talk-to{
+        background-color: black;
+        color: white;
+        width: 65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+    .talk-to > img{
+        fill: white;
+    }
+
+    @media (max-width:1042px) {
+        .inner-div{
+            flex-direction: column;
+            width: 90%;
+        }
+
+        .img-div{
+            grid-template-columns: 50% 50%;       
+        }
+
+        .img-div > img{
+            width: 100%;
+            object-fit: contain;
+        }
+
+        .talk-to{
+            width: 90%;
+        }
+    }
+
+</style>
+
+{% schema %}
+    {
+        "name": "JGL Still Need Help",
+        "settings": [],
+        "presets": [
+    {
+      "name": "JGL Still Need Help"
+    }]
+}
+{% endschema %}
+
