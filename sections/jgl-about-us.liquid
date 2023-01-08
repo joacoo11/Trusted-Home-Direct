@@ -41,7 +41,7 @@
 </div>
 
 <div class="about-mobile">
-    <img src="" alt="">
+    <img class="img-top" src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/testimonial_banner_1594x_f82d5506-cbc9-4901-90f1-795e61a3a09b.webp?v=1672715220" alt="">
     <div class="title-div-ab-mob">
         <div class="about-title"><h1>{{ section.settings.about-title }}</h1></div>
         <div class="about-subtitle"><span>{{ section.settings.about-sub }}</span></div>
@@ -184,6 +184,11 @@
             display: block;
         }
 
+        .img-top{
+            max-width: 100%;
+            height: auto;
+        }
+
         .about-section{
             display: none;
         }
@@ -254,7 +259,11 @@
         }
 
         .inner-about > img{
+            max-width: 100%;
             width: 100%;
+            padding-left: 0px;
+            padding-right: 0px;
+            height: auto;
         }
         .box-p-div > p{
             max-width: none;
