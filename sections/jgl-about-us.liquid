@@ -12,7 +12,7 @@
     <div class="about-dis-div">
         <div class="about-displays">
             <div class="inner-about">
-                <div>
+                <div class="box-p-div">
                     <h1>{{ section.settings.box-title-1 }}</h1>
                     <p>{{ section.settings.box-p-1 }}</p>
                 </div>
@@ -22,7 +22,7 @@
         <div class="about-displays-2">
             <div class="inner-about">
                 <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/about-image-2_600x_e3560902-1d4a-4792-8d3a-c2a2aa568351.webp?v=1673113997" width="332" height="332" alt="">
-                <div>
+                <div class="box-p-div">
                     <h1>{{ section.settings.box-title-2 }}</h1>
                     <p>{{ section.settings.box-p-2 }}</p>
                 </div>            
@@ -30,7 +30,50 @@
         </div>
         <div class="about-displays">
             <div class="inner-about">
-                <div>
+                <div class="box-p-div">
+                    <h1>{{ section.settings.box-title-3 }}</h1>
+                    <p>{{ section.settings.box-p-3 }}</p>
+                </div>
+                <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/about-image-3_600x_12cd1ba7-6a7a-4d80-a228-6c6d06c29f97.webp?v=1673113997" width="332" height="332" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="about-mobile">
+    <img src="" alt="">
+    <div class="title-div-ab-mob">
+        <div class="about-title"><h1>{{ section.settings.about-title }}</h1></div>
+        <div class="about-subtitle"><span>{{ section.settings.about-sub }}</span></div>
+    </div>
+    <div class="p-div">
+        <p>
+            Trusted Home Direct is a family-owned business that specializes in designing and building dream kitchens for Americans. With over 50 years of experience in the home and kitchen industry, we have carefully selected the best and most reliable home appliance manufacturers in the world.
+        </p>
+        <p>We founded Trusted Home Direct after experiencing firsthand the challenges of finding high-quality and affordable home goods and appliances when we built our first home. We wanted to make the process of finding quality home products easier, more transparent, and more affordable for homeowners, contractors, landlords, and property managers.</p>
+    </div>
+    <div class="about-dis-div">
+        <div class="about-displays">
+            <div class="inner-about">
+                <div class="box-p-div">
+                    <h1>{{ section.settings.box-title-1 }}</h1>
+                    <p>{{ section.settings.box-p-1 }}</p>
+                </div>
+                <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/about-image-1_600x_5ac92678-18a0-42e2-a958-a2f22a716ab4.webp?v=1673113997" width="332" height="332" alt="">
+            </div>
+        </div>
+        <div class="about-displays-2">
+            <div class="inner-about">
+                <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/about-image-2_600x_e3560902-1d4a-4792-8d3a-c2a2aa568351.webp?v=1673113997" width="332" height="332" alt="">
+                <div class="box-p-div">
+                    <h1>{{ section.settings.box-title-2 }}</h1>
+                    <p>{{ section.settings.box-p-2 }}</p>
+                </div>            
+            </div>
+        </div>
+        <div class="about-displays">
+            <div class="inner-about">
+                <div class="box-p-div">
                     <h1>{{ section.settings.box-title-3 }}</h1>
                     <p>{{ section.settings.box-p-3 }}</p>
                 </div>
@@ -53,6 +96,10 @@
         background-repeat: no-repeat;
         background-position-y: bottom;
         color: #FFF;
+    }
+
+    .about-mobile{
+        display: none;
     }
 
     .about-subtitle{
@@ -90,12 +137,15 @@
     .about-displays{
         display: flex;
         background-color: #f6f4f3;
-        width: 60%;
+        width: 65%;
+        margin-left: -70px;
     }
     .about-displays-2{
         display: flex;
         background-color: #f6f4f3;
-        width: 60%;
+        width: 65%;
+        margin-right: -70px;
+
     }
 
     .inner-about{
@@ -103,6 +153,113 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
+    }
+
+    .inner-about > img{
+        max-width: 40%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .box-p-div{
+        padding:50px;
+    }
+
+    .box-p-div > h1{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 1.5;
+        display: block;
+        letter-spacing: 4.5px;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .box-p-div > p{
+        max-width: 90%;
+    }
+
+    @media (max-width:1071px) {
+        .about-mobile{
+            display: block;
+        }
+
+        .about-section{
+            display: none;
+        }
+
+        .title-div-ab-mob{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .about-title{
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 1.5;
+            display: block;
+            letter-spacing: 4.5px;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            text-align: center;
+        }
+
+        .about-subtitle{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.5;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+
+        .p-div > p{
+            width: 90%;
+        }
+
+
+        .about-displays{
+            display: flex;
+            background-color: #f6f4f3;
+            width: 95%;
+            margin-left: 0px;
+
+        }
+        .about-displays-2{
+            display: flex;
+            background-color: #f6f4f3;
+            width: 95%;
+            margin-right: 0px;
+
+
+        }
+    }
+    @media (max-width:590px) {
+        .about-displays .inner-about{
+            flex-direction: column-reverse;
+        }
+
+        .inner-about{
+            flex-direction: column;
+        }
+
+        .about-displays{
+            width: 100%;
+            margin-left: 0px;
+        }
+        .about-displays-2{
+            width: 100%;
+            margin-right: 0px;
+        }
+
+        .inner-about > img{
+            width: 100%;
+        }
+        .box-p-div > p{
+            max-width: none;
+        }
+    }
     }
 </style>
 
