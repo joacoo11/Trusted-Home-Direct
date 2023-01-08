@@ -10,24 +10,33 @@
         <p>We founded Trusted Home Direct after experiencing firsthand the challenges of finding high-quality and affordable home goods and appliances when we built our first home. We wanted to make the process of finding quality home products easier, more transparent, and more affordable for homeowners, contractors, landlords, and property managers.</p>
     </div>
     <div class="about-dis-div">
-    <div class="about-displays">
-        <div class="inner-about">
-            <div>sdfdf</div>
-            <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/about-image-1_600x_5ac92678-18a0-42e2-a958-a2f22a716ab4.webp?v=1673113997" width="332" height="332" alt="">
+        <div class="about-displays">
+            <div class="inner-about">
+                <div>
+                    <h1>{{ section.settings.box-title-1 }}</h1>
+                    <p>{{ section.settings.box-p-1 }}</p>
+                </div>
+                <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/about-image-1_600x_5ac92678-18a0-42e2-a958-a2f22a716ab4.webp?v=1673113997" width="332" height="332" alt="">
+            </div>
         </div>
-    </div>
-    <div class="about-displays-2">
-        <div class="inner-about">
-            <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/about-image-2_600x_e3560902-1d4a-4792-8d3a-c2a2aa568351.webp?v=1673113997" width="332" height="332" alt="">
-            <div>sdfdf</div>
+        <div class="about-displays-2">
+            <div class="inner-about">
+                <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/about-image-2_600x_e3560902-1d4a-4792-8d3a-c2a2aa568351.webp?v=1673113997" width="332" height="332" alt="">
+                <div>
+                    <h1>{{ section.settings.box-title-2 }}</h1>
+                    <p>{{ section.settings.box-p-2 }}</p>
+                </div>            
+            </div>
         </div>
-    </div>
-    <div class="about-displays">
-        <div class="inner-about">
-            <div>sdfdf</div>
-            <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/about-image-3_600x_12cd1ba7-6a7a-4d80-a228-6c6d06c29f97.webp?v=1673113997" width="332" height="332" alt="">
+        <div class="about-displays">
+            <div class="inner-about">
+                <div>
+                    <h1>{{ section.settings.box-title-3 }}</h1>
+                    <p>{{ section.settings.box-p-3 }}</p>
+                </div>
+                <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/about-image-3_600x_12cd1ba7-6a7a-4d80-a228-6c6d06c29f97.webp?v=1673113997" width="332" height="332" alt="">
+            </div>
         </div>
-    </div>
     </div>
 
 </div>
@@ -74,6 +83,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 50px;
+        margin-top: 70px;
     }
 
     .about-displays{
@@ -89,8 +100,9 @@
 
     .inner-about{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
+        width: 100%;
     }
 </style>
 
@@ -108,6 +120,42 @@
                 "type":"text",
                 "id":"about-sub",
                 "label":"About us Section Sub-Title",
+                "default": "We are a family owned company that prides ourselves to serve our cients with utmost honesty and transparency"
+            },
+            {
+                "type":"text",
+                "id":"box-title-1",
+                "label":"Box Title 1",
+                "default": "We are a family owned company that prides ourselves to serve our cients with utmost honesty and transparency"
+            },
+            {
+                "type":"text",
+                "id":"box-p-1",
+                "label":"Box Text 1",
+                "default": "We are a family owned company that prides ourselves to serve our cients with utmost honesty and transparency"
+            },
+            {
+                "type":"text",
+                "id":"box-title-2",
+                "label":"Box Title 2",
+                "default": "We are a family owned company that prides ourselves to serve our cients with utmost honesty and transparency"
+            },
+            {
+                "type":"text",
+                "id":"box-p-2",
+                "label":"Box Text 2",
+                "default": "We are a family owned company that prides ourselves to serve our cients with utmost honesty and transparency"
+            },
+            {
+                "type":"text",
+                "id":"box-title-3",
+                "label":"Box Title 3",
+                "default": "We are a family owned company that prides ourselves to serve our cients with utmost honesty and transparency"
+            },
+            {
+                "type":"text",
+                "id":"box-p-3",
+                "label":"Box Text 3",
                 "default": "We are a family owned company that prides ourselves to serve our cients with utmost honesty and transparency"
             }
         ],
