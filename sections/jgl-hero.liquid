@@ -3,9 +3,9 @@
         <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/ZLINE_Kitchen_Lifestyle_-_Computer_3000x_761db27e-2409-4fde-9d3d-39e1327fecdd.webp?v=1673226199" alt="">
     </div>
     <div class="hero-content">
-        <h2>RENOVATE YOUR HOME FOR LESS</h2>
-        <p>Start the year right with brand new appliances</p>
-        <a class="btn-shop" href="">Shop Now!</a>
+        <h2>{{ section.settings.hero-title }}</h2>
+        <p>{{ section.settings.hero-sub }}</p>
+        <a class="btn-shop" href="{{ section.settings.btn-url }}">Shop Now!</a>
     </div>
 </div>
 
@@ -14,9 +14,9 @@
         <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/Blanket_Cover_1800x_ee09fa18-62c3-4f57-a83d-f9927d2efb8d.webp?v=1673227509" alt="">
     </div>
     <div class="hero-inner-mob">
-        <h2>RENOVATE YOUR HOME FOR LESS</h2>
-        <p>Start the year right with brand new appliances</p>
-        <a class="btn-shop" href="">Shop Now!</a>
+        <h2>{{ section.settings.hero-title }}</h2>
+        <p>{{ section.settings.hero-sub }}</p>
+        <a class="btn-shop" href="{{ section.settings.btn-url }}">Shop Now!</a>
     </div>
 </div>
 
@@ -138,7 +138,25 @@
 {% schema %}
     {
         "name": "JGL Hero Section",
-        "settings": [],
+        "settings": [
+            {
+                "type":"text",
+                "id":"hero-title",
+                "label":"Hero Section Title",
+                "default": "RENOVATE YOUR HOME FOR LESS"
+            },
+            {
+                "type":"text",
+                "id":"hero-sub",
+                "label":"Hero Section Sub-Title",
+                "default": "Start the year right with brand new appliances."
+            },
+            {
+                "type":"url",
+                "id":"hero-url",
+                "label":"Hero Section Button Link"
+            }
+        ],
         
         "presets": [
     {
