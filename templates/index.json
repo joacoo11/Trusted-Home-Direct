@@ -1,7 +1,13 @@
 {
   "sections": {
+    "3b1ebad7-1421-4fec-8624-fb76065ba46e": {
+      "type": "jgl-hero",
+      "settings": {
+      }
+    },
     "dynamic_slideshow": {
       "type": "dynamic-slideshow",
+      "disabled": true,
       "blocks": {
         "slide-1": {
           "type": "slide",
@@ -721,6 +727,7 @@
     }
   },
   "order": [
+    "3b1ebad7-1421-4fec-8624-fb76065ba46e",
     "dynamic_slideshow",
     "600e896e-f8e3-4b3a-b819-09b469f943b2",
     "dynamic_highlights_banner",
