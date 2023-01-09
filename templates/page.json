@@ -6,6 +6,13 @@
       "settings": {
       }
     },
+    "685c7c05-12f9-45a7-b888-a13a951bdd52": {
+      "type": "dynamic-html",
+      "settings": {
+        "title": "",
+        "custom_html": "<div class=\"title-div-ab\"><h1>Price Match Guarantee<\/h1><\/div>"
+      }
+    },
     "d97d0ba6-9c37-43ff-8735-c2c4098a28b4": {
       "type": "dynamic-rich-text",
       "settings": {
@@ -19,6 +26,7 @@
   },
   "order": [
     "main",
+    "685c7c05-12f9-45a7-b888-a13a951bdd52",
     "d97d0ba6-9c37-43ff-8735-c2c4098a28b4"
   ]
 }
