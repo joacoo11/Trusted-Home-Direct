@@ -6,22 +6,19 @@
       "settings": {
       }
     },
-    "84c2da76-b5bf-4a7e-80e2-cd2f77dd8a30": {
-      "type": "jgl-about-us",
+    "d97d0ba6-9c37-43ff-8735-c2c4098a28b4": {
+      "type": "dynamic-rich-text",
       "settings": {
-        "about-title": "PRICE EFFICIENT WAY TO SOURCE TOP QUALITY HOME GOODS",
-        "about-sub": "We are a family owned company that prides ourselves to serve our cients with utmost honesty and transparency",
-        "box-title-1": "AUTHORIZED DEALER",
-        "box-p-1": "Trusted Home Direct is a Featured Authorized Dealer on all of our brands including: ZLINE Kitchen, Thor Kitchen, MRCOOL, Blaze Grills, Forno and Kucht Official Websites.",
-        "box-title-2": "CUSTOMER SATISFACTION.",
-        "box-p-2": "Offering exceptional customer service from when you visit the site to when you receive the product is at the core of our values. Our team is here to guide you along the process to ensure you receive each and every home product that matches your needs. We offer no additional charges for shipping and have a best in class return policy.",
-        "box-title-3": "QUALITY GUARANTEED.",
-        "box-p-3": "When you buy from Premium Home Source, you are guaranteed to have the highest quality products from the most trusted manufacturers. With our expert background, each manufacturer we partner with has decades of experience selling reliable and durable products. Each and every product comes with a manufacturer's warranty."
+        "width": "regular",
+        "title": "Price Match Guarantee",
+        "text": "<p>At our company, we are dedicated to providing our customers with the best prices<br\/>available online. We work closely with our suppliers to ensure that they have<br\/>established minimum advertised pricing policies for all of our competitors. This<br\/>means that all other retailers selling the same product online should be offering it at<br\/>the same price. If you happen to find another online store offering a lower price for<br\/>the same product within 30 days of your purchase from us, please let us know and<br\/>we will investigate to see if the competitor is in compliance with the minimum<br\/>advertised pricing policy. If it is determined that they are not following the policy and<br\/>you are eligible for a refund, we will credit the difference in price back to your credit<br\/>card.<br\/><\/p><p>We want our customers to feel confident that they are getting the best possible price<br\/>for the products they are purchasing from us. If you find that our own website has a<br\/>lower price for the same item that you have ordered within 30 days of your purchase,<br\/>we will also issue a credit for the price difference. To request a partial refund, simply<br\/>email us a link to the product on both our website and the competitor's website<br\/>within 30 days of the date of your order and we will process the credit accordingly.<br\/><\/p><p>It's important to note that our 100% Price Guarantee has some limitations. You must<br\/>purchase the item from our website before requesting a price match. Certain<br\/>promotions, such as rebates, holiday sales, and \"buy one, get one free\" offers, are not<br\/>eligible for the guarantee. The item must be in stock on the competitor's website, and<br\/>the competitor must be an online store without a physical retail location. The website<br\/>cannot be a discounter or auction site (e.g., eBay, Overstock, Walmart, Amazon, etc.).<br\/>In addition, the competitor must be an authorized retailer of the product in question.<br\/>Our price match guarantee includes the item price and the shipping charges, but<br\/>does not include sales tax.<br\/><\/p><p>We hope this information helps to clarify our price match policy. If you have any<br\/>further questions or concerns, please don't hesitate to reach out to us. We are always<br\/>here to assist our valued customers in any way we can.<br\/><\/p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
       }
     }
   },
   "order": [
     "main",
-    "84c2da76-b5bf-4a7e-80e2-cd2f77dd8a30"
+    "d97d0ba6-9c37-43ff-8735-c2c4098a28b4"
   ]
 }
