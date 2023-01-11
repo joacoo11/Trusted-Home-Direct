@@ -29,11 +29,25 @@
         "box-title-3": "QUALITY GUARANTEED.",
         "box-p-3": "When you buy from Premium Home Source, you are guaranteed to have the highest quality products from the most trusted manufacturers. With our expert background, each manufacturer we partner with has decades of experience selling reliable and durable products. Each and every product comes with a manufacturer's warranty."
       }
+    },
+    "1fde09fc-ce3b-4053-ace9-fa3532a14a55": {
+      "type": "jgl-4-way",
+      "settings": {
+        "highlight-img-1": "shopify:\/\/shop_images\/1.webp",
+        "highlight-title-1": "Free Shipping",
+        "highlight-img-2": "shopify:\/\/shop_images\/3.webp",
+        "highlight-title-2": "30 Day Returns",
+        "highlight-img-3": "shopify:\/\/shop_images\/2.webp",
+        "highlight-title-3": "Authorized Dealer",
+        "highlight-img-4": "shopify:\/\/shop_images\/4.webp",
+        "highlight-title-4": "Instalation services"
+      }
     }
   },
   "order": [
     "main",
     "d97d0ba6-9c37-43ff-8735-c2c4098a28b4",
-    "7af72fc3-182e-42d2-bcfe-d45731c99bc5"
+    "7af72fc3-182e-42d2-bcfe-d45731c99bc5",
+    "1fde09fc-ce3b-4053-ace9-fa3532a14a55"
   ]
 }
