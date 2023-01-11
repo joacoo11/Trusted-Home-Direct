@@ -7,6 +7,7 @@
     },
     "d97d0ba6-9c37-43ff-8735-c2c4098a28b4": {
       "type": "dynamic-rich-text",
+      "disabled": true,
       "settings": {
         "width": "regular",
         "title": "",
@@ -14,10 +15,24 @@
         "heading_size": "medium",
         "text_alignment": "left"
       }
+    },
+    "7af72fc3-182e-42d2-bcfe-d45731c99bc5": {
+      "type": "jgl-about-us",
+      "settings": {
+        "about-title": "PRICE EFFICIENT WAY TO SOURCE TOP QUALITY HOME GOODS",
+        "about-sub": "We are a family owned company that prides ourselves to serve our cients with utmost honesty and transparency",
+        "box-title-1": "We are a family owned company that prides ourselves to serve our cients with utmost honesty and transparency",
+        "box-p-1": "We are a family owned company that prides ourselves to serve our cients with utmost honesty and transparency",
+        "box-title-2": "We are a family owned company that prides ourselves to serve our cients with utmost honesty and transparency",
+        "box-p-2": "We are a family owned company that prides ourselves to serve our cients with utmost honesty and transparency",
+        "box-title-3": "We are a family owned company that prides ourselves to serve our cients with utmost honesty and transparency",
+        "box-p-3": "We are a family owned company that prides ourselves to serve our cients with utmost honesty and transparency"
+      }
     }
   },
   "order": [
     "main",
-    "d97d0ba6-9c37-43ff-8735-c2c4098a28b4"
+    "d97d0ba6-9c37-43ff-8735-c2c4098a28b4",
+    "7af72fc3-182e-42d2-bcfe-d45731c99bc5"
   ]
 }
