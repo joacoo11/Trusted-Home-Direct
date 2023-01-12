@@ -1,0 +1,159 @@
+<div class="browse-main">
+    <div class="browse-title">
+        <h1>BROWSE CATEGORIES</h1>
+    </div>
+    <div class="cat-div">
+        <div class="cat-box">
+            <img src="{{ section.settings.cat-img-1 | img_url }}" alt="" width="167" height="167">
+            <span>{{ section.settings.highlight-title-1 }}</span>
+        </div>
+        <div class="cat-box">
+            <img src="{{ section.settings.cat-img-2 | img_url }}" alt="" width="167" height="167">
+            <span>{{ section.settings.highlight-title-2 }}</span>
+        </div>
+        <div class="cat-box">
+            <img src="{{ section.settings.cat-img-3 | img_url }}" alt="" width="167" height="167">
+            <span>{{ section.settings.highlight-title-3 }}</span>
+        </div>
+        <div class="cat-box">
+            <img src="{{ section.settings.cat-img-4 | img_url }}" alt="" width="167" height="167">
+            <span>{{ section.settings.highlight-title-4 }}</span>
+        </div>
+        <div class="cat-box">
+            <img src="{{ section.settings.cat-img-5 | img_url }}" alt="" width="167" height="167">
+            <span>{{ section.settings.highlight-title-5 }}</span>
+        </div>
+        <div class="cat-box">
+            <img src="{{ section.settings.cat-img-6 | img_url }}" alt="" width="167" height="167">
+            <span>{{ section.settings.highlight-title-6 }}</span>
+        </div>
+    </div>
+</div>
+
+
+<style>
+.browse-main{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.browse-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.browse-title > h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.5;
+    display: block;
+    letter-spacing: 4.5px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: black;
+}
+
+.cat-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cat-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.cat-box img{
+    padding: 1rem;
+    object-fit: contain;
+    top: 0;
+    }
+
+</style>
+
+
+{% schema %}
+    {
+        "name": "JGL Browse Categories",
+        "settings": [
+            {
+                "type":"image_picker",
+                "id":"cat-img-1",
+                "label": "First Category img"
+            },
+            {
+                "type":"text",
+                "id":"highlight-title-1",
+                "label": "First Category Title",
+                "default": "New Years Deals"
+            },
+            {
+                "type":"image_picker",
+                "id":"cat-img-2",
+                "label": "Second Category img"
+            },
+            {
+                "type":"text",
+                "id":"highlight-title-2",
+                "label": "Second Category Title",
+                "default": "New Years Deals"
+            },
+            {
+                "type":"image_picker",
+                "id":"cat-img-3",
+                "label": "Third Category img"
+            },
+            {
+                "type":"text",
+                "id":"highlight-title-3",
+                "label": "Third Category Title",
+                "default": "New Years Deals"
+            },
+            {
+                "type":"image_picker",
+                "id":"cat-img-4",
+                "label": "Fourth Category img"
+            },
+            {
+                "type":"text",
+                "id":"highlight-title-4",
+                "label": "Fourth Category Title",
+                "default": "New Years Deals"
+            },
+            {
+                "type":"image_picker",
+                "id":"cat-img-5",
+                "label": "Fifth Category img"
+            },
+            {
+                "type":"text",
+                "id":"highlight-title-5",
+                "label": "Fifth Category Title",
+                "default": "New Years Deals"
+            },
+            {
+                "type":"image_picker",
+                "id":"cat-img-6",
+                "label": "Sixth Category img"
+            },
+            {
+                "type":"text",
+                "id":"highlight-title-6",
+                "label": "Sixth Category Title",
+                "default": "New Years Deals"
+            }
+        ],
+        "presets": [
+    {
+        "name": "JGL Browse Categories"
+    }]
+}
+{% endschema %}
