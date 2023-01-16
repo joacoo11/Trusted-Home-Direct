@@ -257,8 +257,55 @@
         navmenu_classes: 'site-navigation__secondary-menu',
       %}
     {% endif %}
+
+    <div class="live-chat">
+      <div class="first-box"><a href=""></a>
+        <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/chat-2.svg?v=1673895244" alt="">
+        <span>Live Chat</span>
+        </a> </div>
+     <div class="second-box"><a href=""></a>
+        <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/phone.svg?v=1673895301" alt="">
+        <span>(800) 805-7102</span>
+        </a></div>
+    </div>
   </nav>
+
+
 </div>
+
+<style>
+.live-chat{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.first-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  font-size: 12px;
+  max-width: 100%;
+  gap: 5px;
+
+}
+
+.second-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 12px;
+}
+</style>
 
 {%
   render 'site-mobile-nav',
