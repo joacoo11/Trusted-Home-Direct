@@ -102,7 +102,9 @@
 
   
 	{{ shop.metafields.loox["global_html_head"] }}
-{% render 'edt_p' %} </head>
+{% render 'edt_p' %} 	{% render 'vitals-loader' %}
+
+</head>
 
   <body class="template-{{ template.name }}" data-instant-allow-query-string {% if settings.reduce_animations %}data-reduce-animations{% endif %}>
     <script>

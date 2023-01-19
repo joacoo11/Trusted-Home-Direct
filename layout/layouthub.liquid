@@ -97,6 +97,8 @@
   {%- endif -%}
    {{ content_for_header }}
   
+	{% render 'vitals-loader' %}
+
 </head>
 
 <body class="template-{{ template | split: '.' | first }}">
