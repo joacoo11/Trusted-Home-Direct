@@ -58,6 +58,8 @@ html .navmenu-link{
     gap: 15px;
     margin-top: 30px;
     flex-wrap: wrap;
+    margin-left: 50px;
+
 
 }
 
@@ -82,4 +84,19 @@ html .navmenu-link{
     .pdp-box > img{
         width: 18px;
     }
+}
+
+html .gallery-navigation--scroller{
+    margin-left: 50px;
+}
+
+@media (max-width:950px) {
+    html .gallery-navigation--scroller{
+        margin-left: 0;
+    }
+
+    .four-pdp{
+        margin-left: 0;
+    }
+    
 }
