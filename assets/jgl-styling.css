@@ -28,3 +28,8 @@ html .site-header-main.site-header--full-width{
     }
     
 }
+
+html .product-form--atc-button {
+    background-color: #F04F36;
+    color: white;
+}
