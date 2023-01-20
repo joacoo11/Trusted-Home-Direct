@@ -11,7 +11,7 @@
     </span>
   {%- endcapture -%}
 
-  <nav
+  {% comment %} <nav
     class="breadcrumbs-container"
     aria-label="{{ 'general.accessibility.nav_breadcrumbs' | t }}"
   >
@@ -115,5 +115,5 @@
        <span>{{ page_title }}</span>
 
     {% endif %}
-  </nav>
+  </nav> {% endcomment %}
 {% endif %}

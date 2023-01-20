@@ -32,10 +32,54 @@ html .site-header-main.site-header--full-width{
 html .product-form--atc-button {
     background-color: #F04F36;
     color: white;
+    width: 100%;
+    margin: 0;
 }
+
+html .product-form--atc-button:hover{
+    background-color: #F04F36 !important;
+    color: white;
+}
+
+
 
 html .product-title{
     font-size: 1.25rem!important;
     font-weight: 500!important;
 
+}
+
+html .navmenu-link{
+    color: black !important;
+}
+
+.four-pdp{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+
+}
+
+.pdp-box{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 10px;
+    max-width: 50%;
+}
+
+.pdp-box > span{
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.pdp-box > img{
+    max-width: 100%;
+}
+
+@media (max-width:600px) {
+    .pdp-box > img{
+        width: 18px;
+    }
 }
