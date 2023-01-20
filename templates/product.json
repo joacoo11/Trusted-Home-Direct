@@ -91,6 +91,19 @@
       "type": "still-need",
       "settings": {
       }
+    },
+    "2e8a29d0-4c21-4421-b3d0-418876031f50": {
+      "type": "jgl-4-way",
+      "settings": {
+        "highlight-img-1": "shopify:\/\/shop_images\/1.webp",
+        "highlight-title-1": "Free Shipping",
+        "highlight-img-2": "shopify:\/\/shop_images\/3.webp",
+        "highlight-title-2": "30 Day Shipping",
+        "highlight-img-3": "shopify:\/\/shop_images\/2.webp",
+        "highlight-title-3": "Authorized Dealer",
+        "highlight-img-4": "shopify:\/\/shop_images\/4.webp",
+        "highlight-title-4": "Instalation Services"
+      }
     }
   },
   "order": [
@@ -101,6 +114,7 @@
     "loox-product-reviews-app-section",
     "3092607b-6072-471e-b1ee-30234a6dd58d",
     "9060fbab-44fd-409f-9dab-d8c0f5b78858",
-    "4688f15c-b6fd-4d07-bf0d-d45fd613d9c7"
+    "4688f15c-b6fd-4d07-bf0d-d45fd613d9c7",
+    "2e8a29d0-4c21-4421-b3d0-418876031f50"
   ]
 }
