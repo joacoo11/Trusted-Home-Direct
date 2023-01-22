@@ -8,19 +8,8 @@
           "settings": {
           }
         },
-        "vendor": {
-          "type": "vendor",
-          "settings": {
-          }
-        },
         "price": {
           "type": "price",
-          "settings": {
-          }
-        },
-        "description": {
-          "type": "description",
-          "disabled": true,
           "settings": {
           }
         },
@@ -28,20 +17,12 @@
           "type": "form",
           "settings": {
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "title",
-        "vendor",
         "price",
-        "description",
-        "form",
-        "share"
+        "form"
       ],
       "settings": {
         "gallery_aspect_ratio": "natural",
