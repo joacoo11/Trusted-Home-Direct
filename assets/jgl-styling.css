@@ -24,7 +24,7 @@ html .site-header-main.site-header--full-width{
         margin-top: -22px;
         display: flex;
         justify-content: center;
-        max-height: 64px;
+        max-height: 80px;
     }
     
 }
@@ -99,4 +99,11 @@ html .gallery-navigation--scroller{
         margin-left: 0;
     }
     
+}
+
+
+
+html [data-product-gallery-aspect-ratio=natural] .product-gallery--media img, .product-gallery--media svg{
+    max-height: 500px;
+    max-width: 70%;
 }
