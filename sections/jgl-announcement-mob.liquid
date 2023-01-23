@@ -5,8 +5,6 @@
     <div class="websensepro-message swiper-slide">{{block.settings.message}}</div>
     {%- endfor -%}
   </div>
-  <div class="websensepro-swiper-button swiper-button-prev"></div>
-  <div class="websensepro-swiper-button swiper-button-next"></div>
 </div>
 <!-- code by websensepro.com -->
 <script src="//cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
@@ -45,6 +43,12 @@
   .websensepro-swiper-button {
     display: block !important;
     top: 75% !important;
+  }
+
+  @media (min-width:550px){
+    .websensepro-announcement-bar{
+        display: none;
+    }
   }
 
 </style>
