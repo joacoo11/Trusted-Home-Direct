@@ -270,6 +270,41 @@
           "announcement-url-2": "",
           "announcement-url-3": ""
         }
+      },
+      "jgl-announcement-mob": {
+        "type": "jgl-announcement-mob",
+        "blocks": {
+          "3bc692b4-b960-4d3a-b99a-8ee45dcf3123": {
+            "type": "header",
+            "settings": {
+              "message": "Fast & Free Shipping"
+            }
+          },
+          "8ba4d8bf-bae4-4bf9-961b-9c63f5d1cb56": {
+            "type": "header",
+            "settings": {
+              "message": "Christmas Sale Ending in 48 Hours"
+            }
+          },
+          "e4b260d0-14e2-4b47-858f-e228495fc23b": {
+            "type": "header",
+            "settings": {
+              "message": "Top Rated Reviews"
+            }
+          }
+        },
+        "block_order": [
+          "3bc692b4-b960-4d3a-b99a-8ee45dcf3123",
+          "8ba4d8bf-bae4-4bf9-961b-9c63f5d1cb56",
+          "e4b260d0-14e2-4b47-858f-e228495fc23b"
+        ],
+        "settings": {
+          "show_announcement_bar": true,
+          "autoplay": true,
+          "delay": "2500",
+          "colorBackground": "{{ shop.brand.colors.primary[0].background }}",
+          "colorText": "{{ shop.brand.colors.primary[0].foreground }}"
+        }
       }
     },
     "content_for_index": [

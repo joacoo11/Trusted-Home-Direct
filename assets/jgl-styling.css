@@ -121,10 +121,6 @@ html [data-product-gallery-aspect-ratio=natural] .product-gallery--media img, .p
     display: block;
 }
 
-.announcement-mob{
-    display: none;
-}
-
 @media (max-width:600px) {
     .announcement-des{
         display: none;
