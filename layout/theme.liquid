@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.shopifycdn.com">
     <link rel="preconnect" href="https://v.shopify.com">
     <link rel="preconnect" href="https://cdn.shopifycloud.com">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
 
     <title>
       {{- page_title -}}
@@ -114,7 +116,12 @@
     </script>
     <a class="skip-to-main" href="#site-main">{{ 'general.accessibility.skip_to_content' | t }}</a>
     {% comment %} {% section 'static-announcement' %} {% endcomment %}
-    {% section 'jgl-announcement' %}
+    <div class="announcement-des">
+      {% section 'jgl-announcement' %}
+    </div>
+    <div class="announcement-mob">
+      {% section 'jgl-announcement-mob' %}
+    </div>
     {% comment %} {% section 'static-utility-bar' %} {% endcomment %}
     {% section 'jgl-utility-bar' %}
     <header
@@ -440,7 +447,9 @@
  
 	{{ shop.metafields.loox["global_html_body"] }}
 
-  {{ 'slick-img.js' | asset_url | script_tag }}
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
 
 </body>
 </html>

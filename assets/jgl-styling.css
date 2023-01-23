@@ -115,3 +115,19 @@ html [data-product-gallery-aspect-ratio=natural] .product-gallery--media img, .p
     max-height: 500px;
     max-width: 70%;
 }
+
+
+.announcement-des{
+    display: block;
+}
+
+@media (max-width:600px) {
+    .announcement-des{
+        display: none;
+    }
+
+    .announcement-mob{
+        display: block;
+    }
+    
+}
