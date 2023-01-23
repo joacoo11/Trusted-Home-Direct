@@ -9,14 +9,22 @@ html .site-header-main .live-search {
 }
 
 html .site-header-main-content{
-    margin-right: 11rem;
-    justify-content: space-around;
-}
-
-html .site-header-main.site-header--full-width{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     max-height: 80px;
+
+
 }
 
+
+}
+
+html .site-header-right{
+    gap: 0px;
+}
+html .site-logo-image{
+    max-height: none;
 }
 
 @media (max-width:1125px) {    
