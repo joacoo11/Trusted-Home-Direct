@@ -301,7 +301,7 @@
         "settings": {
           "show_announcement_bar": true,
           "autoplay": true,
-          "delay": "2500",
+          "delay": "2000",
           "colorBackground": "{{ shop.brand.colors.primary[0].background }}",
           "colorText": "{{ shop.brand.colors.primary[0].foreground }}"
         }
