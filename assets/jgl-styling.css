@@ -35,6 +35,11 @@ html .site-header-right{
 
 
 
+html .site-footer-block-menu .site-footer-block-title{
+    color: black;
+}
+
+
 
 @media (max-width:1125px) {    
     html .site-header-logo {
