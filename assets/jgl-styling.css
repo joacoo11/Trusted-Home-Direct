@@ -15,6 +15,16 @@ html .site-logo-image{
     
 }
 
+.logo-jgl{
+    max-width: 180px;
+    margin-left: 60px;
+}
+
+.logo-jgl > img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
 html .site-header-main-content{
     display: flex;
     justify-content: space-between;
