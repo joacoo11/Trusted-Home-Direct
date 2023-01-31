@@ -154,3 +154,9 @@ html [data-product-gallery-aspect-ratio=natural] .product-gallery--media img, .p
     }
     
 }
+
+
+html .navmenu-submenu:not(.navmenu-meganav)[data-animation-state=open]{
+    width: 100%;
+    margin-left: -320px;
+}
