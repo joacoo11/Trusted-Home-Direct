@@ -307,10 +307,10 @@
         {%- render 'icon-spinner' -%}
       </span>
     </button>
-
+{% comment %} 
     {% if show_dynamic_checkout_button %}
       {{ form | payment_button }}
-    {% endif %}
+    {% endif %} {% endcomment %}
   </div>
 
   <div data-payment-terms-reference style="display: none;">
