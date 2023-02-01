@@ -26,7 +26,6 @@ html .site-header-main-content{
 
 html .site-header-right{
     gap: 0px;
-    margin-right: -47px;
 
 }
 
@@ -155,8 +154,29 @@ html [data-product-gallery-aspect-ratio=natural] .product-gallery--media img, .p
     
 }
 
-
+/* 
 html .navmenu-submenu:not(.navmenu-meganav)[data-animation-state=open]{
     width: 100%;
     margin-left: -320px;
+} */
+
+
+@media screen and (min-width: 1024px){
+html .site-header-cart {
+    right: 71px;
+}
+}
+
+.span-cart{
+    color: black;
+    font-weight: 700!important;
+    font-size: 16px;
+    margin-top: 3px;
+    text-decoration: none;
+}
+
+html .site-header-actions .site-header_account-link-text{
+    color: black;
+    font-weight: 700!important;
+    font-size: 16px;
 }
