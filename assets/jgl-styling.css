@@ -29,9 +29,27 @@ html .site-header-right{
 
 }
 
+.logo-store{
+    object-fit:cover;   
+    margin-left: 30px;
+}
+
+.site-header-logo{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
 
 }
 
+.logo-store{
+    object-fit:cover;   
+}
+
+.site-header-logo{
+    display: flex;
+    justify-content: center;
+}
 
 
 html .site-footer-block-menu .site-footer-block-title{
@@ -39,16 +57,6 @@ html .site-footer-block-menu .site-footer-block-title{
 }
 
 
-
-@media (max-width:1125px) {    
-    html .site-header-logo {
-        margin-top: -22px;
-        display: flex;
-        justify-content: center;
-        max-height: 80px;
-    }
-    
-}
 
 html .product-form--atc-button {
     background-color: #F04F36;
@@ -150,6 +158,9 @@ html [data-product-gallery-aspect-ratio=natural] .product-gallery--media img, .p
 
     .announcement-mob{
         display: block;
+    }
+    .span-cart{
+display: none;
     }
     
 }

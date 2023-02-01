@@ -40,15 +40,7 @@
 {% assign logo_width = section.settings.logo_width | default: 200 %}
 {% assign logo_size = logo_width | prepend: 'x' %}
 
-{% style %}
-  .site-logo {
-    max-width: {{ logo_width }}px;
-  }
 
-  .site-logo-image {
-    max-height: {{ logo_height }}px;
-  }
-{% endstyle %}
 
 <div
   class="
@@ -114,26 +106,8 @@
           {% if logo_alt == '' %}
             {% assign logo_alt = shop.name | strip %}
           {% endif %}
-
-          {%
-            render 'rimg',
-            img: section.settings.logo,
-            class: 'site-logo-image',
-            alt: logo_alt,
-            size: logo_size
-          %}
-        
-        {% else %}
-          {% if template == 'index' %}
-            <h1 class="site-logo-text">
-              {{ shop.name }}
-            </h1>
-          {% else %}
-            <span class="site-logo-text">
-              {{ shop.name }}
-            </span>
-          {% endif %}
-        {% endif %}
+          <img class="logo-store" src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/output-onlinepngtools.png?v=1674745565" width="250" height="65" alt="">
+                {% endif %}
       </a>
     </div> 
 
