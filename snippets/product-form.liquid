@@ -307,11 +307,22 @@
         {%- render 'icon-spinner' -%}
       </span>
     </button>
+
 {% comment %} 
     {% if show_dynamic_checkout_button %}
       {{ form | payment_button }}
     {% endif %} {% endcomment %}
   </div>
+
+{% capture current_date %}{{ 'now' | date: '%s' }}{% endcapture %}
+  {% assign estimated_delivery_start = current_date | plus: 259200 %}
+  {% assign estimated_delivery_end = estimated_delivery_start | plus: 604800 %}
+  
+  {% if product.available %}
+    <p> <strong> This item is in stock!</strong> Estimated delivery from {{ estimated_delivery_start | date: '%b %d' }} to {{ estimated_delivery_end | date: '%b %d' }}.</p>
+  {% else %}
+    <p>This item is currently out of stock.</p>
+  {% endif %}
 
   <div data-payment-terms-reference style="display: none;">
     {{ form | payment_terms }}

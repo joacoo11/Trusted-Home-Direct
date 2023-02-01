@@ -186,3 +186,16 @@
 {% if gallery_hover_zoom == 'separate' %}
   <div class="product-gallery--zoomed-image" data-zoomed-image></div>
 {% endif %}
+
+
+  {% if template.name == 'product' %}
+  <script>
+    $(document).ready(function() {
+      if ($(window).width() < 767) {
+        $('.product-gallery--image-background').slick({
+          // Add your Slick Slider settings here
+        });
+      }
+    });
+  </script>
+{% endif %}
