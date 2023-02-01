@@ -54,6 +54,20 @@
     },
     "loox-product-reviews-app-section": {
       "type": "apps",
+      "blocks": {
+        "78d2ff27-b790-4ed7-842d-a91a6790a50b": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "72919",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "78d2ff27-b790-4ed7-842d-a91a6790a50b"
+      ],
       "settings": {
         "include_padding": true
       }
