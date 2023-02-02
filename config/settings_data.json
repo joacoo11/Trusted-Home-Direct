@@ -319,20 +319,41 @@
           "mobile-footer-1": {
             "type": "newsletter",
             "settings": {
-              "title": "Subscribe",
-              "text": "<p>Invite customers to join your mailing list.<\/p>"
+              "title": "",
+              "text": "<p>Get it first. Sign up now for up-to-the-minute offers, sales and news.<\/p>"
             }
           },
           "mobile-footer-0": {
             "type": "menu",
             "settings": {
-              "menu": "main-menu"
+              "menu": "footer"
+            }
+          },
+          "b4ff6f3a-8085-4159-a15b-f44684def52b": {
+            "type": "menu",
+            "settings": {
+              "menu": "help"
+            }
+          },
+          "2c4fdb9d-ab11-48fa-8ab9-786d9a1a53c0": {
+            "type": "menu",
+            "settings": {
+              "menu": "about-us"
+            }
+          },
+          "d159fff2-5c5c-49ba-b6da-e72a76c2ba58": {
+            "type": "menu",
+            "settings": {
+              "menu": "customer-service"
             }
           }
         },
         "block_order": [
           "mobile-footer-1",
-          "mobile-footer-0"
+          "mobile-footer-0",
+          "b4ff6f3a-8085-4159-a15b-f44684def52b",
+          "2c4fdb9d-ab11-48fa-8ab9-786d9a1a53c0",
+          "d159fff2-5c5c-49ba-b6da-e72a76c2ba58"
         ],
         "settings": {
           "payment_icons": false,
