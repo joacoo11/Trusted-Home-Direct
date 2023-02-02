@@ -133,8 +133,14 @@
     <main id="site-main" class="site-main" aria-label="Main content" tabindex="-1">
       <!--LayoutHub-Workspace-Start-->{{ content_for_layout }}<!--LayoutHub-Workspace-End-->
     </main>
-
+  <div class="desktop-foot">
     {% section 'static-footer' %}
+  </div>
+
+  <div class="mobile-foot">
+    {% section 'mobile-footer' %}
+  </div>
+
 
     {% comment %}
       Below are various templates used in JavaScript
@@ -447,6 +453,13 @@
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
+  <script>
+    window.ChatraSetup = {
+        colors: {
+            buttonText: '#f0f0f0', 
+            buttonBg: '#F04F36'  
+        }
+    };
+    </script>
 </body>
 </html>

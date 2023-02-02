@@ -296,13 +296,16 @@
       {% if selected_variant and selected_variant.available == false %}disabled{% endif %}
       data-product-atc
     >
+    <div class="atc-btn">
       <span class="atc-button--text">
         {% unless selected_variant and selected_variant.available == false %}
-          {{ 'product.buttons.add_to_cart' | t }}
+          Add To Cart
         {% else %}
           {{ 'product.buttons.sold_out' | t }}
         {% endunless %}
       </span>
+      <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/icons8-shopping-cart-30.png?v=1675377371" width="20" height="20" alt="">
+    </div>
       <span class="atc-button--icon">
         {%- render 'icon-spinner' -%}
       </span>

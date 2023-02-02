@@ -132,6 +132,14 @@ html .gallery-navigation--scroller{
     .four-pdp{
         margin-left: 0;
     }
+
+    .mobile-foot{
+        display: block !important;
+    }
+    
+    .desktop-foot{
+        display: none;
+    }
     
 }
 
@@ -176,6 +184,8 @@ html .navmenu-submenu:not(.navmenu-meganav)[data-animation-state=open]{
 html .site-header-cart {
     right: 71px;
 }
+
+
 }
 
 .span-cart{
@@ -197,4 +207,17 @@ html .site-header-actions .site-header_account-link-text{
     color: #6c757d!important;
     font-size: 15px;
     margin-top: 10px;
+}
+
+
+.atc-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+
+.mobile-foot{
+    display: none;
 }
