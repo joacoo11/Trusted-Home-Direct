@@ -312,6 +312,34 @@
           "colorBackground": "{{ shop.brand.colors.primary[0].background }}",
           "colorText": "{{ shop.brand.colors.primary[0].foreground }}"
         }
+      },
+      "mobile-footer": {
+        "type": "mobile-footer",
+        "blocks": {
+          "mobile-footer-1": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Subscribe",
+              "text": "<p>Invite customers to join your mailing list.<\/p>"
+            }
+          },
+          "mobile-footer-0": {
+            "type": "menu",
+            "settings": {
+              "menu": "main-menu"
+            }
+          }
+        },
+        "block_order": [
+          "mobile-footer-1",
+          "mobile-footer-0"
+        ],
+        "settings": {
+          "payment_icons": false,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "additional_menu": "footer"
+        }
       }
     },
     "content_for_index": [
