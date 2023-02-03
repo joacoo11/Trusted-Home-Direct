@@ -1,1 +1,26 @@
-{"sections":{"main":{"type":"page-contact","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "page-contact",
+      "settings": {
+      }
+    },
+    "b98056e9-5289-4192-927b-58acd156e5e3": {
+      "type": "jgl-4-way",
+      "settings": {
+        "highlight-img-1": "shopify:\/\/shop_images\/1.webp",
+        "highlight-title-1": "Free Shipping",
+        "highlight-img-2": "shopify:\/\/shop_images\/2.webp",
+        "highlight-title-2": "Warranty Included",
+        "highlight-img-3": "shopify:\/\/shop_images\/3.webp",
+        "highlight-title-3": "30 Day Returns",
+        "highlight-img-4": "shopify:\/\/shop_images\/4.webp",
+        "highlight-title-4": "Talk To A LIVE Appliance Expert"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b98056e9-5289-4192-927b-58acd156e5e3"
+  ]
+}
