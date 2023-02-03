@@ -1,127 +1,183 @@
-<article class="site-page" data-template-page data-template-contact>
-
-  <header class="page-masthead">
-    <h1 class="page-title">
-      {{ page.title }}
-    </h1>
-  </header>
-  {% form 'contact' %}
-
-    {% if page.content != blank %}
-      <div class="page-content rte">
-        {{ page.content }}
-      </div>
-    {% endif %}
-
-    <div class="contact-page-content">
-      {% assign has_message = false %}
-
-      {% if form.errors != blank %}
-        {% assign has_message = true %}
-        {% assign message_type = 'error' %}
-      {% endif %}
-
-      {% if form.posted_successfully? %}
-        {% assign has_message = true %}
-        {% assign message_type = 'success' %}
-      {% endif %}
-
-      {% if has_message %}
-        <div class="contact-message message--{{ message_type }}">
-          {% case message_type %}
-            {% when 'success' %}
-              <p>
-                {{ 'contact.form.post_success' | t }}
-              </p>
-            {% when 'error' %}
-              {{ form.errors | default_errors }}
-          {% endcase %}
+<div class="contact-page">
+  <div class="contact-tite">
+    <h1>HOW CAN WE HELP?</h1>
+    <span>Inquiring About Shipping Times? Building a Custom Package? Use our Custom Package Builder today!</span>
+  </div>
+  <div class="con-box-div">
+      <div class="con-box">
+        <span>Call us at</span>
+        <div class="con-phone">
+          <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/phone.svg?v=1673895301" alt="">
+          <h2 class="phone-num">(973) 319-8188</h2>
         </div>
-      {% endif %}
+        <span class="phone-con"><strong>Extension 1:</strong>Talk to a Sales Pro</span>
+        <span class="phone-con-2"><strong>Extension 2:</strong>Talk to a Customer Service Pro</span>
 
-      <div class="form-fields-columns">
-        <div class="form-field form-field--half">
-          {% assign value = '' %}
-          {%- if form.name -%}
-            {% assign value = form.name %}
-          {%- elsif customer -%}
-            {% assign value = customer.name %}
-          {%- endif -%}
-
-          <input
-            class="form-field-input form-field-text {% if form.errors contains 'name' %}form-field-error{% endif %}"
-            id="contact_name"
-            name="contact[name]"
-            type="text"
-            value="{{ value }}">
-
-          <label class="form-field-title" for="contact_name">
-            {{ 'contact.form.name' | t }}
-          </label>
-        </div>
-
-        <div class="form-field form-field--half">
-          {% assign value = '' %}
-          {%- if form.email -%}
-            {% assign value = form.email %}
-          {%- elsif customer -%}
-            {% assign value = customer.email %}
-          {%- endif -%}
-          <input
-            class="form-field-input form-field-text {% if form.errors contains 'email' %}form-field-error{% endif %}"
-            id="contact_email"
-            name="contact[email]"
-            type="text"
-            value="{{ value }}"
-            autocorrect="off"
-            autocapitalize="off">
-
-          <label class="form-field-title" for="contact_email">
-            {{ 'contact.form.email' | t }}
-          </label>
-        </div>
+        <p class="low-span">Monday to Sunday
+          9:00am - 9:00pm EST</p>
       </div>
-
-      <div class="form-field">
-        {% assign value = '' %}
-        {%- if form.phone -%}
-          {% assign value = form.phone %}
-        {%- elsif customer -%}
-          {% assign value = customer.phone %}
-        {%- endif -%}
-
-        <input
-          class="form-field-input form-field-text {% if form.errors contains 'phone' %}form-field-error{% endif %}"
-          id="contact_phone"
-          name="contact[phone]"
-          type="tel"
-          value="{{ value }}">
-
-        <label class="form-field-title" for="contact_phone">
-          {{ 'contact.form.phone' | t }}
-        </label>
+      <div class="con-box">
+        <span>Email us</span>
+        <a href=""><div class="con-btn"><img class="img-con" src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/email.svg?v=1675451998" alt=""><span>Send Email</span></div></a>
+        <p class="p-con">Email us with any question/inquiry and our experts will follow back in shortest time possible</p>
+        <span class="low-span"> Question about an order? Don't forget to mention your order number in the email</span>
       </div>
-
-      <div class="form-field">
-        {% assign value = '' %}
-        {%- if form.body -%}
-          {% assign value = form.body %}
-        {%- endif -%}
-        <textarea
-          class="form-field-input form-field-textarea {% if form.errors contains 'body' %}form-field-error{% endif %}"
-          id="contact_message"
-          name="contact[message]">{{ value }}</textarea>
-
-        <label class="form-field-title" for="contact_body">
-          {{ 'contact.form.message' | t }}
-        </label>
+      <div class="con-box">
+        <span>Live Chat</span>
+        <a href="" onclick="Chatra('openChat', true)"><div class="con-btn"><img class="img-con" src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/chat_0b14ac62-4ad8-43a8-8b34-c56f11b7c2b5.svg?v=1674186530" alt=""><span>Start Chat</span></div></a>
+        <p class="p-con-2">Get advice from one of our Appliance Product Experts</p>
+        <span class="low-span">Monday to Sunday
+          9:00am - 9:00pm EST</span>
       </div>
+  </div>
+  <div class="guarantee">
+    <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/guara.svg?v=1675453347" alt="">
+    <span>We guarantee you the best experience and prices from our team!
 
-      <div class="form-action-row">
-        <button class="button-primary contact-form-button" type="submit">
-          {{ 'contact.form.send' | t }}
-        </button>
-      </div>
-    </div>
-  {% endform %}
-</article>
+    </span>
+  </div>
+</div>
+
+
+
+
+<style>
+.contact-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background:#f6f4f3;
+  padding-top: 40px;
+  }
+
+  .phone-num{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: black;
+  }
+
+  .phone-con{
+      text-align: left;
+      font-size: 13px;
+      line-height: 34px;
+  }
+
+  .phone-con-2{
+    text-align: left;
+    font-size: 13px;
+    line-height: 25px;
+    }
+
+
+.contact-title{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.5;
+  display: block;
+  letter-spacing: 4.5px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: 
+}
+
+.con-box-div{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 50px;
+  gap: 20px;
+  width: 100%;
+  max-width: 920px;
+  margin-bottom: 50px;
+}
+
+.con-box{
+  background-color: white;
+  width: 33%;
+  padding: 3rem;
+  }
+
+  .con-box > a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 17px;
+    min-height: 41px;
+    margin-top: 20px;
+    border: 2px solid black;
+    }
+
+
+    .con-btn{
+      display: flex;
+      gap: 10px;
+      
+    }
+
+
+
+.con-phone{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.p-con{
+  text-align: center;
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 30px;
+  }
+
+  .p-con-2{
+  text-align: center;
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 53px;
+  }
+
+  .low-span{
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 25px;
+  }
+
+  .guarantee{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 50px;
+  }
+
+
+  @media (max-width:950px){
+    .con-box-div{
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-tite{
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
+
+.con-box{
+  background-color: white;
+  width: 90%;
+  padding: 3rem;
+  }
+  }
+</style>
