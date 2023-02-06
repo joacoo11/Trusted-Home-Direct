@@ -221,3 +221,8 @@ html .site-header-actions .site-header_account-link-text{
 .mobile-foot{
     display: none;
 }
+
+
+html .site-footer-wrapper{
+    margin-top: 0;
+}
