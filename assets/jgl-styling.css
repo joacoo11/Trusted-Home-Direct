@@ -2,7 +2,19 @@ html, body{
     overflow-x: hidden !important;
 }
 
+@media (min-width:1023px) {    
+
+    .mobile-phone{
+        display: none;
+    }
+
+
+
+}
+
+
 @media (min-width:1125px) {    
+
 
 html .site-header-main .live-search {
     max-width: 400px;
@@ -140,6 +152,11 @@ html .gallery-navigation--scroller{
     .desktop-foot{
         display: none;
     }
+
+    html .site-header-cart{
+        right: 17px;
+        top:22px;
+    }
     
 }
 
@@ -226,3 +243,5 @@ html .site-header-actions .site-header_account-link-text{
 html .site-footer-wrapper{
     margin-top: 0;
 }
+
+

@@ -179,6 +179,9 @@
     {% render 'site-header-actions' %}
 
     <div class="site-header-cart">
+      <a href="tel:973-319-8188" class="mobile-phone">
+        <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/phone.svg?v=1673895301" width="23" height="23" alt="">
+      </a>
       <a class="site-header-cart--button" href="{{ routes.cart_url }}">
         <span
           class="site-header-cart--count {% if cart.item_count > 0 %}visible{% endif %}"
