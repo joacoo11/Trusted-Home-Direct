@@ -65,7 +65,15 @@ html .site-header-right{
 
 
 html .site-footer-block-menu .site-footer-block-title{
-    color: black;
+    height: 50px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #b6b6b6!important;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+
 }
 
 
@@ -243,5 +251,7 @@ html .site-header-actions .site-header_account-link-text{
 html .site-footer-wrapper{
     margin-top: 0;
 }
+
+
 
 
