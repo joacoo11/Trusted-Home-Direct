@@ -19,6 +19,7 @@
     },
     "7af72fc3-182e-42d2-bcfe-d45731c99bc5": {
       "type": "jgl-about-us",
+      "disabled": true,
       "settings": {
         "about-title": "PRICE EFFICIENT WAY TO SOURCE TOP QUALITY HOME GOODS",
         "about-sub": "We are a family owned company that prides ourselves to serve our cients with utmost honesty and transparency",
@@ -32,6 +33,7 @@
     },
     "1fde09fc-ce3b-4053-ace9-fa3532a14a55": {
       "type": "jgl-4-way",
+      "disabled": true,
       "settings": {
         "highlight-img-1": "shopify:\/\/shop_images\/1.webp",
         "highlight-title-1": "Free Shipping",
