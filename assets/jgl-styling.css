@@ -194,7 +194,15 @@ html .site-header-menu-toggle--button{
         padding-left: 15px;
         color: white;
     }
-    
+
+    html {
+        margin-top: 30px;
+    }    
+
+}
+
+html {
+    margin-top: 50px;
 }
 
 html .site-footer-navigation{
