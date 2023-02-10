@@ -12,6 +12,11 @@ html, body{
 
 }
 
+html .mobile-nav-panel{
+    max-width: 365px;
+}
+
+
 .reviews-jgl{
     display: flex;
     margin-top: 5px;

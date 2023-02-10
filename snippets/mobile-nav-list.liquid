@@ -103,22 +103,24 @@
     </li>
   {% endfor %}
   <div class="live-chat chat-mob" >
+    <span class="start-chat">Need Help?</span>
     <div class="first-box" onclick="Chatra('openChat', true)"><a href=""></a>
       <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/chat-2.svg?v=1673895244" alt="">
-      <span>Live Chat</span>
+      <span >Start Live Chat</span>
       </a> </div>
-      <a href="tel:973-319-8188">
-        <div class="second-box" href>
-           <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/phone.svg?v=1673895301" alt="">
-           <span >(973) 319-8188</span>
-           </div>
-           </a> 
   </div>
 </ul>
 
 
 <style>
   .chat-mob{
+    display: flex;
     margin-left: 25px;
+    gap: 15px;
+  }
+
+  .start-chat{
+    font-size: 14px;
+    margin-top: 5px;
   }
 </style>

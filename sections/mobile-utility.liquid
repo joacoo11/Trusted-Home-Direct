@@ -1,0 +1,40 @@
+<div class="mobile-utility">
+    <span>{{ section.settings.utility-left-text-1}}</span>
+</div>
+
+<style>
+    .mobile-utility{
+        display: none;
+    }
+
+    @media (max-width:784px) {
+        .mobile-utility{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid #dee2e6 !important;
+            padding-left: 3em;
+            padding-right: 3em;
+            height: 41px;
+            font-size: 12px;
+            margin-top: 40px;
+            
+        }
+    }
+</style>
+
+
+{% schema %}
+    {
+    "name": " JGL Utility bar Mobile",
+    "settings": [
+        {
+        "id": "utility-left-text-1",
+        "type": "text",
+        "label": "Utility Bar Text Left",
+        "default": "Authorized Dealer - Free Shipping - 30 Day Returns"
+        }
+    ]
+    }
+
+{% endschema %}
