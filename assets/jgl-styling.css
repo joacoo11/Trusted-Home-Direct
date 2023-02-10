@@ -144,6 +144,10 @@ html .gallery-navigation--scroller{
     margin-left: 50px;
 }
 
+html .site-header-menu-toggle--button{
+    padding-bottom: 0px;
+}
+
 @media (max-width:950px) {
     html .gallery-navigation--scroller{
         margin-left: 0;
@@ -164,6 +168,19 @@ html .gallery-navigation--scroller{
     html .site-header-cart{
         right: 17px;
         top:22px;
+    }
+
+    .logo-store{
+        max-width: 170px;
+    }
+
+    html .site-footer-block-newsletter{
+        background-color: #F04F36;
+        width: 100vw;
+        margin-left: -9px;
+        margin-top: -12px;
+        padding: 15px;
+        color: white;
     }
     
 }

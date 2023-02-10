@@ -58,12 +58,13 @@
   {% endif %}
 >
   <button class="site-header-menu-toggle" data-menu-toggle>
-    <div class="site-header-menu-toggle--button" tabindex="-1">
-      <span class="toggle-icon--bar toggle-icon--bar-top"></span>
-      <span class="toggle-icon--bar toggle-icon--bar-middle"></span>
-      <span class="toggle-icon--bar toggle-icon--bar-bottom"></span>
-      <span class="visually-hidden">{{ 'general.accessibility.menu' | t }}</span>
-    </div>
+      <div class="site-header-menu-toggle--button" tabindex="-1">
+        <span class="toggle-icon--bar toggle-icon--bar-top"></span>
+        <span class="toggle-icon--bar toggle-icon--bar-middle"></span>
+        <span class="toggle-icon--bar toggle-icon--bar-bottom"></span>
+        <span class="visually-hidden">{{ 'general.accessibility.menu' | t }}</span>
+        </div>
+        <span class="menu-span">Menu</span>
   </button>
 
   {% unless section.settings.show_mobile_search_bar %}
