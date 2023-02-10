@@ -12,6 +12,12 @@ html, body{
 
 }
 
+.reviews-jgl{
+    display: flex;
+    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
 
 @media (min-width:1125px) {    
 
