@@ -179,13 +179,20 @@ html .site-header-menu-toggle--button{
         width: 100vw;
         margin-left: -9px;
         margin-top: -12px;
-        padding: 15px;
+        padding-top: 15px;
+        padding-left: 15px;
         color: white;
     }
     
 }
 
+html .site-footer-navigation{
+    display: none;
+}
 
+html .site-footer-credits-shop{
+    display: none;
+}
 
 html [data-product-gallery-aspect-ratio=natural] .product-gallery--media img, .product-gallery--media svg{
     max-height: 500px;
