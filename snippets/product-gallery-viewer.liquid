@@ -191,17 +191,17 @@
 {% if template.name == 'product' %}
   <script>
     {% comment %} $(document).ready(function() {
-      if ($(window).width() < 767) {
+      {% comment %} if ($(window).width() < 767) {
         $('.product-gallery--image-background').slick({
           arrows: true
         });
-      }
+      } {% endcomment %}
     }); {% endcomment %}
 
     document.addEventListener("DOMContentLoaded", () => {
-      $('.product-gallery--image-background').slick({
+      {% comment %} $('.product-gallery--image-background').slick({
         arrows: true
-      });
+      }); {% endcomment %}
     });
   </script>
 {% endif %}
