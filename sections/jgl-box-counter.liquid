@@ -93,11 +93,12 @@
     for (let i = 0; i < counterElements.length; i++) {
       if (isInViewport(document.getElementById("counter")) ) {
         let startingNumber = parseFloat(counterElements[i].innerHTML);
+        console.log(startingNumber)
         let o = 0;
         let counter = setInterval(function(){
           counterElements[i].innerHTML = o;
           o++;
-          if (o > startingNumber) {
+          if (o > 1) {
             clearInterval(counter);
           }
         }, 1);
