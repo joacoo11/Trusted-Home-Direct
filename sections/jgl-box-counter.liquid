@@ -96,7 +96,7 @@
         let counter = setInterval(function(){
           counterElements[i].innerHTML = o;
           o++;
-          if (o > 123) {
+          if (o > {{ section.settings.highlight-title-[i] }}) {
             clearInterval(counter);
           }
         }, 1);
