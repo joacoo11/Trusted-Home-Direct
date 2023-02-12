@@ -1,91 +1,91 @@
-<div class="have-question">
-    <div class="question-img">
-        <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/ques.jpg?v=1674186283" alt="">
+<div class="product--container have-question">
+  <div class="question-img">
+    <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/ques.jpg?v=1674186283" alt="">
+  </div>
+  <div class="question-span">
+    <h2>Have a question or want to build your own package?</h2>
+    <span>Talk with one of our trusted appliance experts today!</span>
+    <div class="action-btn">
+      <a href="tel:973-319-8188">
+        <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/call.svg?v=1674186528" alt="">
+        <span>
+          Call us
+        </span>
+      </a>
+      <a onclick="Chatra('openChat', true)">
+        <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/chat_0b14ac62-4ad8-43a8-8b34-c56f11b7c2b5.svg?v=1674186530" alt="">
+        <span>
+          Chat now
+        </span>
+      </a>
     </div>
-    <div class="question-span">
-        <h2>Have a question or want to build your own package?</h2>
-        <span>Talk with one of our trusted appliance experts today!</span>
-        <div class="action-btn">
-            <a href="tel:973-319-8188">
-                <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/call.svg?v=1674186528" alt="">
-                <span> 
-                    Call us
-                </span>
-            </a>
-            <a onclick="Chatra('openChat', true)">
-                <img src="https://cdn.shopify.com/s/files/1/0694/3499/9087/files/chat_0b14ac62-4ad8-43a8-8b34-c56f11b7c2b5.svg?v=1674186530" alt="">
-                <span> 
-                    Chat now
-                </span>
-            </a>
-        </div>
-    </div>
+  </div>
 </div>
 
 <style>
-    .have-question{
-        display: flex;
-        width: 100%;
-        margin-left: 10%;
-    }
+  .have-question {
+    display: flex;
+    width: 100%;
+    margin-left: 10%;
+  }
 
-    .question-img{
-        max-width: 150px;
-    }
+  .question-img {
+    max-width: 150px;
+  }
 
-    .question-img > img{
-        border-radius: 50%;
-        width: 100%;
-        height: auto;
-    }
+  .question-img > img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+  }
 
-    .action-btn > a{
-        text-decoration: none;
-        display: inline-flex;
-        border: 2px solid #F04F36;
-        background: #FFFFFF;
-        padding: 0.5rem 1.5rem;
-        align-content: center;
-        border-radius: 2rem;
-        justify-content: center;
-        margin-bottom: 0.5rem;
-        margin-right: 0.5rem;
-        font-weight: 500;
-        transition: color .2s ease,background-color .2s ease;
-        gap: 5px;
-        color: black;
-        margin-top: 15px;
-        cursor: pointer;
-    }
+  .action-btn > a {
+    text-decoration: none;
+    display: inline-flex;
+    border: 2px solid #F04F36;
+    background: #FFFFFF;
+    padding: 0.5rem 1.5rem;
+    align-content: center;
+    border-radius: 2rem;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    font-weight: 500;
+    transition: color 0.2s ease, background-color 0.2s ease;
+    gap: 5px;
+    color: black;
+    margin-top: 15px;
+    cursor: pointer;
+  }
 
 
-    .action-btn > a:hover{
-        background-color: #F04F36;
-        color: white;
-    }
+  .action-btn > a:hover {
+    background-color: #F04F36;
+    color: white;
+  }
 
-    .question-span{
-        margin-left: 25px;
-    }
+  .question-span {
+    margin-left: 25px;
+  }
 
-    @media (max-width:768px){
-        .have-question{
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-left: 0;
-        }
+  @media(max-width:768px) {
+    .have-question {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0;
     }
+  }
 </style>
 
 {% schema %}
-    {
-        "name": "JGL PDP Question",
-        "settings": [],
-        "presets": [
-    {
-      "name": "JGL PDP Question"
-    }]
-}
+  {
+    "name": "JGL PDP Question",
+    "settings": [],
+    "presets": [
+      {
+        "name": "JGL PDP Question"
+      }
+    ]
+  }
 {% endschema %}
-
