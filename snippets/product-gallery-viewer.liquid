@@ -198,12 +198,23 @@
       }
     }); {% endcomment %}
 
-    {% comment %} document.addEventListener("DOMContentLoaded", () => {
-      jQuery(document).ready(function() {
-        jQuery('.product-gallery--viewer').slick({
-          arrows: true
-        });
+    document.addEventListener("DOMContentLoaded", () => {
+
+      jQuery('.product-gallery--viewer').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.product-gallery--navigation'
       });
-    }); {% endcomment %}
+      jQuery('.product-gallery--navigation').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.product-gallery--viewer',
+        dots: true,
+        centerMode: true,
+        focusOnSelect: true
+      });
+    });
   </script>
 {% endif %}
