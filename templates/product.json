@@ -49,6 +49,7 @@
     },
     "reviews": {
       "type": "static-product-reviews",
+      "disabled": true,
       "settings": {
       }
     },
