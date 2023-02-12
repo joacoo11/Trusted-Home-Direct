@@ -17266,13 +17266,16 @@ shopify-payment-terms {
   color: {{ settings.color_button_secondary_text }};
   background-color: {{ settings.color_button_secondary_background }};
   border: 1px solid {{ settings.color_button_secondary_border }};
-  font-size: var(--font-size-button-large) + 2px;
+  font-size: var(--font-size-button-large);
   padding: 0.875rem 1.75rem;
   letter-spacing: {{ settings.type_button_spacing | divided_by: 100.0 | append: 'em' }};
   width: 100%;
   margin-top: {{ space_small | divided_by: 16.0 | append: 'rem' }};
   margin-left: 0;
   font-size: var(--font-size-body);
+}
+.product-form--atc-button .atc-btn {
+  font-size: var(--font-size-button-large) + 2px;
 }
 .smart-payment-enabled .product-form--atc-button:not(.disabled):hover {
   background: {{ color_background | color_mix: settings.color_button_secondary_background, 20 }};
