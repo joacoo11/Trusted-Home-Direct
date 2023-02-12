@@ -102,7 +102,7 @@
   var counterElements = document.getElementsByClassName("counter");
   window.addEventListener("scroll", function(){
     for (let i = 0; i < counterElements.length; i++) {
-      if (isInViewport(document.getElementById("counter")) ) {
+      {% comment %} if (isInViewport(document.getElementById("counter")) ) { {% endcomment %}
         let startingNumber = parseFloat(counterElements[i].innerHTML);
         let o = 0;
         let counter = setInterval(function(){
@@ -112,7 +112,7 @@
             clearInterval(counter);
           }
         }, 1);
-      }
+      {% comment %} } {% endcomment %}
     }
   });
 
