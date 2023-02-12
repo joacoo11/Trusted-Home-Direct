@@ -15,11 +15,11 @@
   window.addEventListener("scroll", function(){
     for (let i = 0; i < counterElements.length; i++) {
       if (isInViewport(document.getElementById("counter")) ) {
-        let i = 0;
+        let o = 0;
         let counter = setInterval(function(){
           document.getElementById("counter").innerHTML = i;
-          i++;
-          if (i > 123) {
+          o++;
+          if (o > 123) {
             clearInterval(counter);
           }
         }, 1);
