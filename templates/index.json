@@ -149,6 +149,11 @@
         "highlight-img-4": "shopify:\/\/shop_images\/4.webp",
         "highlight-title-4": "Talk To A LIVE Appliance Expert"
       }
+    },
+    "4e085ad2-a191-44ad-8f40-e50158d4b18d": {
+      "type": "jgl-box-counter",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -160,6 +165,7 @@
     "48c4d2da-a0ce-4c09-af0e-f67b6f77d628",
     "dynamic_search",
     "3adbe16b-1746-4a30-b753-8f6f27572640",
-    "1ea9cb36-98d5-4e42-ad29-c5aa0140ef93"
+    "1ea9cb36-98d5-4e42-ad29-c5aa0140ef93",
+    "4e085ad2-a191-44ad-8f40-e50158d4b18d"
   ]
 }
