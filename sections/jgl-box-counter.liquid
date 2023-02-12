@@ -1,9 +1,34 @@
-<div class="jgl-counter" id="counter">
-    <div class="step-box counter">123</div>
-    <div class="step-box counter">123</div>
-    <div class="step-box counter">123</div>
-    <div class="step-box counter">123</div>
-    <div class="step-box counter">123 </div>
+<div class="jgl-counter jgl-5-way" id="counter">
+    <div class="step-5">
+        <div class="span-div-5">
+            <img src="{{ section.settings.highlight-img-1 | img_url }}" width="25" height="25" alt="">
+            <span class="strip-5-title counter">{{ section.settings.highlight-title-1 }}</span>
+        </div>
+    </div>
+    <div class="step-5">
+        <div class="span-div-5">
+            <img src="{{ section.settings.highlight-img-2 | img_url }}" width="25" height="25" alt="">
+            <span class="strip-5-title counter">{{ section.settings.highlight-title-2 }}</span>
+        </div>
+    </div>
+    <div class="step-5">
+        <div class="span-div-5">
+            <img src="{{ section.settings.highlight-img-3 | img_url }}" width="25" height="25" alt="">
+            <span class="strip-5-title counter">{{ section.settings.highlight-title-3 }}</span>
+        </div>
+    </div>
+    <div class="step-5">
+        <div class="span-div-5">
+            <img src="{{ section.settings.highlight-img-4 | img_url }}" width="25" height="25" alt="">
+            <span class="strip-5-title counter">{{ section.settings.highlight-title-4 }}</span>
+        </div>
+    </div>
+    <div class="step-5">
+      <div class="span-div-5">
+          <img src="{{ section.settings.highlight-img-5 | img_url }}" width="25" height="25" alt="">
+          <span class="strip-5-title counter">{{ section.settings.highlight-title-5 }}</span>
+      </div>
+  </div>
 </div>
 
 <style>
@@ -40,14 +65,68 @@
 </script>
 
 {% schema %}
-    {
-        "name": "JGL Box Counter",
-        "settings": [
-
-        ],
-        "presets": [
-    {
-        "name": "JGL Box Counter"
-    }]
+  {
+      "name": "JGL Box Counter",
+      "settings": [
+          {
+              "type":"image_picker",
+              "id":"highlight-img-1",
+              "label": "First Highlight img"
+          },
+          {
+              "type":"text",
+              "id":"highlight-title-1",
+              "label": "First Highlight Title",
+              "default": "Free Shipping"
+          },
+          {
+              "type":"image_picker",
+              "id":"highlight-img-2",
+              "label": "Second Highlight img"
+          },
+          {
+              "type":"text",
+              "id":"highlight-title-2",
+              "label": "Second Highlight Title",
+              "default": "Free Shipping"
+          },       
+          {
+              "type":"image_picker",
+              "id":"highlight-img-3",
+              "label": "Third Highlight img"
+          },   
+          {
+              "type":"text",
+              "id":"highlight-title-3",
+              "label": "Third Highlight Title",
+              "default": "Free Shipping"
+          },
+          {
+              "type":"image_picker",
+              "id":"highlight-img-4",
+              "label": "Fourth Highlight img"
+          },           
+           {
+              "type":"text",
+              "id":"highlight-title-4",
+              "label": "Fourth Highlight Title",
+              "default": "Free Shipping"
+          },
+          {
+              "type":"image_picker",
+              "id":"highlight-img-5",
+              "label": "Fourth Highlight img"
+          },           
+           {
+              "type":"text",
+              "id":"highlight-title-5",
+              "label": "Fourth Highlight Title",
+              "default": "Free Shipping"
+          }
+      ],
+      "presets": [
+  {
+    "name": "JGL Box Counter"
+  }]
 }
 {% endschema %}
