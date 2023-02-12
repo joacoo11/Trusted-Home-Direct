@@ -191,12 +191,12 @@
 {% if template.name == 'product' %}
   <script>
 
-    (function() {
-      jQuery(document).ready(function() {
-        jQuery('.product-gallery--viewer').slick({
-          arrows: true
-        });
+  document.addEventListener("DOMContentLoaded", () => {
+    jQuery(document).ready(function() {
+      jQuery('.product-gallery--viewer').slick({
+        arrows: true
       });
-   })();
+    });
+  });
   </script>
 {% endif %}
