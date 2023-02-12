@@ -190,10 +190,13 @@
 
 {% if template.name == 'product' %}
   <script>
-    jQuery(document).ready(function() {
-      jQuery('.product-gallery--viewer').slick({
-        arrows: true
+
+    (function() {
+      jQuery(document).ready(function() {
+        jQuery('.product-gallery--viewer').slick({
+          arrows: true
+        });
       });
-    });
+   })();
   </script>
 {% endif %}
