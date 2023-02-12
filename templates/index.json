@@ -56,6 +56,22 @@
         "highlight-title-6": "New Years Deals"
       }
     },
+    "1676235946b7784cbb": {
+      "type": "apps",
+      "blocks": {
+        "4db52bb9-b35b-4a34-8b74-c54424c601af": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/verified_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "4db52bb9-b35b-4a34-8b74-c54424c601af"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
     "4e085ad2-a191-44ad-8f40-e50158d4b18d": {
       "type": "jgl-box-counter",
       "settings": {
@@ -171,6 +187,7 @@
     "600e896e-f8e3-4b3a-b819-09b469f943b2",
     "16762315263bb84afa",
     "3cda035a-55ea-47f2-b79f-70914aaa5bc7",
+    "1676235946b7784cbb",
     "4e085ad2-a191-44ad-8f40-e50158d4b18d",
     "dynamic_featured_collection",
     "48c4d2da-a0ce-4c09-af0e-f67b6f77d628",
