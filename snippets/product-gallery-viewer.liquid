@@ -190,9 +190,9 @@
 
 {% if template.name == 'product' %}
   <script>
-    $(document).ready(function() {
-      if ($(window).width() < 767) {
-        $('.product-gallery--viewer').slick({
+    jQuery(document).ready(function() {
+      if (jQuery(window).width() < 767) {
+        jQuery('.product-gallery--viewer').slick({
           arrows: true
         });
       }
