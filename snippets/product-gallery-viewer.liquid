@@ -190,11 +190,17 @@
 
 {% if template.name == 'product' %}
   <script>
-
+    {% comment %} $(document).ready(function() {
+      if ($(window).width() < 767) {
+        $('.product-gallery--image-background').slick({
+          arrows: true
+        });
+      }
+    }); {% endcomment %}
 
     document.addEventListener("DOMContentLoaded", () => {
       jQuery(document).ready(function() {
-        jQuery('.product-gallery--image-background').slick({
+        jQuery('.product-gallery--viewer').slick({
           arrows: true
         });
       });
