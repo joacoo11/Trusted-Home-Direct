@@ -1,5 +1,5 @@
 <div class="jgl-counter">
-    <div class="step-box counter">123</div>
+    <div class="step-box counter" id="counter">123</div>
     <div class="step-box counter">1234</div>
     <div class="step-box counter">12345</div>
     <div class="step-box counter">123456</div>
@@ -12,10 +12,10 @@
 
 <script>
   window.addEventListener("scroll", function(){
-    if (isInViewport(document.getElementsByClassName("counter")) ) {
+    if (isInViewport(document.getElementById("counter")) ) {
       let i = 0;
       let counter = setInterval(function(){
-        document.getElementsByClassName("counter").innerHTML = i;
+        document.getElementById("counter").innerHTML = i;
         i++;
         if (i > 597432) {
           clearInterval(counter);
