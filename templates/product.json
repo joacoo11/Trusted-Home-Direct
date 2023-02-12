@@ -83,6 +83,11 @@
       "settings": {
       }
     },
+    "44ea05de-fb5b-4290-a5b8-0b1f0146b0f3": {
+      "type": "jgl-overview",
+      "settings": {
+      }
+    },
     "9060fbab-44fd-409f-9dab-d8c0f5b78858": {
       "type": "product-dropdown",
       "settings": {
@@ -114,6 +119,7 @@
     "recently-viewed",
     "loox-product-reviews-app-section",
     "3092607b-6072-471e-b1ee-30234a6dd58d",
+    "44ea05de-fb5b-4290-a5b8-0b1f0146b0f3",
     "9060fbab-44fd-409f-9dab-d8c0f5b78858",
     "4688f15c-b6fd-4d07-bf0d-d45fd613d9c7",
     "2e8a29d0-4c21-4421-b3d0-418876031f50"
