@@ -98,7 +98,7 @@
         let counter = setInterval(function(){
           counterElements[i].innerHTML = o;
           o++;
-          if (o > 1) {
+          if (o > startingNumber) {
             clearInterval(counter);
           }
         }, 1);
