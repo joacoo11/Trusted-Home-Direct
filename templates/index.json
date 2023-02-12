@@ -25,6 +25,26 @@
         "highlight-subtitle-4": "Talk to a real expert"
       }
     },
+    "16762315263bb84afa": {
+      "type": "apps",
+      "blocks": {
+        "27bb2abc-c55b-4a18-9562-eab6323afbff": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "74383",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "27bb2abc-c55b-4a18-9562-eab6323afbff"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
     "3cda035a-55ea-47f2-b79f-70914aaa5bc7": {
       "type": "jgl-browse-cat",
       "settings": {
@@ -134,6 +154,7 @@
   "order": [
     "3b1ebad7-1421-4fec-8624-fb76065ba46e",
     "600e896e-f8e3-4b3a-b819-09b469f943b2",
+    "16762315263bb84afa",
     "3cda035a-55ea-47f2-b79f-70914aaa5bc7",
     "dynamic_featured_collection",
     "48c4d2da-a0ce-4c09-af0e-f67b6f77d628",
