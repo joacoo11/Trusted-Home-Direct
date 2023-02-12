@@ -198,12 +198,12 @@
       }
     }); {% endcomment %}
 
-    document.addEventListener("DOMContentLoaded", () => {
+    {% comment %} document.addEventListener("DOMContentLoaded", () => {
       jQuery(document).ready(function() {
         jQuery('.product-gallery--viewer').slick({
           arrows: true
         });
       });
-    });
+    }); {% endcomment %}
   </script>
 {% endif %}
