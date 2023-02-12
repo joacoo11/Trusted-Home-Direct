@@ -56,6 +56,21 @@
         "highlight-title-6": "New Years Deals"
       }
     },
+    "4e085ad2-a191-44ad-8f40-e50158d4b18d": {
+      "type": "jgl-box-counter",
+      "settings": {
+        "highlight-img-1": "shopify:\/\/shop_images\/1200px-Toicon-icon-lines-and-angles-chat_svg.png",
+        "highlight-title-1": "200",
+        "highlight-img-2": "shopify:\/\/shop_images\/4.png",
+        "highlight-title-2": "300",
+        "highlight-img-3": "shopify:\/\/shop_images\/1.png",
+        "highlight-title-3": "7582",
+        "highlight-img-4": "shopify:\/\/shop_images\/1.png",
+        "highlight-title-4": "111",
+        "highlight-img-5": "shopify:\/\/shop_images\/3.png",
+        "highlight-title-5": "222"
+      }
+    },
     "dynamic_featured_collection": {
       "type": "dynamic-featured-collection",
       "disabled": true,
@@ -149,21 +164,6 @@
         "highlight-img-4": "shopify:\/\/shop_images\/4.webp",
         "highlight-title-4": "Talk To A LIVE Appliance Expert"
       }
-    },
-    "4e085ad2-a191-44ad-8f40-e50158d4b18d": {
-      "type": "jgl-box-counter",
-      "settings": {
-        "highlight-img-1": "shopify:\/\/shop_images\/1200px-Toicon-icon-lines-and-angles-chat_svg.png",
-        "highlight-title-1": "200",
-        "highlight-img-2": "shopify:\/\/shop_images\/4.png",
-        "highlight-title-2": "300",
-        "highlight-img-3": "shopify:\/\/shop_images\/1.png",
-        "highlight-title-3": "563",
-        "highlight-img-4": "shopify:\/\/shop_images\/1.png",
-        "highlight-title-4": "111",
-        "highlight-img-5": "shopify:\/\/shop_images\/3.png",
-        "highlight-title-5": "222"
-      }
     }
   },
   "order": [
@@ -171,11 +171,11 @@
     "600e896e-f8e3-4b3a-b819-09b469f943b2",
     "16762315263bb84afa",
     "3cda035a-55ea-47f2-b79f-70914aaa5bc7",
+    "4e085ad2-a191-44ad-8f40-e50158d4b18d",
     "dynamic_featured_collection",
     "48c4d2da-a0ce-4c09-af0e-f67b6f77d628",
     "dynamic_search",
     "3adbe16b-1746-4a30-b753-8f6f27572640",
-    "1ea9cb36-98d5-4e42-ad29-c5aa0140ef93",
-    "4e085ad2-a191-44ad-8f40-e50158d4b18d"
+    "1ea9cb36-98d5-4e42-ad29-c5aa0140ef93"
   ]
 }
