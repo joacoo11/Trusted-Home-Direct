@@ -92,7 +92,7 @@
   window.addEventListener("scroll", function(){
     for (let i = 0; i < counterElements.length; i++) {
       if (isInViewport(document.getElementById("counter")) ) {
-        startingNumber = parseFloat(counterElements[i].innerHTML);
+        let startingNumber = parseFloat(counterElements[i].innerHTML);
         let o = 0;
         let counter = setInterval(function(){
           counterElements[i].innerHTML = o;
