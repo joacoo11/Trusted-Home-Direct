@@ -31071,11 +31071,11 @@ class ProductGallery {
       initialIndex: parseInt(this.selected.figure.dataset.galleryIndex, 10),
       lazyLoad: false,
       percentPosition: false,
-      prevNextButtons: false,
+      prevNextButtons: true,
       pageDots: false,
       selectedAttraction: 0.1,
       setGallerySize: false,
-      wrapAround: true
+      wrapAround: true,
     });
     this.flickityEvent = this.events.register(this.viewer, 'rimg:load', () => {
       this._setSlideHeight();
