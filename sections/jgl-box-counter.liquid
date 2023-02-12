@@ -17,7 +17,7 @@
       if (isInViewport(document.getElementById("counter")) ) {
         let o = 0;
         let counter = setInterval(function(){
-          console.log(this)
+          elements[i].innerHTML = o;
           o++;
           if (o > 123) {
             clearInterval(counter);
