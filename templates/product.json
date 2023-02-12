@@ -42,6 +42,7 @@
     },
     "recommendations": {
       "type": "static-product-recommendations",
+      "disabled": true,
       "settings": {
         "show_product_recommendations": true,
         "product_recommendations_heading": "You may also like"
