@@ -199,7 +199,9 @@
     }); {% endcomment %}
 
     document.addEventListener("DOMContentLoaded", () => {
-
+      $('.product-gallery--image-background').slick({
+        arrows: true
+      });
     });
   </script>
 {% endif %}
