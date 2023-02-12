@@ -153,6 +153,11 @@
     "4e085ad2-a191-44ad-8f40-e50158d4b18d": {
       "type": "jgl-box-counter",
       "settings": {
+        "highlight-title-1": "200",
+        "highlight-title-2": "300",
+        "highlight-title-3": "563",
+        "highlight-title-4": "111",
+        "highlight-title-5": "222"
       }
     }
   },
