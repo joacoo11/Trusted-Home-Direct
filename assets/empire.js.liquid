@@ -30785,12 +30785,14 @@ class ProductGallery {
     this._onResize = this._onResize.bind(this);
     this.events.register(window, 'resize', () => this._onResize());
 
-    if (Layout.isLessThanBreakpoint('S')) {
-      this._setupFlickity();
+    // if (Layout.isLessThanBreakpoint('S')) {
+    //   this._setupFlickity();
 
-      this._handleScrollButtonVisibility();
-    }
+    //   this._handleScrollButtonVisibility();
+    // }
+    this._setupFlickity();
 
+    this._handleScrollButtonVisibility();
     this._selectMediaByEl(this.selected.figure);
   }
 
@@ -30859,12 +30861,12 @@ class ProductGallery {
       return;
     }
 
-    if (Layout.isGreaterThanBreakpoint('S', true)) {
-      this._disableFlickity();
-    } else {
-      this._setupFlickity();
-    }
-
+    // if (Layout.isGreaterThanBreakpoint('S', true)) {
+    //   this._disableFlickity();
+    // } else {
+    //   this._setupFlickity();
+    // }
+    this._setupFlickity();
     if (Layout.isGreaterThanBreakpoint('L', true) && !this.drift) {
       this._setupHoverZoom();
     } else if (Layout.isLessThanBreakpoint('L')) {
@@ -31058,7 +31060,7 @@ class ProductGallery {
   }
 
   _setupFlickity() {
-    // if (this.flickity || !Layout.isLessThanBreakpoint('S')) return;
+    if (this.flickity || !Layout.isLessThanBreakpoint('S')) return;
     this.flickity = new (js_default())(this.viewer, {
       accessibility: false,
       adaptiveHeight: true,
