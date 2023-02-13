@@ -100,7 +100,7 @@
 
 <script>
   var counterElements = document.getElementsByClassName("counter");
-  window.addEventListener("scroll", function(){
+  {% comment %} window.addEventListener("scroll", function(){ {% endcomment %}
     for (let i = 0; i < counterElements.length; i++) {
       {% comment %} if (isInViewport(document.getElementById("counter")) ) { {% endcomment %}
         let startingNumber = parseFloat(counterElements[i].innerHTML);
@@ -114,7 +114,7 @@
         }, 1);
       {% comment %} } {% endcomment %}
     }
-  });
+  {% comment %} }); {% endcomment %}
 
   function isInViewport(element) {
     var rect = element.getBoundingClientRect();
