@@ -6,9 +6,6 @@
         name="tabs" />
       <label for="so-tab-1">Specifications & Dimensions</label>
       <div class="so-tab-content prod-spec">
-        {% for item in product.metafields.custom.specifications.value %}
-        {% endfor %}
-
         <table class="table table-bordered" width="100%">
           <tbody>
             {% for item in product.metafields.custom.specifications.value %}
