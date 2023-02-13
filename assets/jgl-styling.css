@@ -161,7 +161,7 @@ html .site-header-menu-toggle--button{
 
 @media (max-width:950px) {
     html .gallery-navigation--scroller{
-        margin-left: 0;
+        display: none;
     }
 
     .four-pdp{
