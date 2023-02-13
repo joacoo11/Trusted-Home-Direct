@@ -25,6 +25,26 @@
         "highlight-subtitle-4": "Talk to a real expert"
       }
     },
+    "16762315263bb84afa": {
+      "type": "apps",
+      "blocks": {
+        "27bb2abc-c55b-4a18-9562-eab6323afbff": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "74383",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "27bb2abc-c55b-4a18-9562-eab6323afbff"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
     "3cda035a-55ea-47f2-b79f-70914aaa5bc7": {
       "type": "jgl-browse-cat",
       "settings": {
@@ -34,6 +54,37 @@
         "highlight-title-4": "New Years Deals",
         "highlight-title-5": "New Years Deals",
         "highlight-title-6": "New Years Deals"
+      }
+    },
+    "1676235946b7784cbb": {
+      "type": "apps",
+      "blocks": {
+        "4db52bb9-b35b-4a34-8b74-c54424c601af": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/verified_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "4db52bb9-b35b-4a34-8b74-c54424c601af"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "4e085ad2-a191-44ad-8f40-e50158d4b18d": {
+      "type": "jgl-box-counter",
+      "settings": {
+        "highlight-img-1": "shopify:\/\/shop_images\/1200px-Toicon-icon-lines-and-angles-chat_svg.png",
+        "highlight-title-1": "200",
+        "highlight-img-2": "shopify:\/\/shop_images\/4.png",
+        "highlight-title-2": "300",
+        "highlight-img-3": "shopify:\/\/shop_images\/1.png",
+        "highlight-title-3": "7582",
+        "highlight-img-4": "shopify:\/\/shop_images\/1.png",
+        "highlight-title-4": "111",
+        "highlight-img-5": "shopify:\/\/shop_images\/3.png",
+        "highlight-title-5": "222"
       }
     },
     "dynamic_featured_collection": {
@@ -134,7 +185,10 @@
   "order": [
     "3b1ebad7-1421-4fec-8624-fb76065ba46e",
     "600e896e-f8e3-4b3a-b819-09b469f943b2",
+    "16762315263bb84afa",
     "3cda035a-55ea-47f2-b79f-70914aaa5bc7",
+    "1676235946b7784cbb",
+    "4e085ad2-a191-44ad-8f40-e50158d4b18d",
     "dynamic_featured_collection",
     "48c4d2da-a0ce-4c09-af0e-f67b6f77d628",
     "dynamic_search",

@@ -1,26 +1,118 @@
-<div class="jgl-counter">
-    <div class="step-box" id="counter"></div>
-    <div class="step-box"></div>
-    <div class="step-box"></div>
-    <div class="step-box"></div>
-    <div class="step-box"></div>
+<div class="jgl-counter jgl-5-way" id="counter">
+    <div class="step-5">
+        <div class="span-div-5">
+            <img src="{{ section.settings.highlight-img-1 | img_url }}" width="25" height="25" alt="">
+            <span class="strip-5-title counter">{{ section.settings.highlight-title-1 }}</span>
+            <small class="small-5">{{ section.settings.highlight-small-1 }}</small>
+        </div>
+    </div>
+    <div class="step-5">
+        <div class="span-div-5">
+            <img src="{{ section.settings.highlight-img-2 | img_url }}" width="25" height="25" alt="">
+            <span class="strip-5-title counter">{{ section.settings.highlight-title-2 }}</span>
+            <small class="small-5">{{ section.settings.highlight-small-2 }}</small>
+        </div>
+    </div>
+    <div class="step-5">
+        <div class="span-div-5">
+            <img src="{{ section.settings.highlight-img-3 | img_url }}" width="25" height="25" alt="">
+            <span class="strip-5-title counter">{{ section.settings.highlight-title-3 }}</span>
+            <small class="small-5">{{ section.settings.highlight-small-3 }}</small>
+        </div>
+    </div>
+    <div class="step-5">
+        <div class="span-div-5">
+            <img src="{{ section.settings.highlight-img-4 | img_url }}" width="25" height="25" alt="">
+            <span class="strip-5-title counter">{{ section.settings.highlight-title-4 }}</span>
+            <small class="small-5">{{ section.settings.highlight-small-4 }}</small>
+        </div>
+    </div>
+    <div class="step-5">
+      <div class="span-div-5">
+          <img src="{{ section.settings.highlight-img-5 | img_url }}" width="25" height="25" alt="">
+          <span class="strip-5-title counter">{{ section.settings.highlight-title-5 }}</span>
+          <small class="small-5">{{ section.settings.highlight-small-5 }}</small>
+      </div>
+  </div>
 </div>
 
 <style>
+    .jgl-5-way{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+    }
 
+    .jgl-mobile-highlight{
+        display: none;
+    }
+
+    .step-5{
+        display: flex;
+        justify-self: center;
+        cursor: pointer;
+    }
+
+    .strip-5-title{
+        color: #000;
+        font-weight: 400;
+        line-height: 1.5;
+        font-size: 1.75rem;
+        max-width: 150px;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+
+    .span-div-5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        gap: 5px;
+    }
+
+    .small-5{
+      font-size: 13px;
+      line-height: 20px;
+      text-align: center;
+    }
+
+    @media (max-width:900px){
+        .jgl-5-way{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+            height: 300px;
+        }
+
+        .strip-5-title{
+            line-height: 20px;
+            font-size: 15px;
+        }
+    
+    }
 </style>
 
 <script>
+  var counterElements = document.getElementsByClassName("counter");
   window.addEventListener("scroll", function(){
-    if (isInViewport(document.getElementById("counter")) ) {
-      let i = 0;
-      let counter = setInterval(function(){
-        document.getElementById("counter").innerHTML = i;
-        i++;
-        if (i > 597432) {
-          clearInterval(counter);
-        }
-      }, 1);
+    for (let i = 0; i < counterElements.length; i++) {
+      {% comment %} if (isInViewport(document.getElementById("counter")) ) { {% endcomment %}
+        let startingNumber = parseFloat(counterElements[i].innerHTML);
+        let o = 0;
+        let counter = setInterval(function(){
+          counterElements[i].innerHTML = o;
+          o++;
+          if (o > startingNumber) {
+            clearInterval(counter);
+          }
+        }, 1);
+      {% comment %} } {% endcomment %}
     }
   });
 
@@ -37,14 +129,98 @@
 </script>
 
 {% schema %}
-    {
-        "name": "JGL Box Counter",
-        "settings": [
-
-        ],
-        "presets": [
-    {
-        "name": "JGL Box Counter"
-    }]
+  {
+      "name": "JGL Box Counter",
+      "settings": [
+          {
+              "type":"image_picker",
+              "id":"highlight-img-1",
+              "label": "First Highlight img"
+          },
+          {
+              "type":"text",
+              "id":"highlight-title-1",
+              "label": "First Highlight Title, MUST BE NUMBER",
+              "default": "Free Shipping"
+          },
+          {
+              "type":"text",
+              "id":"highlight-small-1",
+              "label": "First Highlight Subtitle",
+              "default": "default"
+          },
+          {
+              "type":"image_picker",
+              "id":"highlight-img-2",
+              "label": "Second Highlight img"
+          },
+          {
+              "type":"text",
+              "id":"highlight-title-2",
+              "label": "Second Highlight Title, MUST BE NUMBER",
+              "default": "Free Shipping"
+          },
+          {
+              "type":"text",
+              "id":"highlight-small-2",
+              "label": "First Highlight Subtitle",
+              "default": "default"
+          },  
+          {
+              "type":"image_picker",
+              "id":"highlight-img-3",
+              "label": "Third Highlight img"
+          },   
+          {
+              "type":"text",
+              "id":"highlight-title-3",
+              "label": "Third Highlight Title, MUST BE NUMBER",
+              "default": "Free Shipping"
+          },
+          {
+              "type":"text",
+              "id":"highlight-small-3",
+              "label": "First Highlight Subtitle",
+              "default": "default"
+          },
+          {
+              "type":"image_picker",
+              "id":"highlight-img-4",
+              "label": "Fourth Highlight img"
+          },           
+           {
+              "type":"text",
+              "id":"highlight-title-4",
+              "label": "Fourth Highlight Title, MUST BE NUMBER",
+              "default": "Free Shipping"
+          },
+          {
+              "type":"text",
+              "id":"highlight-small-4",
+              "label": "First Highlight Subtitle",
+              "default": "default"
+          },
+          {
+              "type":"image_picker",
+              "id":"highlight-img-5",
+              "label": "Fourth Highlight img"
+          },           
+           {
+              "type":"text",
+              "id":"highlight-title-5",
+              "label": "Fourth Highlight Title, MUST BE NUMBER",
+              "default": "Free Shipping"
+          },
+          {
+              "type":"text",
+              "id":"highlight-small-5",
+              "label": "First Highlight Subtitle",
+              "default": "default"
+          }
+      ],
+      "presets": [
+  {
+    "name": "JGL Box Counter"
+  }]
 }
 {% endschema %}

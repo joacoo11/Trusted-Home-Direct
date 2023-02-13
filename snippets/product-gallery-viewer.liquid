@@ -171,7 +171,7 @@
       "
       data-gallery-expand aria-haspopup="true"
     >
-      <span class="click-text" tabindex="-1">
+      <span class="click-text" tabindex="-1"> 
         {% render 'icon-library', id: 'icon-zoom' %}
         {{ 'product.general.zoom' | t }}
       </span>
@@ -188,14 +188,5 @@
 {% endif %}
 
 
-  {% if template.name == 'product' %}
-  <script>
-    $(document).ready(function() {
-      if ($(window).width() < 767) {
-        $('.product-gallery--image-background').slick({
-          // Add your Slick Slider settings here
-        });
-      }
-    });
-  </script>
+{% if template.name == 'product' %}
 {% endif %}
