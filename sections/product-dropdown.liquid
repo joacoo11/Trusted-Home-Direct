@@ -7,7 +7,7 @@
       <label for="so-tab-1">Specifications & Dimensions</label>
       <div class="so-tab-content">
         {% for item in product.metafields.custom.specifications.value %}
-          {{item.key}} - {{item.value}}
+          {{item}} - {{item}}
         {% endfor %}
       </div>
     </div>
