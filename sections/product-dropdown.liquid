@@ -7,9 +7,21 @@
       <label for="so-tab-1">Specifications & Dimensions</label>
       <div class="so-tab-content">
         {% for item in product.metafields.custom.specifications.value %}
-          {{item[0]}}
-          <br>
         {% endfor %}
+
+        <table class="table table-bordered" width="100%">
+          <tbody>
+            {% for item in product.metafields.custom.specifications.value %}
+              <tr style="height: 23px;">
+                <td>
+                  <strong>{{item[0]}}:</strong></td>
+                <td>
+                <span>{{item[1]}}</span>
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
       </div>
     </div>
     <div class="so-tab"><input
