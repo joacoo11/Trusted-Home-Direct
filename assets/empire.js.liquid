@@ -31080,7 +31080,7 @@ class ProductGallery {
       });
     }
     if (this.flickity || !Layout.isLessThanBreakpoint('S')) {
-      this.flickity = new (js_default())(this.viewer, {
+      this.flickity = new (js_default())(this.viewerMobile, {
         accessibility: false,
         adaptiveHeight: true,
         cellSelector: '.product-gallery--media',
