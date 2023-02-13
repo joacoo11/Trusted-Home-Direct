@@ -50,8 +50,23 @@
 <!-- Begin Accordion Snippet -->
 <style>
 
+  .prod-spec .table {
+    table-layout: fixed;
+    max-width: 100%;
+    width: 100%!important;
+  }
+
   .prod-spec .table .tr {
     border-width: 1px 0;
+    border-color: inherit;
+    border-style: solid;
+  }
+
+  .prod-spec .table .td {
+    padding: 10px;
+    width: auto!important;
+    word-break: break-word;
+    background-color: var(--bs-table-bg);
   }
 
   .pdp-drop {
