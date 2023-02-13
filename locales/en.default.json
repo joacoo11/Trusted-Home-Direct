@@ -504,5 +504,12 @@
     "page": {
       "title": "Page title"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "continue_to_shipping_method": "CONTINUE TO SHIPPING"
+      }
+    }
   }
 }
