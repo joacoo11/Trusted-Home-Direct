@@ -161,7 +161,7 @@
               {% endif %}
             {% when 'price' %}
               {% if settings.product_ratings_reviews %}
-                <div class="product-ratings">
+                {% comment %} <div class="product-ratings">
                   <span class="shopify-product-reviews-badge" data-id="{{ product.id }}">
                     <span class="spr-badge">
                       <span class="spr-starrating spr-badge-starrating">
@@ -173,7 +173,7 @@
                       </span>
                     </span>
                   </span>
-                </div>
+                </div> {% endcomment %}
               {% endif %}
               <div
                 class="product-pricing"
