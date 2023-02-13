@@ -31060,23 +31060,42 @@ class ProductGallery {
   }
 
   _setupFlickity() {
-    // if (this.flickity || !Layout.isLessThanBreakpoint('S')) return;
-    this.flickity = new (js_default())(this.viewer, {
-      accessibility: false,
-      adaptiveHeight: true,
-      cellSelector: '.product-gallery--media',
-      contain: true,
-      friction: 0.5,
-      freeScroll: false,
-      initialIndex: parseInt(this.selected.figure.dataset.galleryIndex, 10),
-      lazyLoad: false,
-      percentPosition: false,
-      prevNextButtons: true,
-      pageDots: false,
-      selectedAttraction: 0.1,
-      setGallerySize: false,
-      wrapAround: true,
-    });
+    if (this.flickity || Layout.isGreaterThanBreakpoint('S')) {
+      this.flickity = new (js_default())(this.viewer, {
+        accessibility: false,
+        adaptiveHeight: true,
+        cellSelector: '.product-gallery--media',
+        contain: true,
+        friction: 0.5,
+        freeScroll: false,
+        initialIndex: parseInt(this.selected.figure.dataset.galleryIndex, 10),
+        lazyLoad: false,
+        percentPosition: false,
+        prevNextButtons: true,
+        pageDots: false,
+        selectedAttraction: 0.1,
+        setGallerySize: false,
+        wrapAround: true,
+      });
+    }
+    if (this.flickity || !Layout.isLessThanBreakpoint('S')) {
+      this.flickity = new (js_default())(this.viewer, {
+        accessibility: false,
+        adaptiveHeight: true,
+        cellSelector: '.product-gallery--media',
+        contain: true,
+        friction: 0.5,
+        freeScroll: false,
+        initialIndex: parseInt(this.selected.figure.dataset.galleryIndex, 10),
+        lazyLoad: false,
+        percentPosition: false,
+        prevNextButtons: true,
+        pageDots: false,
+        selectedAttraction: 0.1,
+        setGallerySize: false,
+        wrapAround: true,
+      });
+    }
     console.log(this.flickity);
     this.flickityEvent = this.events.register(this.viewer, 'rimg:load', () => {
       this._setSlideHeight();
