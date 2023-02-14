@@ -4,8 +4,8 @@
   </div>
   <div>
     {% for item in shop.metaobjects.overview.values %}
-      {{item.icon}}
-      {{item.name}}
+      <img src="{{item.icon | img_tag: '50x' }}" alt="">
+      {{ item.name }}
     {% endfor %}
   </div>
 
