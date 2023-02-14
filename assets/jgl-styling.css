@@ -28,7 +28,7 @@ html .mobile-nav-panel{
 
 
 html .site-header-main .live-search {
-    max-width: 400px;
+    max-width: 550px;
     justify-self: center !important;
 }
 
@@ -291,7 +291,3 @@ html .site-header-actions .site-header_account-link-text{
 html .site-footer-wrapper{
     margin-top: 0;
 }
-
-
-
-
