@@ -143,11 +143,12 @@
         window.requestAnimationFrame(step);
     };
     document.addEventListener("DOMContentLoaded", () => {
-        counterAnim("#count1", 10, 300, 1000);
-        counterAnim("#count2", 5000, 250, 1500);
-        counterAnim("#count3", -1000, -150, 2000);
-        counterAnim("#count4", 500, -100, 2500);
-        counterAnim("#count5", 500, -100, 2500);
+        {{ section.settings.highlight-title-1 | times: 1 }}
+        counterAnim("#count1", 10, {{ section.settings.highlight-title-1 | times: 1 }}, 1000);
+        counterAnim("#count2", 5000, {{ section.settings.highlight-title-2 | times: 1 }}, 1500);
+        counterAnim("#count3", -1000, {{ section.settings.highlight-title-3 | times: 1 }}, 2000);
+        counterAnim("#count4", 500, {{ section.settings.highlight-title-4 | times: 1 }}, 2500);
+        counterAnim("#count5", 500, {{ section.settings.highlight-title-5 | times: 1 }}, 2500);
     });
 </script>
 
