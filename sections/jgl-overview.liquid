@@ -3,7 +3,9 @@
     <h2>Product Overview</h2>
   </div>
   <div>
-    {{product.metafields.custom.product_overview}}
+    {% for item in product.metafields.custom.product_overview %}
+      {{item}}
+    {% endfor %}
   </div>
 
 </div>
