@@ -2,7 +2,9 @@
   <div>
     <h2>Product Overview</h2>
   </div>
-  <div></div>
+  <div>
+  
+  </div>
 
 </div>
 
@@ -13,7 +15,22 @@
 {% schema %}
   {
     "name": "JGL PDP Overview",
-    "settings": [],
+    "settings": [
+    ],
+    "blocks": [
+      {
+        "type": "blokz",
+        "name": "Blokz",
+        "settings": [
+          {
+            "type": "html",
+            "id": "htmlId",
+            "label": "HTML",
+            "default": "<div></div>"
+          }
+        ]
+      }
+    ],
     "presets": [
       {
         "name": "JGL PDP Overview"
