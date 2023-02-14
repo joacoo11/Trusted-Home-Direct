@@ -126,6 +126,7 @@
   window.addEventListener("scroll", function(){
     console.log("scrolled")
     if ( isInViewport( document.getElementById("counter") ) ) {
+        console.log("counter")
         if (!document.getElementById("counter").classList.contains("scrolled")) {
             console.log("elements")
             document.getElementById("counter").classList.add("scrolled");
