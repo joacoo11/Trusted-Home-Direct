@@ -124,7 +124,6 @@
     };
 
   window.addEventListener("scroll", function(){
-    console.log("tak")
     if (isInViewport(document.getElementById("counter")) ) {
         document.addEventListener("DOMContentLoaded", () => {
             counterAnim("#count1", 0, {{ section.settings.highlight-title-1 | times: 1 }}, 2500);
