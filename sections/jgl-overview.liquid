@@ -3,7 +3,11 @@
     <h2>Product Overview</h2>
   </div>
   <div>
-    {{shop.metaobjects['overview'].first.name}}
+    {{shop.metaobjects['overview']}}
+
+    {% for item in shop.metaobjects['overview'] %}
+      {{item}}
+    {% endfor %}
   </div>
 
 </div>
