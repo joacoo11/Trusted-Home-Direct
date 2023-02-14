@@ -3,7 +3,7 @@
     <h2>Product Overview</h2>
   </div>
   <div>
-    {{product.metafields.custom.product_overview}}
+    {{product.metafields.custom.product_overview[1]}}
     {{shop.metaobjects.overview}}
     {% for item in product.metafields.custom.product_overview %}
       {{item}}
