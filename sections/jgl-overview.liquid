@@ -3,8 +3,8 @@
     <h2>Product Overview</h2>
   </div>
   <div>
-    {% comment %} {{shop.metaobjects.overview}} {% endcomment %}
     {% for item in shop.metaobjects.overview.values %}
+      {{item.icon}}
       {{item.name}}
     {% endfor %}
   </div>
