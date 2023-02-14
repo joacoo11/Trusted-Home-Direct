@@ -4,7 +4,7 @@
   </div>
   <div>
     {% for item in shop.metaobjects.overview.values %}
-      {{ item.icon | img_tag: '50x' }}
+      <img src="{{ item.icon | img_url: '50x' }}" alt="">
       {{ item.name }}
     {% endfor %}
   </div>
