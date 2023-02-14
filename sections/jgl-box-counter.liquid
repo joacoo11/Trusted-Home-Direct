@@ -145,7 +145,7 @@
 
     var scrolltriggered = false;
 
-    $(document).on('scroll touchend', function() {
+    JQuery(document).on('scroll touchend', function() {
         if(scrolltriggered === false && 
             JQuery(window).scrollTop() >= JQuery('.jgl-counter').offset().top +
             JQuery('.jgl-counter').outerHeight() - window.innerHeight ){
