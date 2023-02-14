@@ -143,7 +143,6 @@
         window.requestAnimationFrame(step);
     };
     document.addEventListener("DOMContentLoaded", () => {
-        {{ section.settings.highlight-title-1 | times: 1 }}
         counterAnim("#count1", 10, {{ section.settings.highlight-title-1 | times: 1 }}, 1000);
         counterAnim("#count2", 5000, {{ section.settings.highlight-title-2 | times: 1 }}, 1500);
         counterAnim("#count3", -1000, {{ section.settings.highlight-title-3 | times: 1 }}, 2000);
