@@ -2,10 +2,11 @@
   <div>
     <h2>Product Overview</h2>
   </div>
-  <div>
+  <div class="pdp-overview_elements">
     {% for item in shop.metaobjects.overview.values %}
-      <img src="{{ item.icon | img_url: '24x' }}" alt="">
-      {{ item.name }}
+      <div class="pdp-overview_element">
+        <img src="{{ item.icon | img_url: '24x' }}" alt="">{{ item.name }}
+      </div>
     {% endfor %}
   </div>
 
