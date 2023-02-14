@@ -3,10 +3,9 @@
     <h2>Product Overview</h2>
   </div>
   <div>
-    {{shop.metaobjects['overview']}}
-
-    {% for item in shop.metaobjects['overview'] %}
-      {{item.name}}
+    {% comment %} {{shop.metaobjects.overview}} {% endcomment %}
+    {% for item in shop.metaobjects.overview.values %}
+      {{item}}
     {% endfor %}
   </div>
 
