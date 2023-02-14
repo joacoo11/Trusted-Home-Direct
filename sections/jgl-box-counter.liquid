@@ -124,8 +124,8 @@
     };
 
   window.addEventListener("scroll", function(){
-    if (isInViewport(document.getElementById("counter")) ) {
-        document.getElementById("counter").classList.add("scrolled")
+    if ( isInViewport( document.getElementById("counter") && !document.getElementById("counter").classList.contains("scrolled") ) {
+        document.getElementById("counter").classList.add("scrolled");
         counterAnim("#count1", 0, {{ section.settings.highlight-title-1 | times: 1 }}, 2500);
         counterAnim("#count2", 0, {{ section.settings.highlight-title-2 | times: 1 }}, 2500);
         counterAnim("#count3", 0, {{ section.settings.highlight-title-3 | times: 1 }}, 2500);
