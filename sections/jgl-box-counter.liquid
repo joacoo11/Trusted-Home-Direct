@@ -147,8 +147,8 @@
 
     $(document).on('scroll touchend', function() {
         if(scrolltriggered === false && 
-            $(window).scrollTop() >= $('.jgl-counter').offset().top +
-            $('.jgl-counter').outerHeight() - window.innerHeight ){
+            JQuery(window).scrollTop() >= JQuery('.jgl-counter').offset().top +
+            JQuery('.jgl-counter').outerHeight() - window.innerHeight ){
             scrolltriggered = true;
             document.addEventListener("DOMContentLoaded", () => {
                 counterAnim("#count1", 0, {{ section.settings.highlight-title-1 | times: 1 }}, 2500);
