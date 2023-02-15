@@ -90,9 +90,16 @@
         top: 1.875rem;
     }
 
-    .experts-slider .slide-arrow.next {
+    .experts-slider .slide-arrow.next[] {
         right: .625rem;
         top: 1.875rem;
+    }
+
+    .experts-slider .slide-arrow.next[aria-disabled="true"] {
+        opacity: .7;
+    }
+    .experts-slider .slide-arrow.prev[aria-disabled="true"] {
+        opacity: .7;
     }
 </style>
 
