@@ -3,15 +3,14 @@
         {{section.settings.section-title}}
     </h2>
     <div>
-        <div>
+        <div class="experts-image">
             <img src="{{section.settings.experts-img | img_url: '1280x'}}" alt="">
-
-            <div>
+            <div class="experts-links">
                 <a href="{{section.settings.btn-link}}">{{section.settings.btn-span}}</a>
                 <a href="{{section.settings.btn-link-2}}">{{section.settings.btn-span-2}}</a>
             </div>
         </div>
-        <div>
+        <div class="experts-slider">
             {% for block in section.blocks %}
                 <p>{{block.settings.quote}}</p>
                 <span>{{block.settings.author}}</span>
