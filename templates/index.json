@@ -208,6 +208,26 @@
         "highlight-img-4": "shopify:\/\/shop_images\/4.webp",
         "highlight-title-4": "Talk To A LIVE Appliance Expert"
       }
+    },
+    "167650069658e9e23b": {
+      "type": "apps",
+      "blocks": {
+        "c74d9d95-c92b-49b6-8b00-5b687df2e645": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "75024",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "c74d9d95-c92b-49b6-8b00-5b687df2e645"
+      ],
+      "settings": {
+        "include_padding": true
+      }
     }
   },
   "order": [
@@ -221,6 +241,7 @@
     "48c4d2da-a0ce-4c09-af0e-f67b6f77d628",
     "dynamic_search",
     "3adbe16b-1746-4a30-b753-8f6f27572640",
-    "1ea9cb36-98d5-4e42-ad29-c5aa0140ef93"
+    "1ea9cb36-98d5-4e42-ad29-c5aa0140ef93",
+    "167650069658e9e23b"
   ]
 }
