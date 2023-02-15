@@ -11,12 +11,12 @@
             </div>
         </div>
         <div class="experts-slider">
-            <div class="slick-slider">
-                {% for block in section.blocks %}
+            {% for block in section.blocks %}
+                <div class="experts-slide">
                     <p>{{block.settings.quote}}</p>
                     <span>{{block.settings.author}}</span>
-                {% endfor %}
-            </div>
+                </div>
+            {% endfor %}
         </div>
     </div>
 </div>
@@ -32,12 +32,13 @@
 
     .experts-section {
         display: flex;
+        justify-content: center;
         align-items: center;
         gap: 1.5rem;
     }
 
     .experts-image {
-
+        
     }
 
     .experts-links {
