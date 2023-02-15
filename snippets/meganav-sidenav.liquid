@@ -16,6 +16,9 @@
   navmenu-submenu
   navmenu-meganav
   navmenu-meganav--desktop
+  {% if block.settings.meganav_sidenav-img-1 != blank %}
+    navmenu-meganav-has-custom-images
+  {% endif %}
 {%- endcapture -%}
 
 {%- capture navmenu_classes -%}
@@ -38,9 +41,6 @@
     data-meganav-sidenav-image-aspect-ratio="{{ block.settings.image_aspect_ratio }}"
     data-meganav-sidenav-image-crop="{{ block.settings.image_crop }}"
   {% endunless %}
-  {% if block.settings.meganav_sidenav-img-1 != blank %}
-    data-has-custom-images
-  {% endif %}
 >
 
   <div
