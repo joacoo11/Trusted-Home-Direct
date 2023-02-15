@@ -21369,12 +21369,38 @@ body:not(.user-is-tabbing) .rte .tabs .grouped-content-trigger {
 }
 
 .navmenu-meganav-sidenav__aside-img-1 img {
-  display: flex;
+  width: 100%;
+  height: calc(100% - 2rem);
+  object-fit: cover;
   flex: 1;
-  margin: 1rem;
+}
+
+.navmenu-meganav-sidenav__aside-img-1 p {
+  font-weight: 700;
+  letter-spacing: .15rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 0.75rem;
 }
 
 .navmenu-meganav-sidenav__aside-img-2 {
+  display: flex;
+  flex-direction: column;
   flex: 2;
-  position: relative;
+  text-decoration: none;
+}
+
+.navmenu-meganav-sidenav__aside-img-2 img {
+  width: 100%;
+  height: calc(100% - 2rem);
+  object-fit: cover;
+  flex: 1;
+}
+
+.navmenu-meganav-sidenav__aside-img-2 p {
+  font-weight: 700;
+  letter-spacing: .15rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 0.75rem;
 }
