@@ -147,6 +147,11 @@
       "settings": {
         "custom_liquid": ""
       }
+    },
+    "719e74fa-3c45-43b2-bcfa-e005b768440d": {
+      "type": "more-from-vendor",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -161,6 +166,7 @@
     "1676197725e00e1594",
     "4688f15c-b6fd-4d07-bf0d-d45fd613d9c7",
     "2e8a29d0-4c21-4421-b3d0-418876031f50",
-    "38e094fc-a5a4-4e34-82ab-e1697fc32811"
+    "38e094fc-a5a4-4e34-82ab-e1697fc32811",
+    "719e74fa-3c45-43b2-bcfa-e005b768440d"
   ]
 }
