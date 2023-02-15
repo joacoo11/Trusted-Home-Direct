@@ -108,7 +108,7 @@
             "type": "meganav_sidenav",
             "settings": {
               "meganav_trigger": "Kitchen",
-              "submenu_layout": "product_images",
+              "submenu_layout": "collection_images",
               "image_aspect_ratio": "natural",
               "image_crop": true
             }
