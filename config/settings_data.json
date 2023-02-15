@@ -251,9 +251,12 @@
         "type": "jgl-utility-bar",
         "settings": {
           "utility-left-text-1": "Authorized Dealer · Free Shipping · 30 Day Returns",
-          "utility-right-text-1": "New Year Sale",
-          "utility-right-img-1": "shopify:\/\/shop_images\/present-6995411_960_720.webp",
-          "utility-right-href": ""
+          "utility-right-text-1": "B2B Program",
+          "utility-right-img-1": "shopify:\/\/shop_images\/svgviewer-png-output.png",
+          "utility-right-href": "shopify:\/\/pages\/vip-trade-discount-program",
+          "utility-left-text-2": "",
+          "utility-right-text-2": "New Year Sale",
+          "utility-right-img-2": "shopify:\/\/shop_images\/present-6995411_960_720.webp"
         }
       },
       "jgl-announcement": {
