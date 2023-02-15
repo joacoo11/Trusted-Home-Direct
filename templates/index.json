@@ -75,16 +75,22 @@
     "4e085ad2-a191-44ad-8f40-e50158d4b18d": {
       "type": "jgl-box-counter",
       "settings": {
+        "timer": "3500",
         "highlight-img-1": "shopify:\/\/shop_images\/1200px-Toicon-icon-lines-and-angles-chat_svg.png",
         "highlight-title-1": "200",
+        "highlight-small-1": "default",
         "highlight-img-2": "shopify:\/\/shop_images\/4.png",
         "highlight-title-2": "300",
+        "highlight-small-2": "default",
         "highlight-img-3": "shopify:\/\/shop_images\/1.png",
         "highlight-title-3": "7582",
+        "highlight-small-3": "default",
         "highlight-img-4": "shopify:\/\/shop_images\/1.png",
         "highlight-title-4": "111",
+        "highlight-small-4": "default",
         "highlight-img-5": "shopify:\/\/shop_images\/3.png",
-        "highlight-title-5": "222"
+        "highlight-title-5": "222",
+        "highlight-small-5": "default"
       }
     },
     "dynamic_featured_collection": {
@@ -122,7 +128,8 @@
         "btn-span": "Ask a Question",
         "btn-span-2": "Chat With Us",
         "btn-link": "",
-        "btn-link-2": ""
+        "btn-link-2": "",
+        "experts-img": "shopify:\/\/shop_images\/testimonial_banner_900x_4a461e60-2c92-4830-9dc2-3ca763ed4159.webp"
       }
     },
     "dynamic_search": {
