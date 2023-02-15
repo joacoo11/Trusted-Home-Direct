@@ -152,6 +152,7 @@ html .navmenu-link{
 
 html .site-header-menu-toggle--button{
     padding-bottom: 0px;
+    padding-top: 30px;
 }
 
 @media (max-width:950px) {
