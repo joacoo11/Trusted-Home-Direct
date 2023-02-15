@@ -123,6 +123,26 @@
     },
     "48c4d2da-a0ce-4c09-af0e-f67b6f77d628": {
       "type": "jgl-expert-section",
+      "blocks": {
+        "21f4ecbe-144c-4beb-97a7-660223f3bd08": {
+          "type": "slides",
+          "settings": {
+            "quote": "I joined the VIP Program as a Builder and it has been phenomenal. My questions are answered within 24 hours and I get favorable pricing since I build 25 homes a year!",
+            "author": "George Lorie from North Carolina on July 23, 2022"
+          }
+        },
+        "e5d9b80b-8012-4dd6-ab7a-612fbd11bbb1": {
+          "type": "slides",
+          "settings": {
+            "quote": "Best online shopping experience I've ever had! Just renovated my entire kitchen and got the full ZLINE 4 piece appliance package from them. I decided to buy from Premium Home Source because of their product knowledge and amazing customer experience. The pricing is also unbelievable",
+            "author": "Pat Atty from Alabama on December 9, 2022"
+          }
+        }
+      },
+      "block_order": [
+        "21f4ecbe-144c-4beb-97a7-660223f3bd08",
+        "e5d9b80b-8012-4dd6-ab7a-612fbd11bbb1"
+      ],
       "settings": {
         "section-title": "OUR EXPERT TEAM IS HERE TO HELP",
         "btn-span": "Ask a Question",
