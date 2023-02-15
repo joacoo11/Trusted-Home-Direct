@@ -11,17 +11,19 @@
             </div>
         </div>
         <div class="experts-slider">
-            {% for block in section.blocks %}
-                <p>{{block.settings.quote}}</p>
-                <span>{{block.settings.author}}</span>
-            {% endfor %}
+            <div class="slick-slider">
+                {% for block in section.blocks %}
+                    <p>{{block.settings.quote}}</p>
+                    <span>{{block.settings.author}}</span>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </div>
 
 <script>
     document.addEventListener("DOMContentLoaded", () => {
-    $('.experts-slider').slick();
+    $('.slick-slider').slick();
     });
 </script>
 
