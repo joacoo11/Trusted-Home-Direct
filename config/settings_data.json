@@ -101,15 +101,17 @@
           "1517255946962": {
             "type": "meganav_images",
             "settings": {
-              "meganav_trigger": "",
+              "meganav_trigger": "Kitchen",
+              "image_1": "shopify:\/\/shop_images\/Refrigerator_600x_071237da-8a39-4f6b-aa47-27cf6d766ee2.webp",
               "text_1": "",
               "link_1": "",
               "position_1": "last",
-              "size_1": "medium",
+              "size_1": "large",
+              "image_2": "shopify:\/\/shop_images\/Kitchen_600x_b1ac97bf-a051-4d11-967e-ac31ba6c462f.webp",
               "text_2": "",
               "link_2": "",
               "position_2": "last",
-              "size_2": "medium"
+              "size_2": "large"
             }
           },
           "ff9e6854-1318-4c95-a027-c4108d1e961d": {
