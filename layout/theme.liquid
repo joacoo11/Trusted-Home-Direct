@@ -76,8 +76,6 @@
 
     {{ 'theme.css' | asset_url | stylesheet_tag }}
     {{ 'jgl-styling.css' | asset_url | stylesheet_tag }}
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-
 
 
     {% comment %}Inject theme-object begin{% endcomment %}
@@ -106,7 +104,8 @@
 
   
 	{{ shop.metafields.loox["global_html_head"] }}
-{% render 'edt_p' %} 	{% render 'vitals-loader' %}
+  {% render 'edt_p' %} 	{% render 'vitals-loader' %}
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
 </head>
 
