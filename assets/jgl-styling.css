@@ -205,11 +205,6 @@ html .site-footer-credits-shop{
     display: none;
 }
 
-html [data-product-gallery-aspect-ratio=natural] .product-gallery--media img, .product-gallery--media svg{
-    max-height: 500px;
-    max-width: 70%;
-}
-
 
 .announcement-des{
     display: block;
