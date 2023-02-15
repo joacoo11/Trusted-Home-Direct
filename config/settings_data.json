@@ -110,7 +110,9 @@
               "meganav_trigger": "Kitchen",
               "submenu_layout": "text_columns",
               "image_aspect_ratio": "natural",
-              "image_crop": true
+              "image_crop": true,
+              "meganav_sidenav-img-1": "shopify:\/\/shop_images\/Refrigerator_600x_071237da-8a39-4f6b-aa47-27cf6d766ee2.webp",
+              "meganav_sidenav-img-2": "shopify:\/\/shop_images\/Kitchen_600x_b1ac97bf-a051-4d11-967e-ac31ba6c462f.webp"
             }
           }
         },
