@@ -11,7 +11,12 @@
                 <a href="{{section.settings.btn-link-2}}">{{section.settings.btn-span-2}}</a>
             </div>
         </div>
-        <div></div>
+        <div>
+            {% for block in section.blocks %}
+                <p>{{block.settings.quote}}</p>
+                <span>{{block.settings.author}}</span>
+            {% endfor %}
+        </div>
     </div>
 </div>
 
@@ -57,9 +62,28 @@
                 "label": "Image"
             }
         ],
+        "blocks": [
+            {
+                "type": "slides",
+                "name": "Slides",
+                "settings": [
+                    {
+                        "type": "textarea",
+                        "id": "quote",
+                        "label": "Quote"
+                    },
+                    {
+                        "type": "text",
+                        "id": "author",
+                        "label": "Author"
+                    }
+                ]
+            }
+        ],
         "presets": [
-    {
-      "name": "JGL Experts Section"
-    }]
+            {
+            "name": "JGL Experts Section"
+            }
+        ]
     }
 {% endschema %}
