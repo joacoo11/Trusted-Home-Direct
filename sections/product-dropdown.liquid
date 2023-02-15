@@ -53,7 +53,7 @@
     <label for="so-tab-4">Information & Guides</label>
     <div class="so-tab-content">
       <a href="{{product.metafields.custom.product_instructions.value }}">INSTALLATION INSTRUCTIONS</a>
-      {{product.metafields.custom.product_instructions.value}}
+      {{product.metafields.custom.product_instructions.value | asset_url }}
     </div>
   </div>
   
