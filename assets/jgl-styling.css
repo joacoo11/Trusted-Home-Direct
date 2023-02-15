@@ -155,6 +155,11 @@ html .site-header-menu-toggle--button{
     padding-top: 30px;
 }
 
+html .menu-span {
+    position: relative;
+    bottom: 3px;
+}
+
 @media (max-width:950px) {
     html .gallery-navigation--scroller{
         display: none;
