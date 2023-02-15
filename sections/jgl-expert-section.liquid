@@ -10,13 +10,15 @@
                 <a href="{{section.settings.btn-link-2}}">{{section.settings.btn-span-2}}</a>
             </div>
         </div>
-        <div class="experts-slider">
-            {% for block in section.blocks %}
-                <div class="experts-slide">
-                    <p>{{block.settings.quote}}</p>
-                    <span>{{block.settings.author}}</span>
-                </div>
-            {% endfor %}
+        <div class="experts-slider-wrap">
+            <div class="experts-slider">
+                {% for block in section.blocks %}
+                    <div class="experts-slide">
+                        <p>{{block.settings.quote}}</p>
+                        <span>{{block.settings.author}}</span>
+                    </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </div>
