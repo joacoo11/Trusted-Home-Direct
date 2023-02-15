@@ -101,7 +101,7 @@
           "1517255946962": {
             "type": "meganav_images",
             "settings": {
-              "meganav_trigger": "Kitchen",
+              "meganav_trigger": "",
               "image_1": "shopify:\/\/shop_images\/Refrigerator_600x_071237da-8a39-4f6b-aa47-27cf6d766ee2.webp",
               "text_1": "",
               "link_1": "",
@@ -127,11 +127,28 @@
               "position_2": "first",
               "size_2": "small"
             }
+          },
+          "0ce6febd-3ee0-403e-acfb-f71701d6e13a": {
+            "type": "multi_column_menu",
+            "settings": {
+              "menu_trigger": "Outdoor"
+            }
+          },
+          "8db192ea-7dc3-4a47-ae59-af7ed207b8d1": {
+            "type": "meganav_sidenav",
+            "settings": {
+              "meganav_trigger": "Kitchen",
+              "submenu_layout": "product_images",
+              "image_aspect_ratio": "natural",
+              "image_crop": true
+            }
           }
         },
         "block_order": [
           "1517255946962",
-          "ff9e6854-1318-4c95-a027-c4108d1e961d"
+          "ff9e6854-1318-4c95-a027-c4108d1e961d",
+          "0ce6febd-3ee0-403e-acfb-f71701d6e13a",
+          "8db192ea-7dc3-4a47-ae59-af7ed207b8d1"
         ],
         "settings": {
           "sticky_header": true,
