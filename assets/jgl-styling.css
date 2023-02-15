@@ -198,7 +198,11 @@ html .menu-span {
     
     html .site-header-main.site-header--full-width{
         margin-top: 30px;
-    }    
+    } 
+
+    html.scroll-locked .websensepro-announcement-bar {
+        z-index: 10;
+    }
 
 }
 
