@@ -33,12 +33,16 @@
 <style>
 
     .experts-section {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 1fr;
         gap: 1.5rem;
         max-width: calc(100% - 44px);
         margin: 0 auto;
+    }
+
+    .experts-slider-wrap {
+        
     }
 
     .experts-image {
