@@ -172,6 +172,14 @@
     .experts-slider .slide-arrow.prev[aria-disabled="true"] {
         opacity: .2;
     }
+
+    @media (max-width:900px) {
+        .experts-section {
+            grid-template-columns: 100% 100%;
+            grid-template-rows: 1fr 1fr;
+            max-width: calc(100% - 24px);
+        }
+    }
 </style>
 
 
