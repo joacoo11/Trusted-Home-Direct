@@ -1,27 +1,15 @@
 <div class="product-section--container pdp-drop">
   <div class="so-accordion-wrapper-2">
     <div class="so-tab"><input
-        id="so-tab-1"
+        id="so-tab-2"
         type="checkbox"
         name="tabs" />
-      <label for="so-tab-1">Specifications & Dimensions</label>
-      <div class="so-tab-content prod-spec">
-        <table class="table table-bordered" width="100%">
-          <tbody>
-            {% for item in product.metafields.custom.specifications.value %}
-              <tr>
-                <td>
-                  <strong>{{item[0]}}:</strong>
-                </td>
-                <td>
-                  <span>{{item[1]}}</span>
-                </td>
-              </tr>
-            {% endfor %}
-          </tbody>
-        </table>
+      <label for="so-tab-2">PRODUCT DESCRIPTION</label>
+      <div class="so-tab-content">
+        <p>{{ product.description }}</p>
       </div>
     </div>
+
     <div class="so-tab">
       <input
         id="so-tab-3"
@@ -33,19 +21,31 @@
         <div data-rebuy-id="72919" data-rebuy-shopify-product-ids="{{ product.id }}"></div>
       </div>
     </div>
-    <div class="so-tab"><input
-        id="so-tab-2"
-        type="checkbox"
-        name="tabs" />
-      <label for="so-tab-2">PRODUCT DESCRIPTION</label>
-      <div class="so-tab-content">
-        <p>{{ product.description }}</p>
-      </div>
-    </div>
   </div>
 
+  <div class="so-tab"><input
+      id="so-tab-1"
+      type="checkbox"
+      name="tabs" />
+    <label for="so-tab-1">Specifications & Dimensions</label>
+    <div class="so-tab-content prod-spec">
+      <table class="table table-bordered" width="100%">
+        <tbody>
+          {% for item in product.metafields.custom.specifications.value %}
+            <tr>
+              <td>
+                <strong>{{item[0]}}:</strong>
+              </td>
+              <td>
+                <span>{{item[1]}}</span>
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>
-
 <!-- Begin Accordion Snippet -->
 <style>
 
