@@ -129,47 +129,6 @@
 
 <div class="price {{ class_root }}__price {% if compare_at_price_varies %}price--varies{% endif %}">
   {% if include_compare_price %}
-    <div
-      class="price__compare-at {% if emphasize_price or on_sale and show_original %}visible{% endif %}"
-      data-price-compare-container
-    >
-      {%- capture compare_at_price_html -%}
-        <span class="visually-hidden">{{ 'product_price.price.original' | t }}</span>
-        <span class="money price__compare-at--single" data-price-compare>
-          {{ compare_at_price | money }}
-        </span>
-      {%- endcapture -%}
-
-      {% if compare_at_price_varies %}
-        {%- capture compare_at_price_range_html -%}
-          {% if price_range_format == 'range' %}
-            <span class="visually-hidden">{{ 'product_price.price.original' | t }}</span>
-            <span class="money price__compare-at--min" data-price-compare-min>
-              {{ compare_at_price_min | money }}
-            </span>
-            -
-            <span class="visually-hidden">{{ 'product_price.price.original' | t }}</span>
-            <span class="money price__compare-at--max" data-price-compare-max>
-              {{ compare_at_price_max | money }}
-            </span>
-          {% else %}
-            {{ 'product_price.item.price.range_html' | t: price: compare_at_price_html | strip_newlines }}
-          {% endif %}
-        {% endcapture %}
-      {% endif %}
-
-      {% if compare_at_price_varies and on_sale and show_original and show_range %}
-        {{ compare_at_price_range_html }}
-      {% elsif on_sale and show_original %}
-        {{ compare_at_price_html }}
-      {% elsif emphasize_price and include_spacer %}
-        <span class="price__spacer"></span>
-      {% elsif show_original %}
-        <span class="money price__original" data-price-original></span>
-      {% endif %}
-    </div>
-
-
     {% if include_hidden_price %}
       {% comment %}
         Hide an element containing compare at price info to fill in the price when no variant is selected
@@ -228,6 +187,46 @@
       {{ current_price_range_html }}
     {% else %}
       {{ current_price_html }}
+    {% endif %}
+  </div>
+
+  <div
+    class="price__compare-at {% if emphasize_price or on_sale and show_original %}visible{% endif %}"
+    data-price-compare-container
+  >
+    {%- capture compare_at_price_html -%}
+      <span class="visually-hidden">{{ 'product_price.price.original' | t }}</span>
+      <span class="money price__compare-at--single" data-price-compare>
+        {{ compare_at_price | money }}
+      </span>
+    {%- endcapture -%}
+
+    {% if compare_at_price_varies %}
+      {%- capture compare_at_price_range_html -%}
+        {% if price_range_format == 'range' %}
+          <span class="visually-hidden">{{ 'product_price.price.original' | t }}</span>
+          <span class="money price__compare-at--min" data-price-compare-min>
+            {{ compare_at_price_min | money }}
+          </span>
+          -
+          <span class="visually-hidden">{{ 'product_price.price.original' | t }}</span>
+          <span class="money price__compare-at--max" data-price-compare-max>
+            {{ compare_at_price_max | money }}
+          </span>
+        {% else %}
+          {{ 'product_price.item.price.range_html' | t: price: compare_at_price_html | strip_newlines }}
+        {% endif %}
+      {% endcapture %}
+    {% endif %}
+
+    {% if compare_at_price_varies and on_sale and show_original and show_range %}
+      {{ compare_at_price_range_html }}
+    {% elsif on_sale and show_original %}
+      {{ compare_at_price_html }}
+    {% elsif emphasize_price and include_spacer %}
+      <span class="price__spacer"></span>
+    {% elsif show_original %}
+      <span class="money price__original" data-price-original></span>
     {% endif %}
   </div>
 
