@@ -204,6 +204,10 @@ html .menu-span {
         max-width: initial;
     }
 
+    ..site-footer-block-newsletter .newsletter .form-fields-inline {
+        margin: 0;
+    }
+
     html .site-footer-block-newsletter .contact-form {
 
     }
