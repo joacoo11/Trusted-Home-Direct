@@ -508,7 +508,11 @@
   "shopify": {
     "checkout": {
       "general": {
-        "continue_to_shipping_method": "CONTINUE TO SHIPPING"
+        "continue_to_shipping_method": "CONTINUE TO SHIPPING ➤",
+        "continue_button_label": "CONTINUE  ➤",
+        "complete_purchase_button_label": "COMPLETE ORDER ➤",
+        "pay_now_button_label": "PAY NOW ➤",
+        "continue_to_payment_method": "CONTINUE TO PAYMENT ➤"
       }
     }
   }
