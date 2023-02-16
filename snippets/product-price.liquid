@@ -196,7 +196,9 @@
   >
     {%- capture compare_at_price_html -%}
       <span class="visually-hidden">{{ 'product_price.price.original' | t }}</span>
-
+      <span class="money price__compare-at--single" data-price-compare>
+        {{ compare_at_price | money }}
+      </span>
     {%- endcapture -%}
 
     {% if compare_at_price_varies %}
