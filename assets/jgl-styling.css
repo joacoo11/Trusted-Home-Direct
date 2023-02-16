@@ -199,11 +199,13 @@ html .menu-span {
     .site-footer-block-newsletter .newsletter .newsletter-submit {
         max-width: initial;
         margin: 0;
+        flex: 1;
     }
 
     .site-footer-block-newsletter .newsletter .newsletter-input {
         max-width: initial;
         margin: 0;
+        flex: 1;
     }
 
     ..site-footer-block-newsletter .newsletter .form-fields-inline {
