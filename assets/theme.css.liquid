@@ -17104,12 +17104,30 @@ shopify-payment-terms {
 .product__badge--sale,
 .productitem__badge--sale,
 .hotspot__badge {
-  font-style: {{ fonts_type_body_style }};
-  font-weight: {{ fonts_type_body_weight_bolder }};
-  padding: {{ space_xxx_small | divided_by: 16.0 | append: 'rem' }} 0.3125rem;
-  text-decoration: none;
-  vertical-align: middle;
+  position: relative;
+  margin-left: 22px;
+  line-height: 16px;
+  font-size: 1em;
 }
+
+
+.product__badge--soldout::before,
+.productitem__badge--soldout::before,
+.product__badge--sale::before,
+.productitem__badge--sale::before,
+.hotspot__badge::before {
+  content: " ";
+  width: 0;
+  position: absolute;
+  display: table;
+  left: -22px;
+  top: 0;
+  border: 12px solid rgba(162,72,72,.83);
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-right-width: 10px;
+  border-radius: 0;
 
 .productitem__badge--soldout,
 .product__badge--soldout,
@@ -19034,8 +19052,8 @@ a.pswp__share--download:hover {
 
 .product__price .price__current--on-sale {
   font-size: 1.5rem;
-  color: #212529;old
-  font-weight: b;
+  color: #212529;
+  font-weight: bold;
 }
 
 .price__current--hidden,
