@@ -206,6 +206,7 @@ html .menu-span {
 
     ..site-footer-block-newsletter .newsletter .form-fields-inline {
         margin: 0;
+        flex-wrap: initial;
     }
 
     html .site-footer-block-newsletter .contact-form {
