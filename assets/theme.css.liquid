@@ -17125,7 +17125,29 @@ shopify-payment-terms {
   background-color: {{ settings.color_product_sale_accent }};
 }
 
+.product-pricing .product__baeforedge.product__badge--sale {
+  position: relative;
+  margin-left: 22px;
+  line-height: 16px;
+  margin-bottom: 0!important;
+  font-size: 1em!important;
+  background-color: #a24848d4!important;
+}
 
+.product-pricing .product__badge.product__badge--sale::b {
+  content: " ";
+    width: 0;
+    position: absolute;
+    display: table;
+    left: -22px;
+    top: 0;
+    border: 12px solid rgba(162,72,72,.83);
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-width: 10px;
+    border-radius: 0;
+}
 
 .variant-selection__variants {
   display: none !important;
