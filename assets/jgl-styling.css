@@ -208,7 +208,7 @@ html .menu-span {
         flex: 1;
     }
 
-    ..site-footer-block-newsletter .newsletter .form-fields-inline {
+    .site-footer-block-newsletter .newsletter .form-fields-inline {
         margin: 0;
         flex-wrap: initial;
     }
