@@ -196,6 +196,14 @@ html .menu-span {
         flex-direction: column;
     }
 
+    .site-footer-block-newsletter .newsletter .newsletter-submit {
+        max-width: initial;
+    }
+
+    .site-footer-block-newsletter .newsletter .newsletter-input {
+        max-width: initial;
+    }
+
     html .site-footer-block-newsletter .contact-form {
 
     }
