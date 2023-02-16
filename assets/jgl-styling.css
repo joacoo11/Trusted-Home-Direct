@@ -188,12 +188,11 @@ html .menu-span {
 
     html .site-footer-block-newsletter{
         background-color: #F04F36;
-        width: 100vw;
-        margin-left: -9px;
-        margin-top: -12px;
-        padding-top: 15px;
-        padding-left: 15px;
         color: white;
+        margin: 0;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
     }
     
     html .site-header-main.site-header--full-width{
