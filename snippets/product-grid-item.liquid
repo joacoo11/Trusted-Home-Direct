@@ -342,6 +342,7 @@
       {% endif %}
     </div>
     
+    {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: false, product: product %}
     {% unless recently_viewed %}
       {% if enable_quickshop or atc_button %}
         {% comment %}
