@@ -182,7 +182,8 @@ html .menu-span {
     }
 
     .logo-store{
-        max-width: 120px;
+        max-width: 140px;
+        padding-top: 12px;
     }
 
     html .site-footer-block-newsletter {
