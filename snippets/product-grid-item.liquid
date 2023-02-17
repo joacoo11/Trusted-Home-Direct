@@ -303,17 +303,17 @@
     {%- endcapture  -%}
 
     <div class="productitem--info">
-      {{ product_item_swatches }}
-
-      {% if emphasize_price %}
-        {{ product_item_price }}
-      {% endif %}
-
       <h2 class="productitem--title">
         <a href="{{ product_link }}" data-product-page-link>
           {{ product_title }}
         </a>
       </h2>
+
+      {% comment %} {{ product_item_swatches }} {% endcomment %}
+
+      {% if emphasize_price %}
+        {{ product_item_price }}
+      {% endif %}
 
       {% if settings.product_show_vendor and product.vendor != blank %}
         <span class="productitem--vendor">
