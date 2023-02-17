@@ -27,39 +27,41 @@ html .mobile-nav-panel{
 @media (min-width:1125px) {    
 
 
-html .site-header-main .live-search {
-    max-width: 450px;
-    justify-self: center !important;
-}
+    html .site-header-main .live-search {
+        max-width: 450px;
+        justify-self: center !important;
+    }
 
-html .site-logo-image{
-    max-height: none;
-    margin-left: 80px;
-    
-}
+    html .site-logo-image{
+        max-height: none;
+        margin-left: 80px;
+        
+    }
 
-html .site-header-main-content{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-height: 45px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
+    html .site-header-main-content{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-height: 45px;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
 
-html .site-header-right{
-    gap: 0px;
+    html .site-header-right{
+        gap: 0px;
 
-}
+    }
 
-.logo-store{
-    object-fit:cover;   
-    margin-left: 30px;
-}
+    .logo-store{
+        object-fit:cover;   
+        margin-left: 30px;
+    }
 
-.site-header-logo{
-    display: flex;
-    justify-content: center;
+    .site-header-logo{
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 .logo-store{
