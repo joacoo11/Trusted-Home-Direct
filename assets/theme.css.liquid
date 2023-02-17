@@ -21498,34 +21498,40 @@ body:not(.user-is-tabbing) .rte .tabs .grouped-content-trigger {
 }
 
 @media (max-width:900px) {
-  .product-details {
+  .mobile-product .product-details {
     display: flex;
     flex-direction: column;
   }
 
-  .product-block.product-block--title {
+  .mobile-product .product-block.product-block--title {
     order: 1;
   }
   
-  .product-block.product-block--app {
+  .mobile-product .product-block.product-block--app {
     order: 3;
   }
 
-  .product-block.product-block--price {
+  .mobile-product .product-block.product-block--price {
     order: 2;
   }
 
-  .product-block.product-block--form {
+  .mobile-product .product-block.product-block--form {
     order: 4;
   }
 
-  .product-pricing {
+  .mobile-product .product-pricing {
     margin: 0;
   }
 
-  .product__price .price__compare-at, .product__price .price__current {
+  .mobile-product .product__price .price__compare-at, .mobile-product .product__price .price__current {
     display: flex;
     align-items: center;
     margin: 0;
+  }
+
+  .mobile-product .product__price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
