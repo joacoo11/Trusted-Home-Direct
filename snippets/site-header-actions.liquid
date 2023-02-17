@@ -2,9 +2,9 @@
   {% if shop.customer_accounts_enabled %}
     {% unless customer %}
       <li class="site-header-actions__account-link">
-        <span href="{{ routes.account_login_url }}" class="site-header__account-icon">
+        <a href="{{ routes.account_login_url }}" class="site-header__account-icon">
           {% render 'icon-library', id: 'icon-account' %}
-        </span>
+        </a>
         <a href="{{ routes.account_login_url }}" class="site-header_account-link-text">
           Account
         </a>
