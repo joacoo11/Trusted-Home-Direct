@@ -232,9 +232,6 @@
               {% endif %}
             {% when 'form' %}
               <div class="model-pdp"><span>Model: {{ product.metafields.custom.product_model }}</span></div>
-              <div data-payment-terms-reference">
-                {{ form | payment_terms }}
-              </div>
               <div
                 class="product-form--regular"
                 data-product-form-regular
