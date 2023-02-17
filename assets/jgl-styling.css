@@ -316,3 +316,9 @@ html .site-footer-wrapper{
 .site-header-logo .logo-store {
     margin-left: 0;
 }
+
+@media (max-width:900px) {
+    .site-header-logo {
+        border-bottom: 1px solid #dee2e6;
+    }
+}
