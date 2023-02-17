@@ -167,18 +167,6 @@
                 aria-live="polite"
                 data-product-pricing
               >
-                {%
-                  render 'product-badge',
-                  class_root: 'product',
-                  product: product,
-                  product_available: product_available,
-                  on_sale: on_sale,
-                  price: price,
-                  compare_at_price: compare_at_price,
-                  show_saved: true,
-                  include_range: false,
-                  selected_variant: selected_variant,
-                %}
 
                 {%
                   render 'product-price',
@@ -195,6 +183,18 @@
                   include_unit_price: true,
                   include_tax_line: true,
                   include_hidden_price: true
+                %}
+                {%
+                  render 'product-badge',
+                  class_root: 'product',
+                  product: product,
+                  product_available: product_available,
+                  on_sale: on_sale,
+                  price: price,
+                  compare_at_price: compare_at_price,
+                  show_saved: true,
+                  include_range: false,
+                  selected_variant: selected_variant,
                 %}
 
                 <form data-payment-terms-target style="display: none;"></form>
