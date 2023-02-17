@@ -53,8 +53,10 @@
           </button>
         </div>
       </div>
-      <div>
-      </div>
+      {%
+        render 'social-list',
+        context: 'footer',
+      %}
     {% endif %}
   {% endform %}
 </div>
