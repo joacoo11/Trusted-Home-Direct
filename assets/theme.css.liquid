@@ -21496,3 +21496,27 @@ body:not(.user-is-tabbing) .rte .tabs .grouped-content-trigger {
 .jdgm-link {
   display: none !important;
 }
+
+@media (max-width:900px) {
+  .product-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-block.product-block--title {
+    order: 1;
+  }
+  
+  .product-block.product-block--@app {
+    order: 3;
+  }
+
+  .product-block.product-block--price {
+    order: 2;
+  }
+
+  .product-block.product-block--form {
+    order: 4;
+  }
+
+}
