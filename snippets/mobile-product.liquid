@@ -145,7 +145,28 @@
                 {% endif %}
               {% endif %}
 
-              
+            {% when 'form' %}
+              <div
+                class="product-form--regular"
+                data-product-form-regular
+              >
+                <div data-product-form-area>
+                  {% if is_product_modal %}
+                    <div data-product-quickshop-message class="product-message--container"></div>
+                  {% endif %}
+
+                  {% unless onboarding %}
+                    {%
+                      render 'product-form',
+                      product: product,
+                      show_dynamic_checkout_button: show_dynamic_checkout_button,
+                      selected_variant: selected_variant,
+                      is_product_modal: is_product_modal,
+                    %}
+                  {% endunless %}
+                </div>
+              </div>
+                
             {% when 'vendor' %}
               {% if product.vendor != blank or onboarding %}
                 <div class="product-vendor">
@@ -231,27 +252,6 @@
                   {% assign readmore_split = '' | split: '-' %}{% render 'product-description-tabs', product: product %}
                 </div>
               {% endif %}
-            {% when 'form' %}
-              <div
-                class="product-form--regular"
-                data-product-form-regular
-              >
-                <div data-product-form-area>
-                  {% if is_product_modal %}
-                    <div data-product-quickshop-message class="product-message--container"></div>
-                  {% endif %}
-
-                  {% unless onboarding %}
-                    {%
-                      render 'product-form',
-                      product: product,
-                      show_dynamic_checkout_button: show_dynamic_checkout_button,
-                      selected_variant: selected_variant,
-                      is_product_modal: is_product_modal,
-                    %}
-                  {% endunless %}
-                </div>
-              </div>
             {% when 'text' %}
               <div class="product-text">
                 {{ block.settings.text }}
