@@ -321,4 +321,8 @@ html .site-footer-wrapper{
     .site-header-logo {
         border-bottom: 1px solid #dee2e6;
     }
+    
+    .mobile-utility {
+        color: #000;
+    }
 }
