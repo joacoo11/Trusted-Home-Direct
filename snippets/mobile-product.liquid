@@ -114,6 +114,7 @@
           class="
             product-block
             product-block--{{ block.type }}
+            {% if block.type  == '@app' %} product-block--app {% endif %}
             {% if forloop.first == true -%}
               product-block--first
             {% endif %}
