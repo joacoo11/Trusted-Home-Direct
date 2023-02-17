@@ -1,1 +1,73 @@
-{"sections":{"main":{"type":"static-collection","blocks":{"filter-1":{"type":"filter","settings":{}}},"block_order":["filter-1"],"settings":{"show_collection_image":true,"products_per_page_range":24,"products_per_row":"4","sort_by":true,"show_by":true,"grid_list":true,"default_view":"grid-view"}},"static-recently-viewed":{"type":"static-recently-viewed","settings":{"enable_recently_viewed_products":true}}},"order":["main","static-recently-viewed"]}
+{
+  "sections": {
+    "main": {
+      "type": "static-collection",
+      "blocks": {
+        "filter-1": {
+          "type": "filter",
+          "settings": {
+            "filter_option": "faceted",
+            "filter_groups": "expand_first",
+            "show_filter_product_count": true,
+            "filter_style": "tags",
+            "filter_limit": "999",
+            "grid_categories": "",
+            "custom_ordered_categories": "",
+            "custom_ordered_tags": "",
+            "excluded_tags": "",
+            "excluded_groups": ""
+          }
+        }
+      },
+      "block_order": [
+        "filter-1"
+      ],
+      "settings": {
+        "show_collection_image": true,
+        "products_per_page_range": 24,
+        "products_per_row": "4",
+        "sort_by": true,
+        "show_by": true,
+        "grid_list": true,
+        "default_view": "grid-view",
+        "enable_subcollection": false,
+        "show_product_count": false,
+        "thumbnail_image": "product-image",
+        "image_crop": "original"
+      }
+    },
+    "static-recently-viewed": {
+      "type": "static-recently-viewed",
+      "disabled": true,
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "1676646478d0ff94e2": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "24e8e06b-122d-4a04-a6dc-9ecd0f117661": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "24e8e06b-122d-4a04-a6dc-9ecd0f117661"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "static-recently-viewed",
+    "1676646478d0ff94e2"
+  ]
+}
