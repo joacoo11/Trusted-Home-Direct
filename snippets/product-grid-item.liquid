@@ -314,6 +314,7 @@
           {{ product_vendor | link_to_vendor }}
         </span>
       {% endif %}
+{% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: false, product: product %}
 
       {% comment %} {{ product_item_swatches }} {% endcomment %}
 
@@ -363,7 +364,6 @@
         {% endunless %}
 
 
-        {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: false, product: product %}
         <div class="productitem--actions" data-product-actions>
           <div class="productitem--listview-price">
             {{ product_item_price }}
