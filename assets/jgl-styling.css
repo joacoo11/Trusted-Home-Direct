@@ -312,3 +312,7 @@ html .site-header-actions .site-header_account-link-text{
 html .site-footer-wrapper{
     margin-top: 0;
 }
+
+.site-header-logo .logo-store {
+    margin-left: 0;
+}
