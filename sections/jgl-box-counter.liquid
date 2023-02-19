@@ -140,9 +140,9 @@
 
                         let counter = { var: 0 };
                         let tal = document.getElementById("count"+i);
-                        console.log(tal)
                         
                         TweenMax.to(counter, 4, {
+                            console.log(i)
                         var: endingCounterVar[i], 
                             onUpdate: function () {
                                 let nwc = numberWithCommas(counter.var);
