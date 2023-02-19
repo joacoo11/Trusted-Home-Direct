@@ -146,8 +146,8 @@
                     TweenMax.to(counter, 5, {
                     var: endingCounterVar[i], 
                         onUpdate: function () {
-                            let nwc = numberWithCommas(counter.var);
-                            tal.innerHTML = nwc;
+                            {% comment %} let nwc = numberWithCommas(counter.var);
+                            tal.innerHTML = nwc; {% endcomment %}
                         },
                         ease:Circ.easeOut
                     });
