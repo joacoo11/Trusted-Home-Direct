@@ -66,11 +66,17 @@
       "settings": {
         "include_padding": true
       }
+    },
+    "ccb54fe6-0e3b-4f49-a322-9237d7c9f489": {
+      "type": "still-need",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "static-recently-viewed",
-    "1676646478d0ff94e2"
+    "1676646478d0ff94e2",
+    "ccb54fe6-0e3b-4f49-a322-9237d7c9f489"
   ]
 }
