@@ -136,6 +136,7 @@
     window.addEventListener("scroll", function(){
         if (isInViewport(document.getElementById("counter")) ) {
             if (!document.getElementById("counter").classList.contains("scrolled")) {
+                console.log("tak")
                 document.getElementById("counter").classList.add("scrolled");
                 for (let i = 0; i <= 4; i++) {
 
