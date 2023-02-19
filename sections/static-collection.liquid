@@ -135,8 +135,8 @@
     <div class="productgrid--masthead-box">
       <h1>{{collection.title}}</h1>
       <div></div>
-      <p>{{section.settings.show_collection_img}}</p>
-      <a href="{{section.settings.show_collection_link}}">{{section.settings.show_collection_text}}</a>
+      <p>{{section.settings.collection_image_text}}</p>
+      <a href="{{section.settings.collection_image_link}}">{{section.settings.collection_image_text}}</a>
     </div>
   {% endif %}
 
@@ -379,12 +379,6 @@
       "type": "url",
       "id": "collection_image_link",
       "label": "Collecton image link"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_collection_image",
-      "label": "Show collection image",
-      "default": true
     },
     {
       "type": "range",
