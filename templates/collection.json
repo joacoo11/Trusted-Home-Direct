@@ -25,7 +25,7 @@
       "settings": {
         "show_collection_image": true,
         "collection_image_text": "Need help with choosing?",
-        "collection_image_link_text": "<p>\n<svg width=\"15px\" height=\"15px\" viewbox=\"0 0 15 15\" version=\"1.1\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<g id=\"Group-17\" transform=\"translate(0.5 0.5)\">\n<path d=\"M10.5 0L0 0L0 12.4194L2.25861 10.5L6.125 10.5L6.125 5.25L10.5 5.25L10.5 0Z\" id=\"Combined-Shape\" fill=\"#FFFFFF\" fill-rule=\"evenodd\" stroke=\"none\"><\/path>\n<path d=\"M0 0L6.125 0L6.125 7.65889L3.87818 6.125L0 6.125L0 0Z\" transform=\"translate(7 6.125)\" id=\"Rectangle-Copy-23\" fill=\"#FFFFFF\" fill-rule=\"evenodd\" stroke=\"none\"><\/path>\n<\/g>\n<\/svg>\nTalk to us\n<\/p>",
+        "collection_image_link_text": "<span>\n<svg width=\"15px\" height=\"15px\" viewbox=\"0 0 15 15\" version=\"1.1\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<g id=\"Group-17\" transform=\"translate(0.5 0.5)\">\n<path d=\"M10.5 0L0 0L0 12.4194L2.25861 10.5L6.125 10.5L6.125 5.25L10.5 5.25L10.5 0Z\" id=\"Combined-Shape\" fill=\"#FFFFFF\" fill-rule=\"evenodd\" stroke=\"none\"><\/path>\n<path d=\"M0 0L6.125 0L6.125 7.65889L3.87818 6.125L0 6.125L0 0Z\" transform=\"translate(7 6.125)\" id=\"Rectangle-Copy-23\" fill=\"#FFFFFF\" fill-rule=\"evenodd\" stroke=\"none\"><\/path>\n<\/g>\n<\/svg>\nTalk to us\n<\/span>",
         "collection_image_link": "shopify:\/\/pages\/contact",
         "products_per_page_range": 24,
         "products_per_row": "4",
