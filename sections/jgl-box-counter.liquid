@@ -125,19 +125,29 @@
             rect.right <= (window.innerWidth || html.clientWidth)
         );
     }
-    const counterAnim = (qSelector, start = 0, end, duration = 1000) => {
-        const target = document.querySelector(qSelector);
-            let startTimestamp = null;
-            const step = (timestamp) => {
-                if (!startTimestamp) startTimestamp = timestamp;
-                    const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-                    target.innerText = Math.floor(progress * (end - start) + start);
-                if (progress < 1) {
-                    window.requestAnimationFrame(step);
-            }
-        };
-        window.requestAnimationFrame(step);
-    };
+    console.clear;
+
+    function numberWithCommas(n) {
+        var parts=n.toString().split(".");
+        return parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
+    var endingCounterVar = [{{ section.settings.highlight-title-1 | times: 1 }}, {{ section.settings.highlight-title-1 | times: 2 }}, {{ section.settings.highlight-title-1 | times: 3 }}, {{ section.settings.highlight-title-1 | times: 4 }}, {{ section.settings.highlight-title-1 | times: 5 }}];
+
+    for (let i = 0; i <= 4; i++) {
+
+        let counter = { var: 0 };
+        let tal = document.getElementById("#count"+i);
+            
+        TweenMax.to(counter, 5, {
+        var: endingCounterVar[i], 
+            onUpdate: function () {
+                let nwc = numberWithCommas(counter.var);
+                tal.innerHTML = nwc;
+            },
+            ease:Circ.easeOut
+        });
+    }
 
   window.addEventListener("scroll", function(){
     if (isInViewport(document.getElementById("counter")) ) {
@@ -151,6 +161,7 @@
         }
     }
   });
+  
     
 </script>
 
