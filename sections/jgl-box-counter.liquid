@@ -146,8 +146,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     TweenMax.to(counter, 5, {
                     var: endingCounterVar[i], 
                         onUpdate: function () {
-                            {% comment %} let nwc = numberWithCommas(counter.var);
-                            tal.innerHTML = nwc; {% endcomment %}
+                            let nwc = numberWithCommas(counter.var);
+                            tal.innerHTML = nwc;
                         },
                         ease:Circ.easeOut
                     });
