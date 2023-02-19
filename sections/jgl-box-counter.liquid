@@ -136,16 +136,15 @@
             {{ section.settings.highlight-title-2 | times: 1 }},
             {{ section.settings.highlight-title-3 | times: 1 }},
             {{ section.settings.highlight-title-4 | times: 1 }},
-            {{ section.settings.highlight-title-5 | times: 1 }}];
+            {{ section.settings.highlight-title-5 | times: 1 }}
+        ];
         window.addEventListener("scroll", function(){
             if (isInViewport(document.getElementById("counter")) ) {
                 if (!document.getElementById("counter").classList.contains("scrolled")) {
                     document.getElementById("counter").classList.add("scrolled");
                     for (let i = 1; i <= 5; i++) {
-                        
                         let counter = { var: 0 };
                         let tal = document.getElementById("count"+i);
-                        
                         TweenMax.to(counter, 9, {
                         var: endingCounterVar[i], 
                             onUpdate: function () {
