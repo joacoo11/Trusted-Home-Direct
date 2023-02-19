@@ -131,7 +131,7 @@
         var parts=n.toString().split(".");
         return parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
-
+$(document).ready(function () {
     var endingCounterVar = [{{ section.settings.highlight-title-1 | times: 1 }}, {{ section.settings.highlight-title-2 | times: 1 }}, {{ section.settings.highlight-title-3 | times: 1 }}, {{ section.settings.highlight-title-4 | times: 1 }}, {{ section.settings.highlight-title-5 | times: 1 }}];
     window.addEventListener("scroll", function(){
         if (isInViewport(document.getElementById("counter")) ) {
@@ -155,7 +155,7 @@
             }
         }
     });
-  
+});
     
 </script>
 
