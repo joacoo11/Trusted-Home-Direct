@@ -132,7 +132,7 @@
         return parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
 
-    var endingCounterVar = [{{ section.settings.highlight-title-1 | plus: 0 }}, {{ section.settings.highlight-title-1 | plus: 0 }}, {{ section.settings.highlight-title-1 | plus: 0 }}, {{ section.settings.highlight-title-1 | plus: 0 }}, {{ section.settings.highlight-title-1 | plus: 0 }}];
+    var endingCounterVar = [{{ section.settings.highlight-title-1 | times: 1 }}, {{ section.settings.highlight-title-2 | times: 1 }}, {{ section.settings.highlight-title-3 | times: 1 }}, {{ section.settings.highlight-title-4 | times: 1 }}, {{ section.settings.highlight-title-5 | times: 1 }}];
   window.addEventListener("scroll", function(){
     if (isInViewport(document.getElementById("counter")) ) {
         if (!document.getElementById("counter").classList.contains("scrolled")) {
