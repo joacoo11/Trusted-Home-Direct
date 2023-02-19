@@ -125,7 +125,6 @@
             rect.right <= (window.innerWidth || html.clientWidth)
         );
     }
-    console.clear;
 
     function numberWithCommas(n) {
         var parts=n.toString().split(".");
@@ -140,7 +139,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 document.getElementById("counter").classList.add("scrolled");
                 for (let i = 0; i <= 4; i++) {
 
-                    let counter = { var: 0 };
+                    let counter = { var: 3000 };
                     let tal = document.getElementById("count"+i);
                         
                     TweenMax.to(counter, 5, {
