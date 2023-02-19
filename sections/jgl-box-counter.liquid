@@ -144,7 +144,7 @@
                         TweenMax.to(counter, 1, {
                         var: endingCounterVar[i], 
                             onUpdate: function () {
-                                console.log(tal)
+                                console.log(endingCounterVar[i])
                                 let nwc = numberWithCommas(counter.var);
                                 tal.innerHTML = nwc;
                             },
