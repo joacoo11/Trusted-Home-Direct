@@ -140,14 +140,11 @@
 
                         let counter = { var: {{section.settings.timer | times: 1 }} };
                         let tal = document.getElementById("count"+i);
-                        console.log(tal)
                         
                         TweenMax.to(counter, 5, {
                         var: endingCounterVar[i], 
                             onUpdate: function () {
                                 let nwc = numberWithCommas(counter.var);
-                                console.log(tal)
-                                nwc
                                 tal.innerHTML = nwc;
                             },
                             ease:Circ.easeOut
