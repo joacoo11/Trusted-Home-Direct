@@ -138,7 +138,7 @@
                     document.getElementById("counter").classList.add("scrolled");
                     for (let i = 1; i <= 5; i++) {
 
-                        let counter = { var: {{section.settings.timer | times: 1 }} };
+                        let counter = { var: 0 };
                         let tal = document.getElementById("count"+i);
                         
                         TweenMax.to(counter, 5, {
