@@ -142,9 +142,9 @@
                         let tal = document.getElementById("count"+i);
                         
                         TweenMax.to(counter, 4, {
-                            console.log(i)
                         var: endingCounterVar[i], 
                             onUpdate: function () {
+                                console.log(i)
                                 let nwc = numberWithCommas(counter.var);
                                 tal.innerHTML = nwc;
                             },
