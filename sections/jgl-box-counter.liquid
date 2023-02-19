@@ -133,31 +133,24 @@
     }
 
     var endingCounterVar = [{{ section.settings.highlight-title-1 | times: 1 }}, {{ section.settings.highlight-title-1 | times: 2 }}, {{ section.settings.highlight-title-1 | times: 3 }}, {{ section.settings.highlight-title-1 | times: 4 }}, {{ section.settings.highlight-title-1 | times: 5 }}];
-
-    for (let i = 0; i <= 4; i++) {
-
-        let counter = { var: 0 };
-        let tal = document.getElementById("#count"+i);
-            
-        TweenMax.to(counter, 5, {
-        var: endingCounterVar[i], 
-            onUpdate: function () {
-                let nwc = numberWithCommas(counter.var);
-                tal.innerHTML = nwc;
-            },
-            ease:Circ.easeOut
-        });
-    }
-
   window.addEventListener("scroll", function(){
     if (isInViewport(document.getElementById("counter")) ) {
         if (!document.getElementById("counter").classList.contains("scrolled")) {
             document.getElementById("counter").classList.add("scrolled");
-            counterAnim("#count1", 0, {{ section.settings.highlight-title-1 | times: 1 }}, {{ section.settings.timer | times: 1 }});
-            counterAnim("#count2", 0, {{ section.settings.highlight-title-2 | times: 1 }}, {{ section.settings.timer | times: 1 }});
-            counterAnim("#count3", 0, {{ section.settings.highlight-title-3 | times: 1 }}, {{ section.settings.timer | times: 1 }});
-            counterAnim("#count4", 0, {{ section.settings.highlight-title-4 | times: 1 }}, {{ section.settings.timer | times: 1 }});
-            counterAnim("#count5", 0, {{ section.settings.highlight-title-5 | times: 1 }}, {{ section.settings.timer | times: 1 }});
+            for (let i = 0; i <= 4; i++) {
+
+                let counter = { var: 0 };
+                let tal = document.getElementById("#count-"+i);
+                    
+                TweenMax.to(counter, 5, {
+                var: endingCounterVar[i], 
+                    onUpdate: function () {
+                        let nwc = numberWithCommas(counter.var);
+                        tal.innerHTML = nwc;
+                    },
+                    ease:Circ.easeOut
+                });
+            }
         }
     }
   });
