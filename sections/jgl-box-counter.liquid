@@ -140,16 +140,9 @@
                         
                         let counter = { var: 0 };
                         let tal = document.getElementById("count"+i);
+                        console.log(i)
                         
-                        TweenMax.to(counter, 4, {
-                        var: endingCounterVar[i], 
-                            onUpdate: function () {
-                                console.log(i)
-                                let nwc = numberWithCommas(counter.var);
-                                tal.innerHTML = nwc;
-                            },
-                            ease:Circ.easeOut
-                        });
+                       
                     }
                 }
             }
