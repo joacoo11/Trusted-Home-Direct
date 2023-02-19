@@ -120,43 +120,42 @@
 {%- endcapture -%}
 
 {% render 'breadcrumbs' %}
+<div class="productgrid--masthead">
 
+  {% if section.settings.show_collection_image and collection.image %}
+    <figure class="collection--image">
+      {%
+        render 'rimg',
+        img: collection.image,
+        size: '1350x',
+        lazy: true,
+        canvas: true
+      %}
+    </figure>
+  {% endif %}
+
+  {% comment %} <h1 class="collection--title">
+    {{ collection.title }}
+  </h1> {% endcomment %}
+
+  {% if collection.description != blank %}
+    <div class="collection--description rte">
+      {{ collection.description }}
+    </div>
+  {% endif %}
+
+  {% if section.settings.enable_subcollection and linklists[collection.handle].links.size > 0 %}
+    {%
+      render 'subcollections-collection',
+      type: 'block',
+      block: section,
+      layout_type: 'slideshow',
+    %}
+    <div class="subcollections-collection__border"></div>
+  {% endif %}
+</div>
 {% paginate collection.products by paginate_by %}
   <div class="productgrid--outer {{ collection_classes | strip_newlines }}" data-productgrid-outer>
-    <div class="productgrid--masthead">
-
-      {% if section.settings.show_collection_image and collection.image %}
-        <figure class="collection--image">
-          {%
-            render 'rimg',
-            img: collection.image,
-            size: '1350x',
-            lazy: true,
-            canvas: true
-          %}
-        </figure>
-      {% endif %}
-
-      {% comment %} <h1 class="collection--title">
-        {{ collection.title }}
-      </h1> {% endcomment %}
-
-      {% if collection.description != blank %}
-        <div class="collection--description rte">
-          {{ collection.description }}
-        </div>
-      {% endif %}
-
-      {% if section.settings.enable_subcollection and linklists[collection.handle].links.size > 0 %}
-        {%
-          render 'subcollections-collection',
-          type: 'block',
-          block: section,
-          layout_type: 'slideshow',
-        %}
-        <div class="subcollections-collection__border"></div>
-      {% endif %}
-    </div>
     {% if show_sidebar %}
       {%
         render 'product-grid-sidebar',
