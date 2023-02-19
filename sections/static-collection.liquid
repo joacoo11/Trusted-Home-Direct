@@ -141,12 +141,6 @@
     </div>
   {% endif %}
 
-  <div class="mobile-collection-links">
-  <a href="">Free Shipping</a>
-  <a href="">30-Day Returns</a>
-  <a href="">Authorized Dealer</a>
-  </div>
-
   {% comment %} <h1 class="collection--title">
     {{ collection.title }}
   </h1> {% endcomment %}
@@ -166,6 +160,11 @@
     %}
     <div class="subcollections-collection__border"></div>
   {% endif %}
+</div>
+<div class="mobile-collection-links">
+  <a href="">Free Shipping</a>
+  <a href="">30-Day Returns</a>
+  <a href="">Authorized Dealer</a>
 </div>
 {% paginate collection.products by paginate_by %}
   <div class="productgrid--outer {{ collection_classes | strip_newlines }}" data-productgrid-outer>
