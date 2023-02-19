@@ -136,7 +136,7 @@
       <h1>{{collection.title}}</h1>
       <div>
         <p>{{section.settings.collection_image_text}}</p>
-        <a href="{{section.settings.collection_image_link}}">{{section.settings.collection_image_link.title}}</a>
+        <a href="{{section.settings.collection_image_link}}">{{section.settings.collection_image_link_text}}</a>
       </div>
     </div>
   {% endif %}
@@ -375,6 +375,12 @@
       "id": "collection_image_text",
       "label": "Collecton image text",
       "default": "Need help with choosing?"
+    },
+    {
+      "type": "text",
+      "id": "collection_image_link_text",
+      "label": "Collecton image link text",
+      "default": "Talk to us"
     },
     {
       "type": "url",
