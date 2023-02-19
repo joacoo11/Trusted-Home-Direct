@@ -132,6 +132,12 @@
         canvas: true
       %}
     </figure>
+    <div class="productgrid--masthead-box">
+      <h1>{{collection.title}}</h1>
+      <div></div>
+      <p>{{section.settings.show_collection_img}}</p>
+      <a href="{{section.settings.show_collection_link}}">{{section.settings.show_collection_text}}</a>
+    </div>
   {% endif %}
 
   {% comment %} <h1 class="collection--title">
@@ -357,6 +363,23 @@
   "name": "Collection pages",
   "class": "collection--section section--canonical",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_collection_img",
+      "label": "Show collection image",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "collection_image_text",
+      "label": "Collecton image text",
+      "default": "Need help with choosing?"
+    },
+    {
+      "type": "url",
+      "id": "collection_image_link",
+      "label": "Collecton image link"
+    },
     {
       "type": "checkbox",
       "id": "show_collection_image",
